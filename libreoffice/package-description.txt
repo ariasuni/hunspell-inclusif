@@ -1,0 +1,3 @@
+Inclusive {{BUILD.VERSION}} • Dictionnaires 5.7 • Synonymes 2.3 • Césures 3.0  
+
+Dictionnaire orthographique compatible avec l'écriture inclusive.

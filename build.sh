@@ -1,7 +1,7 @@
 #!/bin/sh
 
 SRC="$(pwd)"
-VERSION="0.4"
+VERSION="0.5"
 
 mkdir -p builds
 mkdir -p builds/firefox

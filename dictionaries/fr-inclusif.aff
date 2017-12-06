@@ -44,7 +44,45 @@ MAP wW
 MAP xX
 MAP zZ
 
-REP 82
+REP 120
+REP ' ·
+REP 'aiche' ·aiche·
+REP 'e' ·e·
+REP 'euse' ·euse·
+REP 'esse' ·esse·
+REP 'fe' ·fe·
+REP 'gne' ·gne·
+REP 'he' ·he·
+REP 'igne' ·igne·
+REP 'îche' ·îche·
+REP 'le' ·le·
+REP 'lle' ·lle·
+REP 'ne' ·ne·
+REP 'olle' ·olle·
+REP 'oresse' ·oresse·
+REP 'que' ·que·
+REP 'rice' ·rice·
+REP 'resse' ·resse·
+REP 'sse' ·sse·
+REP 'te' ·te·
+REP 'ue' ·ue·
+REP 've' ·ve·
+REP 'ë' ·ë·
+REP 'èche' ·èche·
+REP 'èke' ·èke·
+REP 'ène' ·ène·
+REP 'ère' ·ère·
+REP 'ète' ·ète·
+REP 'ève' ·ève·
+REP 'üe' ·üe·
+REP 'e' ·ë·
+REP 'eche' ·èche·
+REP 'eke' ·èke·
+REP 'ene' ·ène·
+REP 'ere' ·ère·
+REP 'ete' ·ète·
+REP 'eve' ·ève·
+REP 'ue' ·üe·
 REP ^Ca$ Ça
 REP ^l l'
 REP ^d d'

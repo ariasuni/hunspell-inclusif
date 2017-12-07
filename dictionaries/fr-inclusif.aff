@@ -1051,8 +1051,8 @@ SFX zA voir yant/n'q'l'm't' avoir
 SFX zA avoir eu avoir
 SFX zA avoir eus avoir
 SFX zA avoir eue avoir
-SFX zA avoir eu·e avoir
 SFX zA avoir eues avoir
+SFX zA avoir eu·e avoir
 SFX zA avoir eu·e·s avoir
 SFX zA voir i/n'q'j'l't' avoir
 SFX zA voir s/n'q'l'm't' avoir
@@ -4477,6 +4477,9 @@ SFX aA ller llé/q' aller
 SFX aA ller llés/q' aller
 SFX aA ller llée/q' aller
 SFX aA ller llées/q' aller
+SFX aA ller llé·e/q' aller
+SFX aA ller llé·e·s/q' aller
+SFX aA ller llé·es/q' aller
 SFX aA aller vais aller
 SFX aA aller vas aller
 SFX aA aller va aller
@@ -4533,6 +4536,9 @@ SFX aD voyer voyé/q' envoyer
 SFX aD voyer voyés/q' envoyer
 SFX aD voyer voyée/q' envoyer
 SFX aD voyer voyées/q' envoyer
+SFX aD voyer voyé·e/q' envoyer
+SFX aD voyer voyé·e·s/q' envoyer
+SFX aD voyer voyé·es/q' envoyer
 SFX aD voyer voie/n'q'j'l'm't's' envoyer
 SFX aD voyer voies/n'q'l'm't' envoyer
 SFX aD voyer voyons/n'q'l't' envoyer
@@ -8936,6 +8942,9 @@ SFX yK bduire bduit uire
 SFX yK bduire bduits uire
 SFX yK bduire bduite uire
 SFX yK bduire bduites uire
+SFX yK bduire bduit·e uire
+SFX yK bduire bduit·e·s uire
+SFX yK bduire bduit·es uire
 
 SFX yL Y {{BUILD.NUMRULES}}
 SFX yL uire uire/n'q'd'l'm't's' uire
@@ -8944,6 +8953,9 @@ SFX yL uire uit/L'D'Q' uire
 SFX yL uire uits/D'Q' uire
 SFX yL uire uite/L'D'Q' uire
 SFX yL uire uites/D'Q' uire
+SFX yL uire uit·e/L'D'Q' uire
+SFX yL uire uit·e·s/D'Q' uire
+SFX yL uire uit·es/D'Q' uire
 SFX yL uire uis/n'q'j'l'm't' uire
 SFX yL uire uit/n'q'l'm't's' uire
 SFX yL uire uisons/n'q'l't' uire
@@ -8989,6 +9001,9 @@ SFX yM uire uit/L'D'Q' uire
 SFX yM uire uits/D'Q' uire
 SFX yM uire uite/L'D'Q' uire
 SFX yM uire uites/D'Q' uire
+SFX yM uire uit·e/L'D'Q' uire
+SFX yM uire uit·e·s/D'Q' uire
+SFX yM uire uit·es/D'Q' uire
 SFX yM uire uis/n'q'j'l'm't' uire
 SFX yM uire uit/n'q'l'm't's' uire
 SFX yM uire uisons/n'q'l't' uire
@@ -9034,6 +9049,9 @@ SFX yN truire truit uire
 SFX yN truire truits uire
 SFX yN truire truite uire
 SFX yN truire truites uire
+SFX yN truire truit·e uire
+SFX yN truire truit·e·s uire
+SFX yN truire truit·es uire
 SFX yN truire truit/s' uire
 SFX yN truire truisons uire
 SFX yN truire truisez uire
@@ -9069,6 +9087,9 @@ SFX yO détruire détruit détruire
 SFX yO détruire détruits détruire
 SFX yO détruire détruite détruire
 SFX yO détruire détruites détruire
+SFX yO détruire détruit·e détruire
+SFX yO détruire détruit·e·s détruire
+SFX yO détruire détruit·es détruire
 SFX yO détruire détruis/m't' détruire
 SFX yO détruire détruit/s' détruire
 SFX yO détruire détruisons détruire

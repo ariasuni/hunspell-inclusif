@@ -27,9 +27,6 @@ Mots inclusifs neutres :
 Féminisation de certains termes :
 - « adjudante-cheffe »
 
-Correction de bugs dans le dictionnaire original :
-- « nouvels » supprimé
-
 ## Installation
 
 Sous linux, installez ``hunspell``, ``python3`` et ``zip``.

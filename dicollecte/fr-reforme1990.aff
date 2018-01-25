@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS “CLASSIQUE” v6.2
+# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS “RÉFORME 1990” v6.2
 # par Olivier R. -- licence MPL 2.0
 # Généré le 27-11-2017 à 14:56
 # Pour améliorer le dictionnaire, allez sur http://www.dicollecte.org/
@@ -11,13 +11,13 @@
 
 SET UTF-8
 
-WORDCHARS -’'1234567890.·
+WORDCHARS -’'1234567890.
 
 
 TRY esntiarulodcpmévqfgbhàxèjyêMILzACçôîPâùJFSûBVœRDGNETHXkïOwKWYUëQÉZŒüãÎáöóÈíæÅñäśńÿ
 
 
-MAP {{BUILD.NUMRULES}}
+MAP 25
 MAP aàâäAÀÂÄ
 MAP eéèêëEÉÈÊË
 MAP iîïyIÎÏY
@@ -44,45 +44,7 @@ MAP wW
 MAP xX
 MAP zZ
 
-REP {{BUILD.NUMRULES}}
-REP ' ·
-REP 'aiche' ·aiche·
-REP 'e' ·e·
-REP 'euse' ·euse·
-REP 'esse' ·esse·
-REP 'fe' ·fe·
-REP 'gne' ·gne·
-REP 'he' ·he·
-REP 'igne' ·igne·
-REP 'îche' ·îche·
-REP 'le' ·le·
-REP 'lle' ·lle·
-REP 'ne' ·ne·
-REP 'olle' ·olle·
-REP 'oresse' ·oresse·
-REP 'que' ·que·
-REP 'rice' ·rice·
-REP 'resse' ·resse·
-REP 'sse' ·sse·
-REP 'te' ·te·
-REP 'ue' ·ue·
-REP 've' ·ve·
-REP 'ë' ·ë·
-REP 'èche' ·èche·
-REP 'èke' ·èke·
-REP 'ène' ·ène·
-REP 'ère' ·ère·
-REP 'ète' ·ète·
-REP 'ève' ·ève·
-REP 'üe' ·üe·
-REP 'e' ·ë·
-REP 'eche' ·èche·
-REP 'eke' ·èke·
-REP 'ene' ·ène·
-REP 'ere' ·ère·
-REP 'ete' ·ète·
-REP 'eve' ·ève·
-REP 'ue' ·üe·
+REP 82
 REP ^Ca$ Ça
 REP ^l l'
 REP ^d d'
@@ -171,7 +133,7 @@ REP construirent construisirent
 
 KEY azertyuiop|qsdfghjklmù|wxcvbn|aéz|yèu|iço|oàp|aqz|zse|edr|rft|tgy|yhu|uji|iko|olpm|qws|sxd|dcf|fvg|gbh|hnj
 
-ICONV {{BUILD.NUMRULES}}
+ICONV 41
 ICONV ’ '
 ICONV ʼ '
 ICONV ﬃ ffi
@@ -214,7 +176,7 @@ ICONV Ü Ü
 ICONV Ÿ Ÿ
 ICONV Ç Ç
 
-OCONV {{BUILD.NUMRULES}}
+OCONV 1
 OCONV ' ’
 
 
@@ -235,9 +197,10 @@ NOSUGGEST --
 
 
 
-BREAK {{BUILD.NUMRULES}}
+BREAK 7
 BREAK -
 BREAK .
+BREAK ·
 BREAK ^'
 BREAK ^‘
 BREAK '$
@@ -248,7 +211,7 @@ BREAK ’$
 
 
 
-PFX L' Y {{BUILD.NUMRULES}}
+PFX L' Y 34
 PFX L' 0 l' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 PFX L' a l'A a
 PFX L' à l'À à
@@ -284,7 +247,7 @@ PFX L' h L'H h
 PFX L' œ L'Œ œ
 PFX L' æ L'Æ æ
 
-PFX D' Y {{BUILD.NUMRULES}}
+PFX D' Y 34
 PFX D' 0 d' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 PFX D' a d'A a
 PFX D' à d'À à
@@ -320,7 +283,7 @@ PFX D' h D'H h
 PFX D' œ D'Œ œ
 PFX D' æ D'Æ æ
 
-PFX Q' Y {{BUILD.NUMRULES}}
+PFX Q' Y 34
 PFX Q' 0 qu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 PFX Q' a qu'A a
 PFX Q' à qu'À à
@@ -356,7 +319,7 @@ PFX Q' h Qu'H h
 PFX Q' œ Qu'Œ œ
 PFX Q' æ Qu'Æ æ
 
-PFX Q* Y {{BUILD.NUMRULES}}
+PFX Q* Y 6
 PFX Q* 0 quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 PFX Q* 0 puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 PFX Q* 0 lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
@@ -364,577 +327,237 @@ PFX Q* 0 Quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 PFX Q* 0 Puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 PFX Q* 0 Lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
 
-PFX Qj Y {{BUILD.NUMRULES}}
+PFX Qj Y 1
 PFX Qj 0 jusqu' [aàâeèéêiîoôuyhœæ]
 
-PFX Si Y {{BUILD.NUMRULES}}
+PFX Si Y 1
 PFX Si 0 s' .
 
-SFX S. Y {{BUILD.NUMRULES}}
+SFX S. Y 1
 SFX S. 0 s [^sxz]
 
-SFX S= Y {{BUILD.NUMRULES}}
+SFX S= Y 1
 SFX S= 0 s [^sxz]
 
-SFX X. Y {{BUILD.NUMRULES}}
+SFX X. Y 3
 SFX X. 0 x [aeoœ]u
 SFX X. l ux al
 SFX X. il ux ail
 
-SFX A. Y {{BUILD.NUMRULES}}
+SFX A. Y 1
 SFX A. 0 s [^sxz]
-SFX A. an en an
-SFX A. f ves f
-SFX A. h hes h
-SFX A. s ses s
-SFX A. x xes x
-SFX A. y ies y
-SFX A. zz zzes zz
-SFX A. z zzes [^z]z
 
-SFX I. Y {{BUILD.NUMRULES}}
+SFX I. Y 1
 SFX I. 0 s [^sxz]
-SFX I. a e a
-SFX I. e i e
-SFX I. en ina en
-SFX I. o i o
-SFX I. um a um
-SFX I. us i us
 
-SFX F. Y {{BUILD.NUMRULES}}
+SFX F. Y 78
 SFX F. 0 s [eë]
 SFX F. e 0 [éiï]e
 SFX F. e s [éiï]e
-SFX F. e ·e [éiï]e
-SFX F. e ·e·s [éiï]e
-SFX F. e ·es [éiï]e
 SFX F. rice eur [dt]rice
 SFX F. rice eurs [dt]rice
-SFX F. rice eur·rice [dt]rice
-SFX F. rice eur·rice·s [dt]rice
-SFX F. rice eur·rices [dt]rice
-SFX F. rice eurice [dt]rice
-SFX F. rice eurices [dt]rice
 SFX F. de d de
 SFX F. de ds de
-SFX F. de d·e de
-SFX F. de d·e·s de
-SFX F. de d·es de
-SFX F. fe f [^f]fe
-SFX F. fe fs [^f]fe
-SFX F. fe f·e [^f]fe
-SFX F. fe f·e·s [^f]fe
-SFX F. fe f·es [^f]fe
-SFX F. ffe f effe
-SFX F. ffe fs effe
-SFX F. ffe f·fe effe
-SFX F. ffe f·fe·s effe
-SFX F. ffe f·fes effe
+SFX F. fe f fe
+SFX F. fe fs fe
 SFX F. anche anc anche
 SFX F. anche ancs anche
-SFX F. anche anc·he anche
-SFX F. anche anc·he·s anche
-SFX F. anche anc·hes anche
 SFX F. èche ec èche
 SFX F. èche ecs èche
-SFX F. èche ec·èche èche
-SFX F. èche ec·èche·s èche
-SFX F. èche ec·èches èche
+SFX F. aiche ais aiche
 SFX F. aîche ais aîche
-SFX F. aîche ais·îche aîche
-SFX F. aîche ais·aîche aîche
-SFX F. aîche ai·îche·s aîche
-SFX F. aîche ai·aîche·s aîche
-SFX F. aîche ai·îches aîche
-SFX F. aîche ai·aîches aîche
 SFX F. khe kh khe
 SFX F. khe khs khe
-SFX F. khe kh·e khe
-SFX F. khe kh·e·s khe
-SFX F. khe kh·es khe
 SFX F. he h [ut]he
 SFX F. he hs [ut]he
-SFX F. he h·e [ut]he
-SFX F. he h·e·s [ut]he
-SFX F. he h·es [ut]he
 SFX F. ke k [^è]ke
 SFX F. ke ks [^è]ke
-SFX F. ke k·e [^è]ke
-SFX F. ke k·e·s [^è]ke
-SFX F. ke k·es [^è]ke
 SFX F. èke ek èke
 SFX F. èke eks èke
-SFX F. èke ek·èke èke
-SFX F. èke ek·èke·s èke
-SFX F. èke ek·èkes èke
 SFX F. le l [aiouûh]le
 SFX F. le ls [aiouûh]le
-SFX F. le l·e [aiouûh]le
-SFX F. le l·e·s [aiouûh]le
-SFX F. le l·es [aiouûh]le
 SFX F. lle l [eiu]lle
 SFX F. lle ls [eiu]lle
-SFX F. lle l·le [eiu]lle
-SFX F. lle l·le·s [eiu]lle
-SFX F. lle l·les [eiu]lle
 SFX F. olle ou olle
 SFX F. olle ous olle
-SFX F. olle ou·lle olle
-SFX F. olle ou·lle·s olle
-SFX F. olle ou·lles olle
-SFX F. olle ou·olle olle
-SFX F. olle ou·olle·s olle
-SFX F. olle ou·olles olle
 SFX F. olle ol olle
 SFX F. olle ols olle
 SFX F. ne n [aiouï]ne
 SFX F. ne ns [aiouï]ne
-SFX F. ne n·e [aiouï]ne
-SFX F. ne n·e·s [aiouï]ne
-SFX F. ne n·es [aiouï]ne
 SFX F. nne n [aeo]nne
 SFX F. nne ns [aeo]nne
-SFX F. nne n·ne [aeo]nne
-SFX F. nne n·ne·s [aeo]nne
-SFX F. nne n·nes [aeo]nne
 SFX F. ène en ène
 SFX F. ène ens ène
-SFX F. ène en·ène ène
-SFX F. ène en·ène·s ène
-SFX F. ène en·ènes ène
 SFX F. igne in igne
 SFX F. igne ins igne
-SFX F. igne in·gne igne
-SFX F. igne in·gne·s igne
-SFX F. igne in·gnes igne
-SFX F. igne in·igne igne
-SFX F. igne in·igne·s igne
-SFX F. igne in·ignes igne
 SFX F. re r [aiouûy]re
 SFX F. re rs [aiouûy]re
-SFX F. re r·e [aiouûy]re
-SFX F. re r·e·s [aiouûy]re
-SFX F. re r·es [aiouûy]re
 SFX F. ère er ère
 SFX F. ère ers ère
-SFX F. ère er·ère ère
-SFX F. ère er·ère·s ère
-SFX F. ère er·ères ère
 SFX F. se s [^us]se
-SFX F. se s·e [^us]se
-SFX F. se s·es [^us]se
 SFX F. esse e [^eo].esse
 SFX F. esse es [^eo].esse
-SFX F. esse e·sse [^eo].esse
-SFX F. esse e·sse·s [^eo].esse
-SFX F. esse e·sses [^eo].esse
 SFX F. rofesse rofès rofesse
-SFX F. rofesse rofès·esse rofesse
-SFX F. rofesse rofès·esses rofesse
-SFX F. rofesse rofè·esse·s rofesse
-SFX F. rofesse rofè·esses rofesse
 SFX F. eresse eur eresse
 SFX F. eresse eurs eresse
-SFX F. eresse eur·resse eresse
-SFX F. eresse eur·resse·s eresse
-SFX F. eresse eur·resses eresse
-SFX F. eresse euresse eresse
-SFX F. eresse euresses eresse
 SFX F. oresse eur oresse
 SFX F. oresse eurs oresse
-SFX F. oresse eur·oresse oresse
-SFX F. oresse eur·oresse·s oresse
-SFX F. oresse eur·oresses oresse
 SFX F. sse s [^e]sse
-SFX F. sse s·se [^e]sse
-SFX F. sse s·ses [^e]sse
-SFX F. sse ·sse·s [^e]sse
-SFX F. sse ·sses [^e]sse
 SFX F. use us [^eo]use
-SFX F. use us·e [^eo]use
-SFX F. use us·es [^eo]use
-SFX F. use u·se·s [^eo]use
-SFX F. use u·ses [^eo]use
 SFX F. euse eur euse
 SFX F. euse eurs euse
-SFX F. euse eur·se euse
-SFX F. euse eur·se·s euse
-SFX F. euse eur·ses euse
-SFX F. euse eur·euse euse
-SFX F. euse eur·euse·s euse
-SFX F. euse eur·euses euse
-SFX F. euse eureuse euse
-SFX F. euse eureuses euse
 SFX F. te t [^èt]te
 SFX F. te ts [^èt]te
-SFX F. te t·e [^èt]te
-SFX F. te t·e·s [^èt]te
-SFX F. te t·es [^èt]te
 SFX F. tte t tte
 SFX F. tte ts tte
-SFX F. tte t·te tte
-SFX F. tte t·te·s tte
-SFX F. tte t·tes tte
 SFX F. ète et ète
 SFX F. ète ets ète
-SFX F. ète et·ète ète
-SFX F. ète et·ète·s ète
-SFX F. ète et·ètes ète
 SFX F. ue u [^gq]ue
 SFX F. ue us [^gq]ue
-SFX F. ue u·e [^gq]ue
-SFX F. ue u·e·s [^gq]ue
-SFX F. ue u·es [^gq]ue
 SFX F. gue g gue
 SFX F. gue gs gue
-SFX F. gue g·ue gue
-SFX F. gue g·ue·s gue
-SFX F. gue g·ues gue
 SFX F. cque c cque
 SFX F. cque cs cque
-SFX F. cque c·que cque
-SFX F. cque c·que·s cque
-SFX F. cque c·ques cque
 SFX F. que c [^c]que
 SFX F. que cs [^c]que
-SFX F. que c·que [^c]que
-SFX F. que c·que·s [^c]que
-SFX F. que c·ques [^c]que
 SFX F. ève ef ève
 SFX F. ève efs ève
-SFX F. ève ef·ève ève
-SFX F. ève ef·ève·s ève
-SFX F. ève ef·èves ève
 SFX F. ve f [iïu]ve
 SFX F. ve fs [iïu]ve
-SFX F. ve f·ve [iïu]ve
-SFX F. ve f·ve·s [iïu]ve
-SFX F. ve f·ves [iïu]ve
 SFX F. uë u uë
 SFX F. uë us uë
-SFX F. uë u·ë uë
-SFX F. uë u·ë·s uë
-SFX F. uë u·ës uë
 SFX F. üe u üe
 SFX F. üe us üe
-SFX F. uë u·üe uë
-SFX F. uë u·üe·s uë
-SFX F. uë u·ües uë
 SFX F. ze z ze
-SFX F. ze z·e ze
-SFX F. ze z·es ze
 
-SFX W. N {{BUILD.NUMRULES}}
+SFX W. N 15
 SFX W. e es e
 SFX W. ce x ce
-SFX W. ce x·ce ce
-SFX W. ce x·ces ce
-SFX W. euse eux euse
-SFX W. euse eux·se euse
-SFX W. euse eux·ses euse
-SFX W. euse eux·euse euse
-SFX W. euse eux·euses euse
-SFX W. ouse oux ouse
-SFX W. ouse oux·se ouse
-SFX W. ouse oux·ses ouse
-SFX W. ouse oux·ouse ouse
-SFX W. ouse oux·ouses ouse
+SFX W. use ux [eo]use
 SFX W. ausse aux ausse
-SFX W. ausse aux·sse ausse
-SFX W. ausse aux·sses ausse
-SFX W. ausse aux·ausse ausse
-SFX W. ausse aux·ausses ausse
 SFX W. ousse oux ousse
-SFX W. ousse oux·sse ousse
-SFX W. ousse oux·sses ousse
-SFX W. ousse oux·ousse ousse
-SFX W. ousse oux·ousses ousse
 SFX W. ale al ale
 SFX W. ale aux ale
-SFX W. ale al·e ale
-SFX W. ale aux·les ale
-SFX W. ale aux·ales ale
 SFX W. elle eau elle
 SFX W. elle eaux elle
-SFX W. elle eaulle elle
-SFX W. elle elleau elle
-SFX W. elle eau·lle elle
-SFX W. elle eaulles elle
-SFX W. elle elleaux elle
-SFX W. elle eaux·lles elle
-SFX W. elle eau·elle elle
-SFX W. elle eaux·elles elle
 SFX W. elle el [bv]elle
-SFX W. elle el·le [bv]elle
+SFX W. elle els [bv]elle
 SFX W. ieille ieux ieille
 SFX W. ieille ieil ieille
-SFX W. ieille ieil·le ieille
-SFX W. ieille ieil·le ieille
-SFX W. ieille ieux·ieille ieille
-SFX W. ieille ieux·ieilles ieille
-SFX W. ieille ieux·ille ieille
-SFX W. ieille ieux·illes ieille
 SFX W. ofolle oufou ofolle
 SFX W. ofolle oufous ofolle
 
-SFX S* Y {{BUILD.NUMRULES}}
+SFX S* Y 2
 SFX S* 0 0/D'L'Q' [^sxz]
 SFX S* 0 s/D'Q' [^sxz]
 
-SFX X* Y {{BUILD.NUMRULES}}
+SFX X* Y 4
 SFX X* 0 0/D'L'Q' [ul]
 SFX X* 0 x/D'Q' [aeoœ]u
 SFX X* l ux/D'Q' al
 SFX X* il ux/D'Q' ail
 
-SFX A* Y {{BUILD.NUMRULES}}
+SFX A* Y 12
 SFX A* an an/D'L'Q' an
 SFX A* an ans/D'Q' an
-SFX A* an en/D'Q' an
 SFX A* f f/D'L'Q' f
 SFX A* f fs/D'Q' f
-SFX A* f ves/D'Q' f
 SFX A* h h/D'L'Q' h
 SFX A* h hs/D'Q' h
-SFX A* h hes/D'Q' h
 SFX A* s s/D'L'Q' s
-SFX A* s ses/D'Q' s
 SFX A* x x/D'L'Q' x
-SFX A* x xes/D'Q' x
 SFX A* y y/D'L'Q' y
 SFX A* y ys/D'Q' y
-SFX A* y ies/D'Q' y
 SFX A* zz zz/D'L'Q' zz
-SFX A* zz zzes/D'Q' zz
 SFX A* z z/D'L'Q' [^z]z
-SFX A* z zzes/D'Q' [^z]z
 
-SFX I* Y {{BUILD.NUMRULES}}
+SFX I* Y 11
 SFX I* a a/D'L'Q' a
 SFX I* a as/D'Q' a
-SFX I* a e/D'Q' a
 SFX I* e e/D'L'Q' e
 SFX I* e es/D'Q' e
-SFX I* e i/D'Q' e
 SFX I* en en/D'L'Q' en
 SFX I* en ens/D'Q' en
-SFX I* en ina/D'Q' en
 SFX I* o o/D'L'Q' o
 SFX I* o os/D'Q' o
-SFX I* o i/D'Q' o
 SFX I* um um/D'L'Q' um
 SFX I* um ums/D'Q' um
-SFX I* um a/D'Q' um
 SFX I* us us/D'L'Q' us
-SFX I* us i/D'Q' us
 
-SFX F* Y {{BUILD.NUMRULES}}
+SFX F* Y 59
 SFX F* 0 0/D'L'Q' [eë]
 SFX F* 0 s/D'Q' [eë]
 SFX F* e 0/D'L'Q' [éiï]e
 SFX F* e s/D'Q' [éiï]e
-SFX F* e ·e/D'L'Q' [éiï]e
-SFX F* e ·e·s/D'Q' [éiï]e
-SFX F* e ·es/D'Q' [éiï]e
 SFX F* rice eur/D'L'Q' [dt]rice
 SFX F* rice eurs/D'Q' [dt]rice
-SFX F* rice eur·rice/D'L'Q' [dt]rice
-SFX F* rice eur·rice·s/D'Q' [dt]rice
-SFX F* rice eur·rices/D'Q' [dt]rice
-SFX F* rice eurice/D'L'Q' [dt]rice
-SFX F* rice eurices/D'Q' [dt]rice
 SFX F* de d/D'L'Q' de
 SFX F* de ds/D'Q' de
-SFX F* de d·e/D'L'Q' de
-SFX F* de d·e·s/D'Q' de
-SFX F* de d·es/D'Q' de
 SFX F* he h/D'L'Q' [ut]he
 SFX F* he hs/D'Q' [ut]he
-SFX F* he h·e/D'L'Q' [ut]he
-SFX F* he h·e·s/D'Q' [ut]he
-SFX F* he h·es/D'Q' [ut]he
 SFX F* èke ek/D'L'Q' èke
 SFX F* èke eks/D'Q' èke
-SFX F* èke ek·èke/D'L'Q' èke
-SFX F* èke ek·èke·s/D'Q' èke
-SFX F* èke ek·èkes/D'Q' èke
 SFX F* le l/D'L'Q' [aiouû]le
 SFX F* le ls/D'Q' [aiouû]le
-SFX F* le l·e/D'L'Q' [aiouû]le
-SFX F* le l·e·s/D'Q' [aiouû]le
-SFX F* le l·es/D'Q' [aiouû]le
 SFX F* lle l/D'L'Q' [eiu]lle
 SFX F* lle ls/D'Q' [eiu]lle
-SFX F* lle l·le/D'L'Q' [eiu]lle
-SFX F* lle l·le·s/D'Q' [eiu]lle
-SFX F* lle l·les/D'Q' [eiu]lle
 SFX F* ne n/D'L'Q' [aiouï]ne
 SFX F* ne ns/D'Q' [aiouï]ne
-SFX F* ne n·e/D'L'Q' [aiouï]ne
-SFX F* ne n·e·s/D'Q' [aiouï]ne
-SFX F* ne n·es/D'Q' [aiouï]ne
 SFX F* nne n/D'L'Q' [aeo]nne
 SFX F* nne ns/D'Q' [aeo]nne
-SFX F* nne n·ne/D'L'Q' [aeo]nne
-SFX F* nne n·ne·s/D'Q' [aeo]nne
-SFX F* nne n·nes/D'Q' [aeo]nne
-SFX F* igne in/D'L'Q' igne
-SFX F* igne ins/D'Q' igne
-SFX F* igne in·igne/D'L'Q' igne
-SFX F* igne in·igne·s/D'Q' igne
-SFX F* igne in·ignes/D'Q' igne
-SFX F* igne in·gne/D'L'Q' igne
-SFX F* igne in·gne·s/D'Q' igne
-SFX F* igne in·gnes/D'Q' igne
+SFX F* gne n/D'L'Q' igne
+SFX F* gne ns/D'Q' igne
 SFX F* re r/D'L'Q' [aiouûy]re
 SFX F* re rs/D'Q' [aiouûy]re
-SFX F* re r·e/D'L'Q' [aiouûy]re
-SFX F* re r·e·s/D'Q' [aiouûy]re
-SFX F* re r·es/D'Q' [aiouûy]re
 SFX F* ère er/D'L'Q' ère
 SFX F* ère ers/D'Q' ère
-SFX F* ère er·ère/D'L'Q' ère
-SFX F* ère er·ère·s/D'Q' ère
-SFX F* ère er·ères/D'Q' ère
 SFX F* se s/D'L'Q' [^us]se
-SFX F* se s·e/D'L'Q' [^us]se
-SFX F* se s·es/D'Q' [^us]se
 SFX F* esse e/D'L'Q' [^eo].esse
 SFX F* esse es/D'Q' [^eo].esse
-SFX F* esse e·sse/D'L'Q' [^eo].esse
-SFX F* esse e·sse·s/D'Q' [^eo].esse
-SFX F* esse e·sses/D'Q' [^eo].esse
 SFX F* eresse eur/D'L'Q' eresse
 SFX F* eresse eurs/D'Q' eresse
-SFX F* eresse eur·resse/D'L'Q' eresse
-SFX F* eresse eur·resse·s/D'Q' eresse
-SFX F* eresse eur·resses/D'Q' eresse
-SFX F* eresse euresse/D'L'Q' eresse
-SFX F* eresse euresses/D'Q' eresse
 SFX F* oresse eur/D'L'Q' oresse
 SFX F* oresse eurs/D'Q' oresse
-SFX F* oresse eur·oresse/D'L'Q' oresse
-SFX F* oresse eur·oresse·s/D'Q' oresse
-SFX F* oresse eur·oresses/D'Q' oresse
 SFX F* sse s/D'L'Q' [^e]sse
-SFX F* sse s·se/D'L'Q' [^e]sse
-SFX F* sse s·ses/D'Q' [^e]sse
-SFX F* sse ·sse·s/D'Q' [^e]sse
-SFX F* sse ·sses/D'Q' [^e]sse
 SFX F* use us/D'L'Q' [^eo]use
-SFX F* use us·e/D'L'Q' [^eo]use
-SFX F* use us·es/D'Q' [^eo]use
-SFX F* use u·se·s/D'Q' [^eo]use
-SFX F* use u·ses/D'Q' [^eo]use
 SFX F* euse eur/D'L'Q' euse
 SFX F* euse eurs/D'Q' euse
-SFX F* euse eur·se/D'L'Q' euse
-SFX F* euse eur·se·s/D'Q' euse
-SFX F* euse eur·ses/D'Q' euse
-SFX F* euse eur·euse/D'L'Q' euse
-SFX F* euse eur·euse·s/D'Q' euse
-SFX F* euse eur·euses/D'Q' euse
-SFX F* euse eureuse/D'L'Q' euse
-SFX F* euse eureuses/D'Q' euse
 SFX F* te t/D'L'Q' [^èt]te
 SFX F* te ts/D'Q' [^èt]te
-SFX F* te t·e/D'L'Q' [^èt]te
-SFX F* te t·e·s/D'Q' [^èt]te
-SFX F* te t·es/D'Q' [^èt]te
 SFX F* tte t/D'L'Q' tte
 SFX F* tte ts/D'Q' tte
-SFX F* tte t·te/D'L'Q' tte
-SFX F* tte t·te·s/D'Q' tte
-SFX F* tte t·tes/D'Q' tte
 SFX F* ète et/D'L'Q' ète
 SFX F* ète ets/D'Q' ète
-SFX F* ète et·ète/D'L'Q' ète
-SFX F* ète et·ète·s/D'Q' ète
-SFX F* ète et·ètes/D'Q' ète
 SFX F* ue u/D'L'Q' [^gq]ue
 SFX F* ue us/D'Q' [^gq]ue
-SFX F* ue u·e/D'L'Q' [^gq]ue
-SFX F* ue u·e·s/D'Q' [^gq]ue
-SFX F* ue u·es/D'Q' [^gq]ue
 SFX F* gue g/D'L'Q' gue
 SFX F* gue gs/D'Q' gue
-SFX F* gue g·ue/D'L'Q' gue
-SFX F* gue g·ue·s/D'Q' gue
-SFX F* gue g·ues/D'Q' gue
 SFX F* cque c/D'L'Q' cque
 SFX F* cque cs/D'Q' cque
-SFX F* cque c·que/D'L'Q' cque
-SFX F* cque c·que·s/D'Q' cque
-SFX F* cque c·ques/D'Q' cque
 SFX F* que c/D'L'Q' [^c]que
 SFX F* que cs/D'Q' [^c]que
-SFX F* que c·que/D'L'Q' [^c]que
-SFX F* que c·que·s/D'Q' [^c]que
-SFX F* que c·ques/D'Q' [^c]que
 SFX F* ève ef/D'L'Q' ève
 SFX F* ève efs/D'Q' ève
-SFX F* ève ef·ève/D'L'Q' ève
-SFX F* ève ef·ève·s/D'Q' ève
-SFX F* ève ef·èves/D'Q' ève
 SFX F* ve f/D'L'Q' [iïu]ve
 SFX F* ve fs/D'Q' [iïu]ve
-SFX F* ve f·ve/D'L'Q' [iïu]ve
-SFX F* ve f·ve·s/D'Q' [iïu]ve
-SFX F* ve f·ves/D'Q' [iïu]ve
 SFX F* uë u/D'L'Q' uë
 SFX F* uë us/D'Q' uë
-SFX F* uë u·ë/D'L'Q' uë
-SFX F* uë u·ë·s/D'Q' uë
-SFX F* uë u·ës/D'Q' uë
 SFX F* üe u/D'L'Q' üe
 SFX F* üe us/D'Q' üe
-SFX F* üe u·üe/D'L'Q' üe
-SFX F* üe u·üe·s/D'Q' üe
-SFX F* üe u·ües/D'Q' üe
 
-SFX W* Y {{BUILD.NUMRULES}}
+SFX W* Y 10
 SFX W* 0 0/D'L'Q' e
 SFX W* e es/D'Q' e
 SFX W* ce x/D'L'Q' ce
-SFX W* ce x·ce/D'Q' ce
-SFX W* ce x·ces/D'Q' ce
-SFX W* euse eux/D'L'Q' euse
-SFX W* euse eux·se/D'L'Q' euse
-SFX W* euse eux·ses/D'Q' euse
-SFX W* euse eux·euse/D'L'Q' euse
-SFX W* euse eux·euses/D'Q' euse
-SFX W* ouse oux/D'L'Q' ouse
-SFX W* ouse oux·se/D'L'Q' ouse
-SFX W* ouse oux·ses/D'Q' ouse
-SFX W* ouse oux·ouse/D'L'Q' ouse
-SFX W* ouse oux·ouses/D'Q' ouse
+SFX W* use ux/D'L'Q' [eo]use
 SFX W* ousse oux/D'L'Q' ousse
-SFX W* ousse oux·sse/D'L'Q' ousse
-SFX W* ousse oux·sses/D'Q' ousse
-SFX W* ousse oux·ousse/D'L'Q' ousse
-SFX W* ousse oux·ousses/D'Q' ousse
 SFX W* ausse aux/D'L'Q' ausse
-SFX W* ausse aux·sse/D'L'Q' ausse
-SFX W* ausse aux·sses/D'Q' ausse
-SFX W* ausse aux·ausse/D'L'Q' ausse
-SFX W* ausse aux·ausses/D'Q' ausse
 SFX W* ale al/D'L'Q' ale
-SFX W* ale al·e/D'L'Q' ale
 SFX W* ale aux/D'Q' ale
-SFX W* ale aux·les/D'Q' ale
-SFX W* ale aux·ales/D'Q' ale
 SFX W* elle eau/D'L'Q' elle
 SFX W* elle eaux/D'Q' elle
-SFX W* elle eaulle/D'L'Q' elle
-SFX W* elle elleau/D'L'Q' elle
-SFX W* elle eau·lle/D'L'Q' elle
-SFX W* elle eaulles/D'Q' elle
-SFX W* elle elleaux/D'Q' elle
-SFX W* elle eaux·lles/D'Q' elle
-SFX W* elle eau·elle/D'L'Q' elle
-SFX W* elle eaux·elles/D'Q' elle
 
-PFX Um Y {{BUILD.NUMRULES}}
+PFX Um Y 29
 PFX Um 0 0/S. .
 PFX Um 0 l' [aàâeèéêiîoôuyœæ]
 PFX Um 0 d'/S. [aàâeèéêiîoôuyœæ]
@@ -943,7 +566,7 @@ PFX Um 0 zetta/S. .
 PFX Um 0 exa/S. .
 PFX Um 0 l'exa .
 PFX Um 0 d'exa/S. .
-PFX Um 0 peta/S. .
+PFX Um 0 péta/S. .
 PFX Um 0 téra/S. .
 PFX Um 0 giga/S. .
 PFX Um 0 méga/S. .
@@ -965,7 +588,7 @@ PFX Um 0 d'atto/S. .
 PFX Um 0 zepto/S. .
 PFX Um 0 yocto/S. .
 
-PFX Ui Y {{BUILD.NUMRULES}}
+PFX Ui Y 28
 PFX Ui 0 l' [aàâeèéêiîoôuyœæ]
 PFX Ui 0 d' [aàâeèéêiîoôuyœæ]
 PFX Ui 0 yotta .
@@ -973,7 +596,7 @@ PFX Ui 0 zetta .
 PFX Ui 0 exa .
 PFX Ui 0 l'exa .
 PFX Ui 0 d'exa .
-PFX Ui 0 peta .
+PFX Ui 0 péta .
 PFX Ui 0 téra .
 PFX Ui 0 giga .
 PFX Ui 0 méga .
@@ -995,7 +618,7 @@ PFX Ui 0 d'atto .
 PFX Ui 0 zepto .
 PFX Ui 0 yocto .
 
-PFX U. Y {{BUILD.NUMRULES}}
+PFX U. Y 20
 PFX U. 0 Y .
 PFX U. 0 Z .
 PFX U. 0 E .
@@ -1017,43 +640,41 @@ PFX U. 0 a .
 PFX U. 0 z .
 PFX U. 0 y .
 
-PFX n' Y {{BUILD.NUMRULES}}
+PFX n' Y 1
 PFX n' 0 n' [aàâeèéêiîoôuyhœæ]
 
-PFX q' Y {{BUILD.NUMRULES}}
+PFX q' Y 1
 PFX q' 0 qu' [aàâeèéêiîoôuyhœæ]
 
-PFX d' Y {{BUILD.NUMRULES}}
+PFX d' Y 1
 PFX d' 0 d' [aàâeèéêiîoôuyhœæ]
 
-PFX j' Y {{BUILD.NUMRULES}}
+PFX j' Y 1
 PFX j' 0 j' [aàâeèéêiîoôuyhœæ]
 
-PFX c' Y {{BUILD.NUMRULES}}
+PFX c' Y 2
 PFX c' 0 c' [eé]
 PFX c' 0 ç' a
 
-PFX l' Y {{BUILD.NUMRULES}}
+PFX l' Y 1
 PFX l' 0 l' [aàâeèéêiîoôuyhœæ]
 
-PFX m' Y {{BUILD.NUMRULES}}
+PFX m' Y 1
 PFX m' 0 m' [aàâeèéêiîoôuyhœæ]
 
-PFX t' Y {{BUILD.NUMRULES}}
+PFX t' Y 1
 PFX t' 0 t' [aàâeèéêiîoôuyhœæ]
 
-PFX s' Y {{BUILD.NUMRULES}}
+PFX s' Y 1
 PFX s' 0 s' [aàâeèéêiîoôuyhœæ]
 
-SFX zA Y {{BUILD.NUMRULES}}
+SFX zA Y 49
 SFX zA voir voir/n'q'd'l'm't' avoir
 SFX zA voir yant/n'q'l'm't' avoir
 SFX zA avoir eu avoir
 SFX zA avoir eus avoir
 SFX zA avoir eue avoir
 SFX zA avoir eues avoir
-SFX zA avoir eu·e avoir
-SFX zA avoir eu·e·s avoir
 SFX zA voir i/n'q'j'l't' avoir
 SFX zA voir s/n'q'l'm't' avoir
 SFX zA voir 0/n'q'c'l'm't' avoir
@@ -1088,7 +709,7 @@ SFX zA voir yons/n'l't' avoir
 SFX zA voir yez/n'l'm' avoir
 SFX zA voir ient/n'q'l'm't' avoir
 SFX zA avoir eusse/n'q'j'l'm't' avoir
-SFX zA avoir eussé/n'q'l'm't' avoir
+SFX zA avoir eussè/n'q'l'm't' avoir
 SFX zA avoir eusses/n'q'l'm't' avoir
 SFX zA avoir eût/n'q'c'l'm't' avoir
 SFX zA avoir eussions/n'q'l't' avoir
@@ -1098,7 +719,7 @@ SFX zA voir ie/n' avoir
 SFX zA voir yons/n' avoir
 SFX zA voir yez/n' avoir
 
-SFX zE Y {{BUILD.NUMRULES}}
+SFX zE Y 45
 SFX zE tre tre/n'q'd'l'm't's' être
 SFX zE être étant/n'q'l'm't's' être
 SFX zE être été être
@@ -1135,7 +756,7 @@ SFX zE être soyons être
 SFX zE être soyez être
 SFX zE être soient être
 SFX zE être fusse être
-SFX zE être fussé être
+SFX zE être fussè être
 SFX zE être fusses être
 SFX zE être fût être
 SFX zE être fussions être
@@ -1145,13 +766,14 @@ SFX zE être sois être
 SFX zE être soyons être
 SFX zE être soyez être
 
-SFX a0 N {{BUILD.NUMRULES}}
+SFX a0 N 102
 SFX a0 er ant [^cg]er
 SFX a0 cer çant cer
 SFX a0 ger geant ger
 SFX a0 er e [^y]er
 SFX a0 yer ye [^ou]yer
 SFX a0 yer ie [aou]yer
+SFX a0 er è er
 SFX a0 er es [^y]er
 SFX a0 yer yes [^ou]yer
 SFX a0 yer ies [aou]yer
@@ -1248,7 +870,7 @@ SFX a0 cer çons cer
 SFX a0 ger geons ger
 SFX a0 er ez er
 
-SFX a1 Y {{BUILD.NUMRULES}}
+SFX a1 Y 103
 SFX a1 er er/n'q'd' er
 SFX a1 er ant/n'q' [^cg]er
 SFX a1 cer çant/n'q' cer
@@ -1256,6 +878,7 @@ SFX a1 ger geant/n'q' ger
 SFX a1 er e/n'q'j' [^y]er
 SFX a1 yer ye/n'q'j' [^ou]yer
 SFX a1 yer ie/n'q'j' [aou]yer
+SFX a1 er è/n' er
 SFX a1 er es/n' [^y]er
 SFX a1 yer yes/n' [^ou]yer
 SFX a1 yer ies/n' [aou]yer
@@ -1352,7 +975,7 @@ SFX a1 cer çons/n' cer
 SFX a1 ger geons/n' ger
 SFX a1 er ez/n' er
 
-SFX a2 Y {{BUILD.NUMRULES}}
+SFX a2 Y 103
 SFX a2 er er/n'q'd'l'm't's' er
 SFX a2 er ant/n'q'l'm't's' [^cg]er
 SFX a2 cer çant/n'q'l'm't's' cer
@@ -1360,6 +983,7 @@ SFX a2 ger geant/n'q'l'm't's' ger
 SFX a2 er e/n'q'j'l'm't's' [^y]er
 SFX a2 yer ye/n'q'j'l'm't's' [^ou]yer
 SFX a2 yer ie/n'q'j'l'm't's' [aou]yer
+SFX a2 er è/n'q'l't' er
 SFX a2 er es/n'q'l'm' [^y]er
 SFX a2 yer yes/n'q'l'm' [^ou]yer
 SFX a2 yer ies/n'q'l'm' [aou]yer
@@ -1456,7 +1080,7 @@ SFX a2 cer çons/n'l' cer
 SFX a2 ger geons/n'l' ger
 SFX a2 er ez/n'l'm' er
 
-SFX a3 Y {{BUILD.NUMRULES}}
+SFX a3 Y 103
 SFX a3 er er/m't's' er
 SFX a3 er ant/m't's' [^cg]er
 SFX a3 cer çant/m't's' cer
@@ -1464,6 +1088,7 @@ SFX a3 ger geant/m't's' ger
 SFX a3 er e/m's' [^y]er
 SFX a3 yer ye/m's' [^ou]yer
 SFX a3 yer ie/m's' [aou]yer
+SFX a3 er è/m' er
 SFX a3 er es/t' [^y]er
 SFX a3 yer yes/t' [^ou]yer
 SFX a3 yer ies/t' [aou]yer
@@ -1560,7 +1185,7 @@ SFX a3 cer çons cer
 SFX a3 ger geons ger
 SFX a3 er ez er
 
-SFX a4 Y {{BUILD.NUMRULES}}
+SFX a4 Y 103
 SFX a4 er er/n'q'd'l'm't's' er
 SFX a4 er ant/n'q'l'm't's' [^cg]er
 SFX a4 cer çant/n'q'l'm't's' cer
@@ -1568,6 +1193,7 @@ SFX a4 ger geant/n'q'l'm't's' ger
 SFX a4 er e/n'q'j'l'm't's' [^y]er
 SFX a4 yer ye/n'q'j'l'm't's' [^ou]yer
 SFX a4 yer ie/n'q'j'l'm't's' [aou]yer
+SFX a4 er è/n'q'l'm't' er
 SFX a4 er es/n'q'l'm't' [^y]er
 SFX a4 yer yes/n'q'l'm't' [^ou]yer
 SFX a4 yer ies/n'q'l'm't' [aou]yer
@@ -1664,7 +1290,7 @@ SFX a4 cer çons/n'l' cer
 SFX a4 ger geons/n'l' ger
 SFX a4 er ez/n'l'm' er
 
-SFX a5 Y {{BUILD.NUMRULES}}
+SFX a5 Y 103
 SFX a5 er er/n'q'd'm't's' er
 SFX a5 er ant/n'q'm't's' [^cg]er
 SFX a5 cer çant/n'q'm't's' cer
@@ -1672,6 +1298,7 @@ SFX a5 ger geant/n'q'm't's' ger
 SFX a5 er e/n'q'j'm't's' [^y]er
 SFX a5 yer ye/n'q'j'm't's' [^ou]yer
 SFX a5 yer ie/n'q'j'm't's' [aou]yer
+SFX a5 er è/n'm't' er
 SFX a5 er es/n'm't' [^y]er
 SFX a5 yer yes/n'm't' [^ou]yer
 SFX a5 yer ies/n'm't' [aou]yer
@@ -1768,7 +1395,7 @@ SFX a5 cer çons/n' cer
 SFX a5 ger geons/n' ger
 SFX a5 er ez/n'm' er
 
-SFX a6 Y {{BUILD.NUMRULES}}
+SFX a6 Y 72
 SFX a6 er er/s' er
 SFX a6 er ant/s' [^cg]er
 SFX a6 cer çant/s' cer
@@ -1842,7 +1469,7 @@ SFX a6 cer çons cer
 SFX a6 ger geons ger
 SFX a6 er ez er
 
-SFX a8 N {{BUILD.NUMRULES}}
+SFX a8 N 16
 SFX a8 er er/n'd' er
 SFX a8 er ant [^cg]er
 SFX a8 cer çant cer
@@ -1860,7 +1487,7 @@ SFX a8 er ât/n' [^cg]er
 SFX a8 cer çât/n' cer
 SFX a8 ger geât/n' ger
 
-SFX a9 N {{BUILD.NUMRULES}}
+SFX a9 N 10
 SFX a9 er ent/n' er
 SFX a9 er aient/n' [^cg]er
 SFX a9 cer çaient/n' cer
@@ -1872,7 +1499,7 @@ SFX a9 er assent/n' [^cg]er
 SFX a9 cer çassent/n' cer
 SFX a9 ger geassent/n' ger
 
-SFX b0 N {{BUILD.NUMRULES}}
+SFX b0 N 190
 SFX b0 er ant [^c]er
 SFX b0 cer çant cer
 SFX b0 ecer èce ecer
@@ -1885,6 +1512,7 @@ SFX b0 ever ève ever
 SFX b0 evrer èvre evrer
 SFX b0 eter ète eter
 SFX b0 eler èle eler
+SFX b0 er è er
 SFX b0 ecer èces ecer
 SFX b0 emer èmes emer
 SFX b0 ener ènes ener
@@ -2063,7 +1691,7 @@ SFX b0 er ons [^c]er
 SFX b0 cer çons cer
 SFX b0 er ez er
 
-SFX b1 Y {{BUILD.NUMRULES}}
+SFX b1 Y 191
 SFX b1 er er/n'q'd' er
 SFX b1 er ant/n'q' [^c]er
 SFX b1 cer çant/n'q' cer
@@ -2077,6 +1705,7 @@ SFX b1 ever ève/n'j'q' ever
 SFX b1 evrer èvre/n'j'q' evrer
 SFX b1 eter ète/n'j'q' eter
 SFX b1 eler èle/n'j'q' eler
+SFX b1 er è/n'q' er
 SFX b1 ecer èces/n' ecer
 SFX b1 emer èmes/n' emer
 SFX b1 ener ènes/n' ener
@@ -2255,7 +1884,7 @@ SFX b1 er ons/n' [^c]er
 SFX b1 cer çons/n' cer
 SFX b1 er ez/n' er
 
-SFX b2 Y {{BUILD.NUMRULES}}
+SFX b2 Y 191
 SFX b2 er er/n'q'd'l'm't's' er
 SFX b2 er ant/n'q'l'm't's' [^c]er
 SFX b2 cer çant/n'q'l'm't's' cer
@@ -2269,6 +1898,7 @@ SFX b2 ever ève/n'q'j'l'm't's' ever
 SFX b2 evrer èvre/n'q'j'l'm't's' evrer
 SFX b2 eter ète/n'q'j'l'm't's' eter
 SFX b2 eler èle/n'q'j'l'm't's' eler
+SFX b2 er è/n'q'l't' er
 SFX b2 ecer èces/n'q'l'm' ecer
 SFX b2 emer èmes/n'q'l'm' emer
 SFX b2 ener ènes/n'q'l'm' ener
@@ -2447,7 +2077,7 @@ SFX b2 er ons/n'l' [^c]er
 SFX b2 cer çons/n'l' cer
 SFX b2 er ez/n'l'm' er
 
-SFX b3 Y {{BUILD.NUMRULES}}
+SFX b3 Y 191
 SFX b3 er er/m't's' er
 SFX b3 er ant/m't's' [^c]er
 SFX b3 cer çant/m't's' cer
@@ -2461,6 +2091,7 @@ SFX b3 ever ève/m's' ever
 SFX b3 evrer èvre/m's' evrer
 SFX b3 eter ète/m's' eter
 SFX b3 eler èle/m's' eler
+SFX b3 er è/m' er
 SFX b3 ecer èces/t' ecer
 SFX b3 emer èmes/t' emer
 SFX b3 ener ènes/t' ener
@@ -2639,7 +2270,7 @@ SFX b3 er ons [^c]er
 SFX b3 cer çons cer
 SFX b3 er ez er
 
-SFX b4 Y {{BUILD.NUMRULES}}
+SFX b4 Y 191
 SFX b4 er er/n'q'd'l'm't's' er
 SFX b4 er ant/n'q'l'm't's' [^c]er
 SFX b4 cer çant/n'q'l'm't's' cer
@@ -2653,6 +2284,7 @@ SFX b4 ever ève/n'q'j'l'm't's' ever
 SFX b4 evrer èvre/n'q'j'l'm't's' evrer
 SFX b4 eter ète/n'q'j'l'm't's' eter
 SFX b4 eler èle/n'q'j'l'm't's' eler
+SFX b4 er è/n'q'l'm't' er
 SFX b4 ecer èces/n'q'l'm't' ecer
 SFX b4 emer èmes/n'q'l'm't' emer
 SFX b4 ener ènes/n'q'l'm't' ener
@@ -2831,7 +2463,7 @@ SFX b4 er ons/n'l' [^c]er
 SFX b4 cer çons/n'l' cer
 SFX b4 er ez/n'l'm' er
 
-SFX b5 Y {{BUILD.NUMRULES}}
+SFX b5 Y 191
 SFX b5 er er/n'q'd'm't's' er
 SFX b5 er ant/n'q'm't's' [^c]er
 SFX b5 cer çant/n'q'm't's' cer
@@ -2845,6 +2477,7 @@ SFX b5 ever ève/n'q'j'm't's' ever
 SFX b5 evrer èvre/n'q'j'm't's' evrer
 SFX b5 eter ète/n'q'j'm't's' eter
 SFX b5 eler èle/n'q'j'm't's' eler
+SFX b5 er è/n'm't' er
 SFX b5 ecer èces/n'm't' ecer
 SFX b5 emer èmes/n'm't' emer
 SFX b5 ener ènes/n'm't' ener
@@ -3023,7 +2656,7 @@ SFX b5 er ons/n' [^c]er
 SFX b5 cer çons/n' cer
 SFX b5 er ez/n' er
 
-SFX c0 N {{BUILD.NUMRULES}}
+SFX c0 N 372
 SFX c0 er ant [^cg]er
 SFX c0 écer éçant écer
 SFX c0 éger égeant éger
@@ -3048,6 +2681,7 @@ SFX c0 éter ète éter
 SFX c0 étrer ètre étrer
 SFX c0 évrer èvre évrer
 SFX c0 éyer èye éyer
+SFX c0 er è er
 SFX c0 ébrer èbres ébrer
 SFX c0 écer èces écer
 SFX c0 écher èches écher
@@ -3121,17 +2755,237 @@ SFX c0 er âtes [^cg]er
 SFX c0 écer éçâtes écer
 SFX c0 éger égeâtes éger
 SFX c0 er èrent er
-SFX c0 er erai er
-SFX c0 er eras er
-SFX c0 er era er
-SFX c0 er erons er
-SFX c0 er erez er
-SFX c0 er eront er
-SFX c0 er erais er
-SFX c0 er erait er
-SFX c0 er erions er
-SFX c0 er eriez er
-SFX c0 er eraient er
+SFX c0 ébrer èbrerai ébrer
+SFX c0 écer ècerai écer
+SFX c0 écher ècherai écher
+SFX c0 écrer ècrerai écrer
+SFX c0 éder èderai éder
+SFX c0 éger ègerai éger
+SFX c0 égler èglerai égler
+SFX c0 égner ègnerai égner
+SFX c0 égrer ègrerai égrer
+SFX c0 éguer èguerai éguer
+SFX c0 éler èlerai éler
+SFX c0 émer èmerai émer
+SFX c0 éner ènerai éner
+SFX c0 éper èperai éper
+SFX c0 équer èquerai équer
+SFX c0 érer èrerai érer
+SFX c0 éser èserai éser
+SFX c0 éter èterai éter
+SFX c0 étrer ètrerai étrer
+SFX c0 évrer èvrerai évrer
+SFX c0 éyer èyerai éyer
+SFX c0 ébrer èbreras ébrer
+SFX c0 écer èceras écer
+SFX c0 écher ècheras écher
+SFX c0 écrer ècreras écrer
+SFX c0 éder èderas éder
+SFX c0 éger ègeras éger
+SFX c0 égler ègleras égler
+SFX c0 égner ègneras égner
+SFX c0 égrer ègreras égrer
+SFX c0 éguer ègueras éguer
+SFX c0 éler èleras éler
+SFX c0 émer èmeras émer
+SFX c0 éner èneras éner
+SFX c0 éper èperas éper
+SFX c0 équer èqueras équer
+SFX c0 érer èreras érer
+SFX c0 éser èseras éser
+SFX c0 éter èteras éter
+SFX c0 étrer ètreras étrer
+SFX c0 évrer èvreras évrer
+SFX c0 éyer èyeras éyer
+SFX c0 ébrer èbrera ébrer
+SFX c0 écer ècera écer
+SFX c0 écher èchera écher
+SFX c0 écrer ècrera écrer
+SFX c0 éder èdera éder
+SFX c0 éger ègera éger
+SFX c0 égler èglera égler
+SFX c0 égner ègnera égner
+SFX c0 égrer ègrera égrer
+SFX c0 éguer èguera éguer
+SFX c0 éler èlera éler
+SFX c0 émer èmera émer
+SFX c0 éner ènera éner
+SFX c0 éper èpera éper
+SFX c0 équer èquera équer
+SFX c0 érer èrera érer
+SFX c0 éser èsera éser
+SFX c0 éter ètera éter
+SFX c0 étrer ètrera étrer
+SFX c0 évrer èvrera évrer
+SFX c0 éyer èyera éyer
+SFX c0 ébrer èbrerons ébrer
+SFX c0 écer ècerons écer
+SFX c0 écher ècherons écher
+SFX c0 écrer ècrerons écrer
+SFX c0 éder èderons éder
+SFX c0 éger ègerons éger
+SFX c0 égler èglerons égler
+SFX c0 égner ègnerons égner
+SFX c0 égrer ègrerons égrer
+SFX c0 éguer èguerons éguer
+SFX c0 éler èlerons éler
+SFX c0 émer èmerons émer
+SFX c0 éner ènerons éner
+SFX c0 éper èperons éper
+SFX c0 équer èquerons équer
+SFX c0 érer èrerons érer
+SFX c0 éser èserons éser
+SFX c0 éter èterons éter
+SFX c0 étrer ètrerons étrer
+SFX c0 évrer èvrerons évrer
+SFX c0 éyer èyerons éyer
+SFX c0 ébrer èbrerez ébrer
+SFX c0 écer ècerez écer
+SFX c0 écher ècherez écher
+SFX c0 écrer ècrerez écrer
+SFX c0 éder èderez éder
+SFX c0 éger ègerez éger
+SFX c0 égler èglerez égler
+SFX c0 égner ègnerez égner
+SFX c0 égrer ègrerez égrer
+SFX c0 éguer èguerez éguer
+SFX c0 éler èlerez éler
+SFX c0 émer èmerez émer
+SFX c0 éner ènerez éner
+SFX c0 éper èperez éper
+SFX c0 équer èquerez équer
+SFX c0 érer èrerez érer
+SFX c0 éser èserez éser
+SFX c0 éter èterez éter
+SFX c0 étrer ètrerez étrer
+SFX c0 évrer èvrerez évrer
+SFX c0 éyer èyerez éyer
+SFX c0 ébrer èbreront ébrer
+SFX c0 écer èceront écer
+SFX c0 écher ècheront écher
+SFX c0 écrer ècreront écrer
+SFX c0 éder èderont éder
+SFX c0 éger ègeront éger
+SFX c0 égler ègleront égler
+SFX c0 égner ègneront égner
+SFX c0 égrer ègreront égrer
+SFX c0 éguer ègueront éguer
+SFX c0 éler èleront éler
+SFX c0 émer èmeront émer
+SFX c0 éner èneront éner
+SFX c0 éper èperont éper
+SFX c0 équer èqueront équer
+SFX c0 érer èreront érer
+SFX c0 éser èseront éser
+SFX c0 éter èteront éter
+SFX c0 étrer ètreront étrer
+SFX c0 évrer èvreront évrer
+SFX c0 éyer èyeront éyer
+SFX c0 ébrer èbrerais ébrer
+SFX c0 écer ècerais écer
+SFX c0 écher ècherais écher
+SFX c0 écrer ècrerais écrer
+SFX c0 éder èderais éder
+SFX c0 éger ègerais éger
+SFX c0 égler èglerais égler
+SFX c0 égner ègnerais égner
+SFX c0 égrer ègrerais égrer
+SFX c0 éguer èguerais éguer
+SFX c0 éler èlerais éler
+SFX c0 émer èmerais émer
+SFX c0 éner ènerais éner
+SFX c0 éper èperais éper
+SFX c0 équer èquerais équer
+SFX c0 érer èrerais érer
+SFX c0 éser èserais éser
+SFX c0 éter èterais éter
+SFX c0 étrer ètrerais étrer
+SFX c0 évrer èvrerais évrer
+SFX c0 éyer èyerais éyer
+SFX c0 ébrer èbrerait ébrer
+SFX c0 écer ècerait écer
+SFX c0 écher ècherait écher
+SFX c0 écrer ècrerait écrer
+SFX c0 éder èderait éder
+SFX c0 éger ègerait éger
+SFX c0 égler èglerait égler
+SFX c0 égner ègnerait égner
+SFX c0 égrer ègrerait égrer
+SFX c0 éguer èguerait éguer
+SFX c0 éler èlerait éler
+SFX c0 émer èmerait émer
+SFX c0 éner ènerait éner
+SFX c0 éper èperait éper
+SFX c0 équer èquerait équer
+SFX c0 érer èrerait érer
+SFX c0 éser èserait éser
+SFX c0 éter èterait éter
+SFX c0 étrer ètrerait étrer
+SFX c0 évrer èvrerait évrer
+SFX c0 éyer èyerait éyer
+SFX c0 ébrer èbrerions ébrer
+SFX c0 écer ècerions écer
+SFX c0 écher ècherions écher
+SFX c0 écrer ècrerions écrer
+SFX c0 éder èderions éder
+SFX c0 éger ègerions éger
+SFX c0 égler èglerions égler
+SFX c0 égner ègnerions égner
+SFX c0 égrer ègrerions égrer
+SFX c0 éguer èguerions éguer
+SFX c0 éler èlerions éler
+SFX c0 émer èmerions émer
+SFX c0 éner ènerions éner
+SFX c0 éper èperions éper
+SFX c0 équer èquerions équer
+SFX c0 érer èrerions érer
+SFX c0 éser èserions éser
+SFX c0 éter èterions éter
+SFX c0 étrer ètrerions étrer
+SFX c0 évrer èvrerions évrer
+SFX c0 éyer èyerions éyer
+SFX c0 ébrer èbreriez ébrer
+SFX c0 écer èceriez écer
+SFX c0 écher ècheriez écher
+SFX c0 écrer ècreriez écrer
+SFX c0 éder èderiez éder
+SFX c0 éger ègeriez éger
+SFX c0 égler ègleriez égler
+SFX c0 égner ègneriez égner
+SFX c0 égrer ègreriez égrer
+SFX c0 éguer ègueriez éguer
+SFX c0 éler èleriez éler
+SFX c0 émer èmeriez émer
+SFX c0 éner èneriez éner
+SFX c0 éper èperiez éper
+SFX c0 équer èqueriez équer
+SFX c0 érer èreriez érer
+SFX c0 éser èseriez éser
+SFX c0 éter èteriez éter
+SFX c0 étrer ètreriez étrer
+SFX c0 évrer èvreriez évrer
+SFX c0 éyer èyeriez éyer
+SFX c0 ébrer èbreraient ébrer
+SFX c0 écer èceraient écer
+SFX c0 écher ècheraient écher
+SFX c0 écrer ècreraient écrer
+SFX c0 éder èderaient éder
+SFX c0 éger ègeraient éger
+SFX c0 égler ègleraient égler
+SFX c0 égner ègneraient égner
+SFX c0 égrer ègreraient égrer
+SFX c0 éguer ègueraient éguer
+SFX c0 éler èleraient éler
+SFX c0 émer èmeraient émer
+SFX c0 éner èneraient éner
+SFX c0 éper èperaient éper
+SFX c0 équer èqueraient équer
+SFX c0 érer èreraient érer
+SFX c0 éser èseraient éser
+SFX c0 éter èteraient éter
+SFX c0 étrer ètreraient étrer
+SFX c0 évrer èvreraient évrer
+SFX c0 éyer èyeraient éyer
 SFX c0 er asse [^cg]er
 SFX c0 écer éçasse écer
 SFX c0 éger égeasse éger
@@ -3176,7 +3030,7 @@ SFX c0 écer éçons écer
 SFX c0 éger égeons éger
 SFX c0 er ez er
 
-SFX c1 Y {{BUILD.NUMRULES}}
+SFX c1 Y 373
 SFX c1 r r/n'q'd' er
 SFX c1 er ant/n'q' [^cg]er
 SFX c1 écer éçant/n'q' écer
@@ -3202,6 +3056,7 @@ SFX c1 éter ète/n'q'j' éter
 SFX c1 étrer ètre/n'q'j' étrer
 SFX c1 évrer èvre/n'q'j' évrer
 SFX c1 éyer èye/n'q'j' éyer
+SFX c1 er è/n' er
 SFX c1 ébrer èbres/n' ébrer
 SFX c1 écer èces/n' écer
 SFX c1 écher èches/n' écher
@@ -3275,17 +3130,237 @@ SFX c1 er âtes/n' [^cg]er
 SFX c1 écer éçâtes/n' écer
 SFX c1 éger égeâtes/n' éger
 SFX c1 er èrent/n'q' er
-SFX c1 er erai/n'j' er
-SFX c1 er eras/n' er
-SFX c1 er era/n'q' er
-SFX c1 er erons/n' er
-SFX c1 er erez/n' er
-SFX c1 er eront/n'q' er
-SFX c1 er erais/n'j' er
-SFX c1 er erait/n'q' er
-SFX c1 er erions/n' er
-SFX c1 er eriez/n' er
-SFX c1 er eraient/n'q' er
+SFX c1 ébrer èbrerai/n'j' ébrer
+SFX c1 écer ècerai/n'j' écer
+SFX c1 écher ècherai/n'j' écher
+SFX c1 écrer ècrerai/n'j' écrer
+SFX c1 éder èderai/n'j' éder
+SFX c1 éger ègerai/n'j' éger
+SFX c1 égler èglerai/n'j' égler
+SFX c1 égner ègnerai/n'j' égner
+SFX c1 égrer ègrerai/n'j' égrer
+SFX c1 éguer èguerai/n'j' éguer
+SFX c1 éler èlerai/n'j' éler
+SFX c1 émer èmerai/n'j' émer
+SFX c1 éner ènerai/n'j' éner
+SFX c1 éper èperai/n'j' éper
+SFX c1 équer èquerai/n'j' équer
+SFX c1 érer èrerai/n'j' érer
+SFX c1 éser èserai/n'j' éser
+SFX c1 éter èterai/n'j' éter
+SFX c1 étrer ètrerai/n'j' étrer
+SFX c1 évrer èvrerai/n'j' évrer
+SFX c1 éyer èyerai/n'j' éyer
+SFX c1 ébrer èbreras/n' ébrer
+SFX c1 écer èceras/n' écer
+SFX c1 écher ècheras/n' écher
+SFX c1 écrer ècreras/n' écrer
+SFX c1 éder èderas/n' éder
+SFX c1 éger ègeras/n' éger
+SFX c1 égler ègleras/n' égler
+SFX c1 égner ègneras/n' égner
+SFX c1 égrer ègreras/n' égrer
+SFX c1 éguer ègueras/n' éguer
+SFX c1 éler èleras/n' éler
+SFX c1 émer èmeras/n' émer
+SFX c1 éner èneras/n' éner
+SFX c1 éper èperas/n' éper
+SFX c1 équer èqueras/n' équer
+SFX c1 érer èreras/n' érer
+SFX c1 éser èseras/n' éser
+SFX c1 éter èteras/n' éter
+SFX c1 étrer ètreras/n' étrer
+SFX c1 évrer èvreras/n' évrer
+SFX c1 éyer èyeras/n' éyer
+SFX c1 ébrer èbrera/n'q' ébrer
+SFX c1 écer ècera/n'q' écer
+SFX c1 écher èchera/n'q' écher
+SFX c1 écrer ècrera/n'q' écrer
+SFX c1 éder èdera/n'q' éder
+SFX c1 éger ègera/n'q' éger
+SFX c1 égler èglera/n'q' égler
+SFX c1 égner ègnera/n'q' égner
+SFX c1 égrer ègrera/n'q' égrer
+SFX c1 éguer èguera/n'q' éguer
+SFX c1 éler èlera/n'q' éler
+SFX c1 émer èmera/n'q' émer
+SFX c1 éner ènera/n'q' éner
+SFX c1 éper èpera/n'q' éper
+SFX c1 équer èquera/n'q' équer
+SFX c1 érer èrera/n'q' érer
+SFX c1 éser èsera/n'q' éser
+SFX c1 éter ètera/n'q' éter
+SFX c1 étrer ètrera/n'q' étrer
+SFX c1 évrer èvrera/n'q' évrer
+SFX c1 éyer èyera/n'q' éyer
+SFX c1 ébrer èbrerons/n' ébrer
+SFX c1 écer ècerons/n' écer
+SFX c1 écher ècherons/n' écher
+SFX c1 écrer ècrerons/n' écrer
+SFX c1 éder èderons/n' éder
+SFX c1 éger ègerons/n' éger
+SFX c1 égler èglerons/n' égler
+SFX c1 égner ègnerons/n' égner
+SFX c1 égrer ègrerons/n' égrer
+SFX c1 éguer èguerons/n' éguer
+SFX c1 éler èlerons/n' éler
+SFX c1 émer èmerons/n' émer
+SFX c1 éner ènerons/n' éner
+SFX c1 éper èperons/n' éper
+SFX c1 équer èquerons/n' équer
+SFX c1 érer èrerons/n' érer
+SFX c1 éser èserons/n' éser
+SFX c1 éter èterons/n' éter
+SFX c1 étrer ètrerons/n' étrer
+SFX c1 évrer èvrerons/n' évrer
+SFX c1 éyer èyerons/n' éyer
+SFX c1 ébrer èbrerez/n' ébrer
+SFX c1 écer ècerez/n' écer
+SFX c1 écher ècherez/n' écher
+SFX c1 écrer ècrerez/n' écrer
+SFX c1 éder èderez/n' éder
+SFX c1 éger ègerez/n' éger
+SFX c1 égler èglerez/n' égler
+SFX c1 égner ègnerez/n' égner
+SFX c1 égrer ègrerez/n' égrer
+SFX c1 éguer èguerez/n' éguer
+SFX c1 éler èlerez/n' éler
+SFX c1 émer èmerez/n' émer
+SFX c1 éner ènerez/n' éner
+SFX c1 éper èperez/n' éper
+SFX c1 équer èquerez/n' équer
+SFX c1 érer èrerez/n' érer
+SFX c1 éser èserez/n' éser
+SFX c1 éter èterez/n' éter
+SFX c1 étrer ètrerez/n' étrer
+SFX c1 évrer èvrerez/n' évrer
+SFX c1 éyer èyerez/n' éyer
+SFX c1 ébrer èbreront/n'q' ébrer
+SFX c1 écer èceront/n'q' écer
+SFX c1 écher ècheront/n'q' écher
+SFX c1 écrer ècreront/n'q' écrer
+SFX c1 éder èderont/n'q' éder
+SFX c1 éger ègeront/n'q' éger
+SFX c1 égler ègleront/n'q' égler
+SFX c1 égner ègneront/n'q' égner
+SFX c1 égrer ègreront/n'q' égrer
+SFX c1 éguer ègueront/n'q' éguer
+SFX c1 éler èleront/n'q' éler
+SFX c1 émer èmeront/n'q' émer
+SFX c1 éner èneront/n'q' éner
+SFX c1 éper èperont/n'q' éper
+SFX c1 équer èqueront/n'q' équer
+SFX c1 érer èreront/n'q' érer
+SFX c1 éser èseront/n'q' éser
+SFX c1 éter èteront/n'q' éter
+SFX c1 étrer ètreront/n'q' étrer
+SFX c1 évrer èvreront/n'q' évrer
+SFX c1 éyer èyeront/n'q' éyer
+SFX c1 ébrer èbrerais/n'j' ébrer
+SFX c1 écer ècerais/n'j' écer
+SFX c1 écher ècherais/n'j' écher
+SFX c1 écrer ècrerais/n'j' écrer
+SFX c1 éder èderais/n'j' éder
+SFX c1 éger ègerais/n'j' éger
+SFX c1 égler èglerais/n'j' égler
+SFX c1 égner ègnerais/n'j' égner
+SFX c1 égrer ègrerais/n'j' égrer
+SFX c1 éguer èguerais/n'j' éguer
+SFX c1 éler èlerais/n'j' éler
+SFX c1 émer èmerais/n'j' émer
+SFX c1 éner ènerais/n'j' éner
+SFX c1 éper èperais/n'j' éper
+SFX c1 équer èquerais/n'j' équer
+SFX c1 érer èrerais/n'j' érer
+SFX c1 éser èserais/n'j' éser
+SFX c1 éter èterais/n'j' éter
+SFX c1 étrer ètrerais/n'j' étrer
+SFX c1 évrer èvrerais/n'j' évrer
+SFX c1 éyer èyerais/n'j' éyer
+SFX c1 ébrer èbrerait/n'q' ébrer
+SFX c1 écer ècerait/n'q' écer
+SFX c1 écher ècherait/n'q' écher
+SFX c1 écrer ècrerait/n'q' écrer
+SFX c1 éder èderait/n'q' éder
+SFX c1 éger ègerait/n'q' éger
+SFX c1 égler èglerait/n'q' égler
+SFX c1 égner ègnerait/n'q' égner
+SFX c1 égrer ègrerait/n'q' égrer
+SFX c1 éguer èguerait/n'q' éguer
+SFX c1 éler èlerait/n'q' éler
+SFX c1 émer èmerait/n'q' émer
+SFX c1 éner ènerait/n'q' éner
+SFX c1 éper èperait/n'q' éper
+SFX c1 équer èquerait/n'q' équer
+SFX c1 érer èrerait/n'q' érer
+SFX c1 éser èserait/n'q' éser
+SFX c1 éter èterait/n'q' éter
+SFX c1 étrer ètrerait/n'q' étrer
+SFX c1 évrer èvrerait/n'q' évrer
+SFX c1 éyer èyerait/n'q' éyer
+SFX c1 ébrer èbrerions/n' ébrer
+SFX c1 écer ècerions/n' écer
+SFX c1 écher ècherions/n' écher
+SFX c1 écrer ècrerions/n' écrer
+SFX c1 éder èderions/n' éder
+SFX c1 éger ègerions/n' éger
+SFX c1 égler èglerions/n' égler
+SFX c1 égner ègnerions/n' égner
+SFX c1 égrer ègrerions/n' égrer
+SFX c1 éguer èguerions/n' éguer
+SFX c1 éler èlerions/n' éler
+SFX c1 émer èmerions/n' émer
+SFX c1 éner ènerions/n' éner
+SFX c1 éper èperions/n' éper
+SFX c1 équer èquerions/n' équer
+SFX c1 érer èrerions/n' érer
+SFX c1 éser èserions/n' éser
+SFX c1 éter èterions/n' éter
+SFX c1 étrer ètrerions/n' étrer
+SFX c1 évrer èvrerions/n' évrer
+SFX c1 éyer èyerions/n' éyer
+SFX c1 ébrer èbreriez/n' ébrer
+SFX c1 écer èceriez/n' écer
+SFX c1 écher ècheriez/n' écher
+SFX c1 écrer ècreriez/n' écrer
+SFX c1 éder èderiez/n' éder
+SFX c1 éger ègeriez/n' éger
+SFX c1 égler ègleriez/n' égler
+SFX c1 égner ègneriez/n' égner
+SFX c1 égrer ègreriez/n' égrer
+SFX c1 éguer ègueriez/n' éguer
+SFX c1 éler èleriez/n' éler
+SFX c1 émer èmeriez/n' émer
+SFX c1 éner èneriez/n' éner
+SFX c1 éper èperiez/n' éper
+SFX c1 équer èqueriez/n' équer
+SFX c1 érer èreriez/n' érer
+SFX c1 éser èseriez/n' éser
+SFX c1 éter èteriez/n' éter
+SFX c1 étrer ètreriez/n' étrer
+SFX c1 évrer èvreriez/n' évrer
+SFX c1 éyer èyeriez/n' éyer
+SFX c1 ébrer èbreraient/n'q' ébrer
+SFX c1 écer èceraient/n'q' écer
+SFX c1 écher ècheraient/n'q' écher
+SFX c1 écrer ècreraient/n'q' écrer
+SFX c1 éder èderaient/n'q' éder
+SFX c1 éger ègeraient/n'q' éger
+SFX c1 égler ègleraient/n'q' égler
+SFX c1 égner ègneraient/n'q' égner
+SFX c1 égrer ègreraient/n'q' égrer
+SFX c1 éguer ègueraient/n'q' éguer
+SFX c1 éler èleraient/n'q' éler
+SFX c1 émer èmeraient/n'q' émer
+SFX c1 éner èneraient/n'q' éner
+SFX c1 éper èperaient/n'q' éper
+SFX c1 équer èqueraient/n'q' équer
+SFX c1 érer èreraient/n'q' érer
+SFX c1 éser èseraient/n'q' éser
+SFX c1 éter èteraient/n'q' éter
+SFX c1 étrer ètreraient/n'q' étrer
+SFX c1 évrer èvreraient/n'q' évrer
+SFX c1 éyer èyeraient/n'q' éyer
 SFX c1 er asse/n'j' [^cg]er
 SFX c1 écer éçasse/n'j' écer
 SFX c1 éger égeasse/n'j' éger
@@ -3330,7 +3405,7 @@ SFX c1 écer éçons/n' écer
 SFX c1 éger égeons/n' éger
 SFX c1 er ez/n' er
 
-SFX c2 Y {{BUILD.NUMRULES}}
+SFX c2 Y 373
 SFX c2 er er/n'q'd'l'm't's' er
 SFX c2 er ant/n'q'l'm't's' [^cg]er
 SFX c2 écer éçant/n'q'l'm't's' écer
@@ -3356,6 +3431,7 @@ SFX c2 éter ète/n'q'j'l'm't's' éter
 SFX c2 étrer ètre/n'q'j'l'm't's' étrer
 SFX c2 évrer èvre/n'q'j'l'm't's' évrer
 SFX c2 éyer èye/n'q'j'l'm't's' éyer
+SFX c2 er è/n'q'l't' er
 SFX c2 ébrer èbres/n'q'l'm' ébrer
 SFX c2 écer èces/n'q'l'm' écer
 SFX c2 écher èches/n'q'l'm' écher
@@ -3429,17 +3505,237 @@ SFX c2 er âtes/n'q'l'm' [^cg]er
 SFX c2 écer éçâtes/n'q'l'm' écer
 SFX c2 éger égeâtes/n'q'l'm' éger
 SFX c2 er èrent/n'q'l'm't's' er
-SFX c2 er erai/n'q'j'l't' er
-SFX c2 er eras/n'q'l'm' er
-SFX c2 er era/n'q'l'm't's' er
-SFX c2 er erons/n'q'l't' er
-SFX c2 er erez/n'q'l'm' er
-SFX c2 er eront/n'q'l'm't's' er
-SFX c2 er erais/n'q'j'l'm't' er
-SFX c2 er erait/n'q'l'm't's' er
-SFX c2 er erions/n'q'l't' er
-SFX c2 er eriez/n'q'l'm' er
-SFX c2 er eraient/n'q'l'm't's' er
+SFX c2 ébrer èbrerai/n'q'j'l't' ébrer
+SFX c2 écer ècerai/n'q'j'l't' écer
+SFX c2 écher ècherai/n'q'j'l't' écher
+SFX c2 écrer ècrerai/n'q'j'l't' écrer
+SFX c2 éder èderai/n'q'j'l't' éder
+SFX c2 éger ègerai/n'q'j'l't' éger
+SFX c2 égler èglerai/n'q'j'l't' égler
+SFX c2 égner ègnerai/n'q'j'l't' égner
+SFX c2 égrer ègrerai/n'q'j'l't' égrer
+SFX c2 éguer èguerai/n'q'j'l't' éguer
+SFX c2 éler èlerai/n'q'j'l't' éler
+SFX c2 émer èmerai/n'q'j'l't' émer
+SFX c2 éner ènerai/n'q'j'l't' éner
+SFX c2 éper èperai/n'q'j'l't' éper
+SFX c2 équer èquerai/n'q'j'l't' équer
+SFX c2 érer èrerai/n'q'j'l't' érer
+SFX c2 éser èserai/n'q'j'l't' éser
+SFX c2 éter èterai/n'q'j'l't' éter
+SFX c2 étrer ètrerai/n'q'j'l't' étrer
+SFX c2 évrer èvrerai/n'q'j'l't' évrer
+SFX c2 éyer èyerai/n'q'j'l't' éyer
+SFX c2 ébrer èbreras/n'q'l'm' ébrer
+SFX c2 écer èceras/n'q'l'm' écer
+SFX c2 écher ècheras/n'q'l'm' écher
+SFX c2 écrer ècreras/n'q'l'm' écrer
+SFX c2 éder èderas/n'q'l'm' éder
+SFX c2 éger ègeras/n'q'l'm' éger
+SFX c2 égler ègleras/n'q'l'm' égler
+SFX c2 égner ègneras/n'q'l'm' égner
+SFX c2 égrer ègreras/n'q'l'm' égrer
+SFX c2 éguer ègueras/n'q'l'm' éguer
+SFX c2 éler èleras/n'q'l'm' éler
+SFX c2 émer èmeras/n'q'l'm' émer
+SFX c2 éner èneras/n'q'l'm' éner
+SFX c2 éper èperas/n'q'l'm' éper
+SFX c2 équer èqueras/n'q'l'm' équer
+SFX c2 érer èreras/n'q'l'm' érer
+SFX c2 éser èseras/n'q'l'm' éser
+SFX c2 éter èteras/n'q'l'm' éter
+SFX c2 étrer ètreras/n'q'l'm' étrer
+SFX c2 évrer èvreras/n'q'l'm' évrer
+SFX c2 éyer èyeras/n'q'l'm' éyer
+SFX c2 ébrer èbrera/n'q'l'm't's' ébrer
+SFX c2 écer ècera/n'q'l'm't's' écer
+SFX c2 écher èchera/n'q'l'm't's' écher
+SFX c2 écrer ècrera/n'q'l'm't's' écrer
+SFX c2 éder èdera/n'q'l'm't's' éder
+SFX c2 éger ègera/n'q'l'm't's' éger
+SFX c2 égler èglera/n'q'l'm't's' égler
+SFX c2 égner ègnera/n'q'l'm't's' égner
+SFX c2 égrer ègrera/n'q'l'm't's' égrer
+SFX c2 éguer èguera/n'q'l'm't's' éguer
+SFX c2 éler èlera/n'q'l'm't's' éler
+SFX c2 émer èmera/n'q'l'm't's' émer
+SFX c2 éner ènera/n'q'l'm't's' éner
+SFX c2 éper èpera/n'q'l'm't's' éper
+SFX c2 équer èquera/n'q'l'm't's' équer
+SFX c2 érer èrera/n'q'l'm't's' érer
+SFX c2 éser èsera/n'q'l'm't's' éser
+SFX c2 éter ètera/n'q'l'm't's' éter
+SFX c2 étrer ètrera/n'q'l'm't's' étrer
+SFX c2 évrer èvrera/n'q'l'm't's' évrer
+SFX c2 éyer èyera/n'q'l'm't's' éyer
+SFX c2 ébrer èbrerons/n'q'l't' ébrer
+SFX c2 écer ècerons/n'q'l't' écer
+SFX c2 écher ècherons/n'q'l't' écher
+SFX c2 écrer ècrerons/n'q'l't' écrer
+SFX c2 éder èderons/n'q'l't' éder
+SFX c2 éger ègerons/n'q'l't' éger
+SFX c2 égler èglerons/n'q'l't' égler
+SFX c2 égner ègnerons/n'q'l't' égner
+SFX c2 égrer ègrerons/n'q'l't' égrer
+SFX c2 éguer èguerons/n'q'l't' éguer
+SFX c2 éler èlerons/n'q'l't' éler
+SFX c2 émer èmerons/n'q'l't' émer
+SFX c2 éner ènerons/n'q'l't' éner
+SFX c2 éper èperons/n'q'l't' éper
+SFX c2 équer èquerons/n'q'l't' équer
+SFX c2 érer èrerons/n'q'l't' érer
+SFX c2 éser èserons/n'q'l't' éser
+SFX c2 éter èterons/n'q'l't' éter
+SFX c2 étrer ètrerons/n'q'l't' étrer
+SFX c2 évrer èvrerons/n'q'l't' évrer
+SFX c2 éyer èyerons/n'q'l't' éyer
+SFX c2 ébrer èbrerez/n'q'l'm' ébrer
+SFX c2 écer ècerez/n'q'l'm' écer
+SFX c2 écher ècherez/n'q'l'm' écher
+SFX c2 écrer ècrerez/n'q'l'm' écrer
+SFX c2 éder èderez/n'q'l'm' éder
+SFX c2 éger ègerez/n'q'l'm' éger
+SFX c2 égler èglerez/n'q'l'm' égler
+SFX c2 égner ègnerez/n'q'l'm' égner
+SFX c2 égrer ègrerez/n'q'l'm' égrer
+SFX c2 éguer èguerez/n'q'l'm' éguer
+SFX c2 éler èlerez/n'q'l'm' éler
+SFX c2 émer èmerez/n'q'l'm' émer
+SFX c2 éner ènerez/n'q'l'm' éner
+SFX c2 éper èperez/n'q'l'm' éper
+SFX c2 équer èquerez/n'q'l'm' équer
+SFX c2 érer èrerez/n'q'l'm' érer
+SFX c2 éser èserez/n'q'l'm' éser
+SFX c2 éter èterez/n'q'l'm' éter
+SFX c2 étrer ètrerez/n'q'l'm' étrer
+SFX c2 évrer èvrerez/n'q'l'm' évrer
+SFX c2 éyer èyerez/n'q'l'm' éyer
+SFX c2 ébrer èbreront/n'q'l'm't's' ébrer
+SFX c2 écer èceront/n'q'l'm't's' écer
+SFX c2 écher ècheront/n'q'l'm't's' écher
+SFX c2 écrer ècreront/n'q'l'm't's' écrer
+SFX c2 éder èderont/n'q'l'm't's' éder
+SFX c2 éger ègeront/n'q'l'm't's' éger
+SFX c2 égler ègleront/n'q'l'm't's' égler
+SFX c2 égner ègneront/n'q'l'm't's' égner
+SFX c2 égrer ègreront/n'q'l'm't's' égrer
+SFX c2 éguer ègueront/n'q'l'm't's' éguer
+SFX c2 éler èleront/n'q'l'm't's' éler
+SFX c2 émer èmeront/n'q'l'm't's' émer
+SFX c2 éner èneront/n'q'l'm't's' éner
+SFX c2 éper èperont/n'q'l'm't's' éper
+SFX c2 équer èqueront/n'q'l'm't's' équer
+SFX c2 érer èreront/n'q'l'm't's' érer
+SFX c2 éser èseront/n'q'l'm't's' éser
+SFX c2 éter èteront/n'q'l'm't's' éter
+SFX c2 étrer ètreront/n'q'l'm't's' étrer
+SFX c2 évrer èvreront/n'q'l'm't's' évrer
+SFX c2 éyer èyeront/n'q'l'm't's' éyer
+SFX c2 ébrer èbrerais/n'q'j'l'm't' ébrer
+SFX c2 écer ècerais/n'q'j'l'm't' écer
+SFX c2 écher ècherais/n'q'j'l'm't' écher
+SFX c2 écrer ècrerais/n'q'j'l'm't' écrer
+SFX c2 éder èderais/n'q'j'l'm't' éder
+SFX c2 éger ègerais/n'q'j'l'm't' éger
+SFX c2 égler èglerais/n'q'j'l'm't' égler
+SFX c2 égner ègnerais/n'q'j'l'm't' égner
+SFX c2 égrer ègrerais/n'q'j'l'm't' égrer
+SFX c2 éguer èguerais/n'q'j'l'm't' éguer
+SFX c2 éler èlerais/n'q'j'l'm't' éler
+SFX c2 émer èmerais/n'q'j'l'm't' émer
+SFX c2 éner ènerais/n'q'j'l'm't' éner
+SFX c2 éper èperais/n'q'j'l'm't' éper
+SFX c2 équer èquerais/n'q'j'l'm't' équer
+SFX c2 érer èrerais/n'q'j'l'm't' érer
+SFX c2 éser èserais/n'q'j'l'm't' éser
+SFX c2 éter èterais/n'q'j'l'm't' éter
+SFX c2 étrer ètrerais/n'q'j'l'm't' étrer
+SFX c2 évrer èvrerais/n'q'j'l'm't' évrer
+SFX c2 éyer èyerais/n'q'j'l'm't' éyer
+SFX c2 ébrer èbrerait/n'q'l'm't's' ébrer
+SFX c2 écer ècerait/n'q'l'm't's' écer
+SFX c2 écher ècherait/n'q'l'm't's' écher
+SFX c2 écrer ècrerait/n'q'l'm't's' écrer
+SFX c2 éder èderait/n'q'l'm't's' éder
+SFX c2 éger ègerait/n'q'l'm't's' éger
+SFX c2 égler èglerait/n'q'l'm't's' égler
+SFX c2 égner ègnerait/n'q'l'm't's' égner
+SFX c2 égrer ègrerait/n'q'l'm't's' égrer
+SFX c2 éguer èguerait/n'q'l'm't's' éguer
+SFX c2 éler èlerait/n'q'l'm't's' éler
+SFX c2 émer èmerait/n'q'l'm't's' émer
+SFX c2 éner ènerait/n'q'l'm't's' éner
+SFX c2 éper èperait/n'q'l'm't's' éper
+SFX c2 équer èquerait/n'q'l'm't's' équer
+SFX c2 érer èrerait/n'q'l'm't's' érer
+SFX c2 éser èserait/n'q'l'm't's' éser
+SFX c2 éter èterait/n'q'l'm't's' éter
+SFX c2 étrer ètrerait/n'q'l'm't's' étrer
+SFX c2 évrer èvrerait/n'q'l'm't's' évrer
+SFX c2 éyer èyerait/n'q'l'm't's' éyer
+SFX c2 ébrer èbrerions/n'q'l't' ébrer
+SFX c2 écer ècerions/n'q'l't' écer
+SFX c2 écher ècherions/n'q'l't' écher
+SFX c2 écrer ècrerions/n'q'l't' écrer
+SFX c2 éder èderions/n'q'l't' éder
+SFX c2 éger ègerions/n'q'l't' éger
+SFX c2 égler èglerions/n'q'l't' égler
+SFX c2 égner ègnerions/n'q'l't' égner
+SFX c2 égrer ègrerions/n'q'l't' égrer
+SFX c2 éguer èguerions/n'q'l't' éguer
+SFX c2 éler èlerions/n'q'l't' éler
+SFX c2 émer èmerions/n'q'l't' émer
+SFX c2 éner ènerions/n'q'l't' éner
+SFX c2 éper èperions/n'q'l't' éper
+SFX c2 équer èquerions/n'q'l't' équer
+SFX c2 érer èrerions/n'q'l't' érer
+SFX c2 éser èserions/n'q'l't' éser
+SFX c2 éter èterions/n'q'l't' éter
+SFX c2 étrer ètrerions/n'q'l't' étrer
+SFX c2 évrer èvrerions/n'q'l't' évrer
+SFX c2 éyer èyerions/n'q'l't' éyer
+SFX c2 ébrer èbreriez/n'q'l'm' ébrer
+SFX c2 écer èceriez/n'q'l'm' écer
+SFX c2 écher ècheriez/n'q'l'm' écher
+SFX c2 écrer ècreriez/n'q'l'm' écrer
+SFX c2 éder èderiez/n'q'l'm' éder
+SFX c2 éger ègeriez/n'q'l'm' éger
+SFX c2 égler ègleriez/n'q'l'm' égler
+SFX c2 égner ègneriez/n'q'l'm' égner
+SFX c2 égrer ègreriez/n'q'l'm' égrer
+SFX c2 éguer ègueriez/n'q'l'm' éguer
+SFX c2 éler èleriez/n'q'l'm' éler
+SFX c2 émer èmeriez/n'q'l'm' émer
+SFX c2 éner èneriez/n'q'l'm' éner
+SFX c2 éper èperiez/n'q'l'm' éper
+SFX c2 équer èqueriez/n'q'l'm' équer
+SFX c2 érer èreriez/n'q'l'm' érer
+SFX c2 éser èseriez/n'q'l'm' éser
+SFX c2 éter èteriez/n'q'l'm' éter
+SFX c2 étrer ètreriez/n'q'l'm' étrer
+SFX c2 évrer èvreriez/n'q'l'm' évrer
+SFX c2 éyer èyeriez/n'q'l'm' éyer
+SFX c2 ébrer èbreraient/n'q'l'm't's' ébrer
+SFX c2 écer èceraient/n'q'l'm't's' écer
+SFX c2 écher ècheraient/n'q'l'm't's' écher
+SFX c2 écrer ècreraient/n'q'l'm't's' écrer
+SFX c2 éder èderaient/n'q'l'm't's' éder
+SFX c2 éger ègeraient/n'q'l'm't's' éger
+SFX c2 égler ègleraient/n'q'l'm't's' égler
+SFX c2 égner ègneraient/n'q'l'm't's' égner
+SFX c2 égrer ègreraient/n'q'l'm't's' égrer
+SFX c2 éguer ègueraient/n'q'l'm't's' éguer
+SFX c2 éler èleraient/n'q'l'm't's' éler
+SFX c2 émer èmeraient/n'q'l'm't's' émer
+SFX c2 éner èneraient/n'q'l'm't's' éner
+SFX c2 éper èperaient/n'q'l'm't's' éper
+SFX c2 équer èqueraient/n'q'l'm't's' équer
+SFX c2 érer èreraient/n'q'l'm't's' érer
+SFX c2 éser èseraient/n'q'l'm't's' éser
+SFX c2 éter èteraient/n'q'l'm't's' éter
+SFX c2 étrer ètreraient/n'q'l'm't's' étrer
+SFX c2 évrer èvreraient/n'q'l'm't's' évrer
+SFX c2 éyer èyeraient/n'q'l'm't's' éyer
 SFX c2 er asse/n'q'j'l't' [^cg]er
 SFX c2 écer éçasse/n'q'j'l't' écer
 SFX c2 éger égeasse/n'q'j'l't' éger
@@ -3484,7 +3780,7 @@ SFX c2 écer éçons/n'l' écer
 SFX c2 éger égeons/n'l' éger
 SFX c2 er ez/n'l'm' er
 
-SFX c3 Y {{BUILD.NUMRULES}}
+SFX c3 Y 373
 SFX c3 er er/m't's' er
 SFX c3 er ant/m't's' [^cg]er
 SFX c3 écer éçant/m't's' écer
@@ -3510,6 +3806,7 @@ SFX c3 éter ète/m's' éter
 SFX c3 étrer ètre/m's' étrer
 SFX c3 évrer èvre/m's' évrer
 SFX c3 éyer èye/m's' éyer
+SFX c3 er è/m' er
 SFX c3 ébrer èbres/t' ébrer
 SFX c3 écer èces/t' écer
 SFX c3 écher èches/t' écher
@@ -3583,17 +3880,237 @@ SFX c3 er âtes [^cg]er
 SFX c3 écer éçâtes écer
 SFX c3 éger égeâtes éger
 SFX c3 er èrent/s' er
-SFX c3 er erai/m' er
-SFX c3 er eras/t' er
-SFX c3 er era/s' er
-SFX c3 er erons er
-SFX c3 er erez er
-SFX c3 er eront/s' er
-SFX c3 er erais/m't' er
-SFX c3 er erait/s' er
-SFX c3 er erions er
-SFX c3 er eriez er
-SFX c3 er eraient/s' er
+SFX c3 ébrer èbrerai/m' ébrer
+SFX c3 écer ècerai/m' écer
+SFX c3 écher ècherai/m' écher
+SFX c3 écrer ècrerai/m' écrer
+SFX c3 éder èderai/m' éder
+SFX c3 éger ègerai/m' éger
+SFX c3 égler èglerai/m' égler
+SFX c3 égner ègnerai/m' égner
+SFX c3 égrer ègrerai/m' égrer
+SFX c3 éguer èguerai/m' éguer
+SFX c3 éler èlerai/m' éler
+SFX c3 émer èmerai/m' émer
+SFX c3 éner ènerai/m' éner
+SFX c3 éper èperai/m' éper
+SFX c3 équer èquerai/m' équer
+SFX c3 érer èrerai/m' érer
+SFX c3 éser èserai/m' éser
+SFX c3 éter èterai/m' éter
+SFX c3 étrer ètrerai/m' étrer
+SFX c3 évrer èvrerai/m' évrer
+SFX c3 éyer èyerai/m' éyer
+SFX c3 ébrer èbreras/t' ébrer
+SFX c3 écer èceras/t' écer
+SFX c3 écher ècheras/t' écher
+SFX c3 écrer ècreras/t' écrer
+SFX c3 éder èderas/t' éder
+SFX c3 éger ègeras/t' éger
+SFX c3 égler ègleras/t' égler
+SFX c3 égner ègneras/t' égner
+SFX c3 égrer ègreras/t' égrer
+SFX c3 éguer ègueras/t' éguer
+SFX c3 éler èleras/t' éler
+SFX c3 émer èmeras/t' émer
+SFX c3 éner èneras/t' éner
+SFX c3 éper èperas/t' éper
+SFX c3 équer èqueras/t' équer
+SFX c3 érer èreras/t' érer
+SFX c3 éser èseras/t' éser
+SFX c3 éter èteras/t' éter
+SFX c3 étrer ètreras/t' étrer
+SFX c3 évrer èvreras/t' évrer
+SFX c3 éyer èyeras/t' éyer
+SFX c3 ébrer èbrera/s' ébrer
+SFX c3 écer ècera/s' écer
+SFX c3 écher èchera/s' écher
+SFX c3 écrer ècrera/s' écrer
+SFX c3 éder èdera/s' éder
+SFX c3 éger ègera/s' éger
+SFX c3 égler èglera/s' égler
+SFX c3 égner ègnera/s' égner
+SFX c3 égrer ègrera/s' égrer
+SFX c3 éguer èguera/s' éguer
+SFX c3 éler èlera/s' éler
+SFX c3 émer èmera/s' émer
+SFX c3 éner ènera/s' éner
+SFX c3 éper èpera/s' éper
+SFX c3 équer èquera/s' équer
+SFX c3 érer èrera/s' érer
+SFX c3 éser èsera/s' éser
+SFX c3 éter ètera/s' éter
+SFX c3 étrer ètrera/s' étrer
+SFX c3 évrer èvrera/s' évrer
+SFX c3 éyer èyera/s' éyer
+SFX c3 ébrer èbrerons ébrer
+SFX c3 écer ècerons écer
+SFX c3 écher ècherons écher
+SFX c3 écrer ècrerons écrer
+SFX c3 éder èderons éder
+SFX c3 éger ègerons éger
+SFX c3 égler èglerons égler
+SFX c3 égner ègnerons égner
+SFX c3 égrer ègrerons égrer
+SFX c3 éguer èguerons éguer
+SFX c3 éler èlerons éler
+SFX c3 émer èmerons émer
+SFX c3 éner ènerons éner
+SFX c3 éper èperons éper
+SFX c3 équer èquerons équer
+SFX c3 érer èrerons érer
+SFX c3 éser èserons éser
+SFX c3 éter èterons éter
+SFX c3 étrer ètrerons étrer
+SFX c3 évrer èvrerons évrer
+SFX c3 éyer èyerons éyer
+SFX c3 ébrer èbrerez ébrer
+SFX c3 écer ècerez écer
+SFX c3 écher ècherez écher
+SFX c3 écrer ècrerez écrer
+SFX c3 éder èderez éder
+SFX c3 éger ègerez éger
+SFX c3 égler èglerez égler
+SFX c3 égner ègnerez égner
+SFX c3 égrer ègrerez égrer
+SFX c3 éguer èguerez éguer
+SFX c3 éler èlerez éler
+SFX c3 émer èmerez émer
+SFX c3 éner ènerez éner
+SFX c3 éper èperez éper
+SFX c3 équer èquerez équer
+SFX c3 érer èrerez érer
+SFX c3 éser èserez éser
+SFX c3 éter èterez éter
+SFX c3 étrer ètrerez étrer
+SFX c3 évrer èvrerez évrer
+SFX c3 éyer èyerez éyer
+SFX c3 ébrer èbreront/s' ébrer
+SFX c3 écer èceront/s' écer
+SFX c3 écher ècheront/s' écher
+SFX c3 écrer ècreront/s' écrer
+SFX c3 éder èderont/s' éder
+SFX c3 éger ègeront/s' éger
+SFX c3 égler ègleront/s' égler
+SFX c3 égner ègneront/s' égner
+SFX c3 égrer ègreront/s' égrer
+SFX c3 éguer ègueront/s' éguer
+SFX c3 éler èleront/s' éler
+SFX c3 émer èmeront/s' émer
+SFX c3 éner èneront/s' éner
+SFX c3 éper èperont/s' éper
+SFX c3 équer èqueront/s' équer
+SFX c3 érer èreront/s' érer
+SFX c3 éser èseront/s' éser
+SFX c3 éter èteront/s' éter
+SFX c3 étrer ètreront/s' étrer
+SFX c3 évrer èvreront/s' évrer
+SFX c3 éyer èyeront/s' éyer
+SFX c3 ébrer èbrerais/m't' ébrer
+SFX c3 écer ècerais/m't' écer
+SFX c3 écher ècherais/m't' écher
+SFX c3 écrer ècrerais/m't' écrer
+SFX c3 éder èderais/m't' éder
+SFX c3 éger ègerais/m't' éger
+SFX c3 égler èglerais/m't' égler
+SFX c3 égner ègnerais/m't' égner
+SFX c3 égrer ègrerais/m't' égrer
+SFX c3 éguer èguerais/m't' éguer
+SFX c3 éler èlerais/m't' éler
+SFX c3 émer èmerais/m't' émer
+SFX c3 éner ènerais/m't' éner
+SFX c3 éper èperais/m't' éper
+SFX c3 équer èquerais/m't' équer
+SFX c3 érer èrerais/m't' érer
+SFX c3 éser èserais/m't' éser
+SFX c3 éter èterais/m't' éter
+SFX c3 étrer ètrerais/m't' étrer
+SFX c3 évrer èvrerais/m't' évrer
+SFX c3 éyer èyerais/m't' éyer
+SFX c3 ébrer èbrerait/s' ébrer
+SFX c3 écer ècerait/s' écer
+SFX c3 écher ècherait/s' écher
+SFX c3 écrer ècrerait/s' écrer
+SFX c3 éder èderait/s' éder
+SFX c3 éger ègerait/s' éger
+SFX c3 égler èglerait/s' égler
+SFX c3 égner ègnerait/s' égner
+SFX c3 égrer ègrerait/s' égrer
+SFX c3 éguer èguerait/s' éguer
+SFX c3 éler èlerait/s' éler
+SFX c3 émer èmerait/s' émer
+SFX c3 éner ènerait/s' éner
+SFX c3 éper èperait/s' éper
+SFX c3 équer èquerait/s' équer
+SFX c3 érer èrerait/s' érer
+SFX c3 éser èserait/s' éser
+SFX c3 éter èterait/s' éter
+SFX c3 étrer ètrerait/s' étrer
+SFX c3 évrer èvrerait/s' évrer
+SFX c3 éyer èyerait/s' éyer
+SFX c3 ébrer èbrerions ébrer
+SFX c3 écer ècerions écer
+SFX c3 écher ècherions écher
+SFX c3 écrer ècrerions écrer
+SFX c3 éder èderions éder
+SFX c3 éger ègerions éger
+SFX c3 égler èglerions égler
+SFX c3 égner ègnerions égner
+SFX c3 égrer ègrerions égrer
+SFX c3 éguer èguerions éguer
+SFX c3 éler èlerions éler
+SFX c3 émer èmerions émer
+SFX c3 éner ènerions éner
+SFX c3 éper èperions éper
+SFX c3 équer èquerions équer
+SFX c3 érer èrerions érer
+SFX c3 éser èserions éser
+SFX c3 éter èterions éter
+SFX c3 étrer ètrerions étrer
+SFX c3 évrer èvrerions évrer
+SFX c3 éyer èyerions éyer
+SFX c3 ébrer èbreriez ébrer
+SFX c3 écer èceriez écer
+SFX c3 écher ècheriez écher
+SFX c3 écrer ècreriez écrer
+SFX c3 éder èderiez éder
+SFX c3 éger ègeriez éger
+SFX c3 égler ègleriez égler
+SFX c3 égner ègneriez égner
+SFX c3 égrer ègreriez égrer
+SFX c3 éguer ègueriez éguer
+SFX c3 éler èleriez éler
+SFX c3 émer èmeriez émer
+SFX c3 éner èneriez éner
+SFX c3 éper èperiez éper
+SFX c3 équer èqueriez équer
+SFX c3 érer èreriez érer
+SFX c3 éser èseriez éser
+SFX c3 éter èteriez éter
+SFX c3 étrer ètreriez étrer
+SFX c3 évrer èvreriez évrer
+SFX c3 éyer èyeriez éyer
+SFX c3 ébrer èbreraient/s' ébrer
+SFX c3 écer èceraient/s' écer
+SFX c3 écher ècheraient/s' écher
+SFX c3 écrer ècreraient/s' écrer
+SFX c3 éder èderaient/s' éder
+SFX c3 éger ègeraient/s' éger
+SFX c3 égler ègleraient/s' égler
+SFX c3 égner ègneraient/s' égner
+SFX c3 égrer ègreraient/s' égrer
+SFX c3 éguer ègueraient/s' éguer
+SFX c3 éler èleraient/s' éler
+SFX c3 émer èmeraient/s' émer
+SFX c3 éner èneraient/s' éner
+SFX c3 éper èperaient/s' éper
+SFX c3 équer èqueraient/s' équer
+SFX c3 érer èreraient/s' érer
+SFX c3 éser èseraient/s' éser
+SFX c3 éter èteraient/s' éter
+SFX c3 étrer ètreraient/s' étrer
+SFX c3 évrer èvreraient/s' évrer
+SFX c3 éyer èyeraient/s' éyer
 SFX c3 er asse/m' [^cg]er
 SFX c3 écer éçasse/m' écer
 SFX c3 éger égeasse/m' éger
@@ -3638,7 +4155,7 @@ SFX c3 écer éçons écer
 SFX c3 éger égeons éger
 SFX c3 er ez er
 
-SFX c4 Y {{BUILD.NUMRULES}}
+SFX c4 Y 373
 SFX c4 er er/n'q'd'l'm't's' er
 SFX c4 er ant/n'q'l'm't's' [^cg]er
 SFX c4 écer éçant/n'q'l'm't's' écer
@@ -3664,6 +4181,7 @@ SFX c4 éter ète/n'q'j'l'm't's' éter
 SFX c4 étrer ètre/n'q'j'l'm't's' étrer
 SFX c4 évrer èvre/n'q'j'l'm't's' évrer
 SFX c4 éyer èye/n'q'j'l'm't's' éyer
+SFX c4 er è/n'q'l'm't' er
 SFX c4 ébrer èbres/n'q'l'm't' ébrer
 SFX c4 écer èces/n'q'l'm't' écer
 SFX c4 écher èches/n'q'l'm't' écher
@@ -3737,17 +4255,237 @@ SFX c4 er âtes/n'q'l'm' [^cg]er
 SFX c4 écer éçâtes/n'q'l'm' écer
 SFX c4 éger égeâtes/n'q'l'm' éger
 SFX c4 er èrent/n'q'l'm't's' er
-SFX c4 er erai/n'q'j'l'm't' er
-SFX c4 er eras/n'q'l'm't' er
-SFX c4 er era/n'q'l'm't's' er
-SFX c4 er erons/n'q'l't' er
-SFX c4 er erez/n'q'l'm' er
-SFX c4 er eront/n'q'l'm't's' er
-SFX c4 er erais/n'q'j'l'm't' er
-SFX c4 er erait/n'q'l'm't's' er
-SFX c4 er erions/n'q'l't' er
-SFX c4 er eriez/n'q'l'm' er
-SFX c4 er eraient/n'q'l'm't's' er
+SFX c4 ébrer èbrerai/n'q'j'l'm't' ébrer
+SFX c4 écer ècerai/n'q'j'l'm't' écer
+SFX c4 écher ècherai/n'q'j'l'm't' écher
+SFX c4 écrer ècrerai/n'q'j'l'm't' écrer
+SFX c4 éder èderai/n'q'j'l'm't' éder
+SFX c4 éger ègerai/n'q'j'l'm't' éger
+SFX c4 égler èglerai/n'q'j'l'm't' égler
+SFX c4 égner ègnerai/n'q'j'l'm't' égner
+SFX c4 égrer ègrerai/n'q'j'l'm't' égrer
+SFX c4 éguer èguerai/n'q'j'l'm't' éguer
+SFX c4 éler èlerai/n'q'j'l'm't' éler
+SFX c4 émer èmerai/n'q'j'l'm't' émer
+SFX c4 éner ènerai/n'q'j'l'm't' éner
+SFX c4 éper èperai/n'q'j'l'm't' éper
+SFX c4 équer èquerai/n'q'j'l'm't' équer
+SFX c4 érer èrerai/n'q'j'l'm't' érer
+SFX c4 éser èserai/n'q'j'l'm't' éser
+SFX c4 éter èterai/n'q'j'l'm't' éter
+SFX c4 étrer ètrerai/n'q'j'l'm't' étrer
+SFX c4 évrer èvrerai/n'q'j'l'm't' évrer
+SFX c4 éyer èyerai/n'q'j'l'm't' éyer
+SFX c4 ébrer èbreras/n'q'l'm't' ébrer
+SFX c4 écer èceras/n'q'l'm't' écer
+SFX c4 écher ècheras/n'q'l'm't' écher
+SFX c4 écrer ècreras/n'q'l'm't' écrer
+SFX c4 éder èderas/n'q'l'm't' éder
+SFX c4 éger ègeras/n'q'l'm't' éger
+SFX c4 égler ègleras/n'q'l'm't' égler
+SFX c4 égner ègneras/n'q'l'm't' égner
+SFX c4 égrer ègreras/n'q'l'm't' égrer
+SFX c4 éguer ègueras/n'q'l'm't' éguer
+SFX c4 éler èleras/n'q'l'm't' éler
+SFX c4 émer èmeras/n'q'l'm't' émer
+SFX c4 éner èneras/n'q'l'm't' éner
+SFX c4 éper èperas/n'q'l'm't' éper
+SFX c4 équer èqueras/n'q'l'm't' équer
+SFX c4 érer èreras/n'q'l'm't' érer
+SFX c4 éser èseras/n'q'l'm't' éser
+SFX c4 éter èteras/n'q'l'm't' éter
+SFX c4 étrer ètreras/n'q'l'm't' étrer
+SFX c4 évrer èvreras/n'q'l'm't' évrer
+SFX c4 éyer èyeras/n'q'l'm't' éyer
+SFX c4 ébrer èbrera/n'q'l'm't's' ébrer
+SFX c4 écer ècera/n'q'l'm't's' écer
+SFX c4 écher èchera/n'q'l'm't's' écher
+SFX c4 écrer ècrera/n'q'l'm't's' écrer
+SFX c4 éder èdera/n'q'l'm't's' éder
+SFX c4 éger ègera/n'q'l'm't's' éger
+SFX c4 égler èglera/n'q'l'm't's' égler
+SFX c4 égner ègnera/n'q'l'm't's' égner
+SFX c4 égrer ègrera/n'q'l'm't's' égrer
+SFX c4 éguer èguera/n'q'l'm't's' éguer
+SFX c4 éler èlera/n'q'l'm't's' éler
+SFX c4 émer èmera/n'q'l'm't's' émer
+SFX c4 éner ènera/n'q'l'm't's' éner
+SFX c4 éper èpera/n'q'l'm't's' éper
+SFX c4 équer èquera/n'q'l'm't's' équer
+SFX c4 érer èrera/n'q'l'm't's' érer
+SFX c4 éser èsera/n'q'l'm't's' éser
+SFX c4 éter ètera/n'q'l'm't's' éter
+SFX c4 étrer ètrera/n'q'l'm't's' étrer
+SFX c4 évrer èvrera/n'q'l'm't's' évrer
+SFX c4 éyer èyera/n'q'l'm't's' éyer
+SFX c4 ébrer èbrerons/n'q'l't' ébrer
+SFX c4 écer ècerons/n'q'l't' écer
+SFX c4 écher ècherons/n'q'l't' écher
+SFX c4 écrer ècrerons/n'q'l't' écrer
+SFX c4 éder èderons/n'q'l't' éder
+SFX c4 éger ègerons/n'q'l't' éger
+SFX c4 égler èglerons/n'q'l't' égler
+SFX c4 égner ègnerons/n'q'l't' égner
+SFX c4 égrer ègrerons/n'q'l't' égrer
+SFX c4 éguer èguerons/n'q'l't' éguer
+SFX c4 éler èlerons/n'q'l't' éler
+SFX c4 émer èmerons/n'q'l't' émer
+SFX c4 éner ènerons/n'q'l't' éner
+SFX c4 éper èperons/n'q'l't' éper
+SFX c4 équer èquerons/n'q'l't' équer
+SFX c4 érer èrerons/n'q'l't' érer
+SFX c4 éser èserons/n'q'l't' éser
+SFX c4 éter èterons/n'q'l't' éter
+SFX c4 étrer ètrerons/n'q'l't' étrer
+SFX c4 évrer èvrerons/n'q'l't' évrer
+SFX c4 éyer èyerons/n'q'l't' éyer
+SFX c4 ébrer èbrerez/n'q'l'm' ébrer
+SFX c4 écer ècerez/n'q'l'm' écer
+SFX c4 écher ècherez/n'q'l'm' écher
+SFX c4 écrer ècrerez/n'q'l'm' écrer
+SFX c4 éder èderez/n'q'l'm' éder
+SFX c4 éger ègerez/n'q'l'm' éger
+SFX c4 égler èglerez/n'q'l'm' égler
+SFX c4 égner ègnerez/n'q'l'm' égner
+SFX c4 égrer ègrerez/n'q'l'm' égrer
+SFX c4 éguer èguerez/n'q'l'm' éguer
+SFX c4 éler èlerez/n'q'l'm' éler
+SFX c4 émer èmerez/n'q'l'm' émer
+SFX c4 éner ènerez/n'q'l'm' éner
+SFX c4 éper èperez/n'q'l'm' éper
+SFX c4 équer èquerez/n'q'l'm' équer
+SFX c4 érer èrerez/n'q'l'm' érer
+SFX c4 éser èserez/n'q'l'm' éser
+SFX c4 éter èterez/n'q'l'm' éter
+SFX c4 étrer ètrerez/n'q'l'm' étrer
+SFX c4 évrer èvrerez/n'q'l'm' évrer
+SFX c4 éyer èyerez/n'q'l'm' éyer
+SFX c4 ébrer èbreront/n'q'l'm't's' ébrer
+SFX c4 écer èceront/n'q'l'm't's' écer
+SFX c4 écher ècheront/n'q'l'm't's' écher
+SFX c4 écrer ècreront/n'q'l'm't's' écrer
+SFX c4 éder èderont/n'q'l'm't's' éder
+SFX c4 éger ègeront/n'q'l'm't's' éger
+SFX c4 égler ègleront/n'q'l'm't's' égler
+SFX c4 égner ègneront/n'q'l'm't's' égner
+SFX c4 égrer ègreront/n'q'l'm't's' égrer
+SFX c4 éguer ègueront/n'q'l'm't's' éguer
+SFX c4 éler èleront/n'q'l'm't's' éler
+SFX c4 émer èmeront/n'q'l'm't's' émer
+SFX c4 éner èneront/n'q'l'm't's' éner
+SFX c4 éper èperont/n'q'l'm't's' éper
+SFX c4 équer èqueront/n'q'l'm't's' équer
+SFX c4 érer èreront/n'q'l'm't's' érer
+SFX c4 éser èseront/n'q'l'm't's' éser
+SFX c4 éter èteront/n'q'l'm't's' éter
+SFX c4 étrer ètreront/n'q'l'm't's' étrer
+SFX c4 évrer èvreront/n'q'l'm't's' évrer
+SFX c4 éyer èyeront/n'q'l'm't's' éyer
+SFX c4 ébrer èbrerais/n'q'j'l'm't' ébrer
+SFX c4 écer ècerais/n'q'j'l'm't' écer
+SFX c4 écher ècherais/n'q'j'l'm't' écher
+SFX c4 écrer ècrerais/n'q'j'l'm't' écrer
+SFX c4 éder èderais/n'q'j'l'm't' éder
+SFX c4 éger ègerais/n'q'j'l'm't' éger
+SFX c4 égler èglerais/n'q'j'l'm't' égler
+SFX c4 égner ègnerais/n'q'j'l'm't' égner
+SFX c4 égrer ègrerais/n'q'j'l'm't' égrer
+SFX c4 éguer èguerais/n'q'j'l'm't' éguer
+SFX c4 éler èlerais/n'q'j'l'm't' éler
+SFX c4 émer èmerais/n'q'j'l'm't' émer
+SFX c4 éner ènerais/n'q'j'l'm't' éner
+SFX c4 éper èperais/n'q'j'l'm't' éper
+SFX c4 équer èquerais/n'q'j'l'm't' équer
+SFX c4 érer èrerais/n'q'j'l'm't' érer
+SFX c4 éser èserais/n'q'j'l'm't' éser
+SFX c4 éter èterais/n'q'j'l'm't' éter
+SFX c4 étrer ètrerais/n'q'j'l'm't' étrer
+SFX c4 évrer èvrerais/n'q'j'l'm't' évrer
+SFX c4 éyer èyerais/n'q'j'l'm't' éyer
+SFX c4 ébrer èbrerait/n'q'l'm't's' ébrer
+SFX c4 écer ècerait/n'q'l'm't's' écer
+SFX c4 écher ècherait/n'q'l'm't's' écher
+SFX c4 écrer ècrerait/n'q'l'm't's' écrer
+SFX c4 éder èderait/n'q'l'm't's' éder
+SFX c4 éger ègerait/n'q'l'm't's' éger
+SFX c4 égler èglerait/n'q'l'm't's' égler
+SFX c4 égner ègnerait/n'q'l'm't's' égner
+SFX c4 égrer ègrerait/n'q'l'm't's' égrer
+SFX c4 éguer èguerait/n'q'l'm't's' éguer
+SFX c4 éler èlerait/n'q'l'm't's' éler
+SFX c4 émer èmerait/n'q'l'm't's' émer
+SFX c4 éner ènerait/n'q'l'm't's' éner
+SFX c4 éper èperait/n'q'l'm't's' éper
+SFX c4 équer èquerait/n'q'l'm't's' équer
+SFX c4 érer èrerait/n'q'l'm't's' érer
+SFX c4 éser èserait/n'q'l'm't's' éser
+SFX c4 éter èterait/n'q'l'm't's' éter
+SFX c4 étrer ètrerait/n'q'l'm't's' étrer
+SFX c4 évrer èvrerait/n'q'l'm't's' évrer
+SFX c4 éyer èyerait/n'q'l'm't's' éyer
+SFX c4 ébrer èbrerions/n'q'l't' ébrer
+SFX c4 écer ècerions/n'q'l't' écer
+SFX c4 écher ècherions/n'q'l't' écher
+SFX c4 écrer ècrerions/n'q'l't' écrer
+SFX c4 éder èderions/n'q'l't' éder
+SFX c4 éger ègerions/n'q'l't' éger
+SFX c4 égler èglerions/n'q'l't' égler
+SFX c4 égner ègnerions/n'q'l't' égner
+SFX c4 égrer ègrerions/n'q'l't' égrer
+SFX c4 éguer èguerions/n'q'l't' éguer
+SFX c4 éler èlerions/n'q'l't' éler
+SFX c4 émer èmerions/n'q'l't' émer
+SFX c4 éner ènerions/n'q'l't' éner
+SFX c4 éper èperions/n'q'l't' éper
+SFX c4 équer èquerions/n'q'l't' équer
+SFX c4 érer èrerions/n'q'l't' érer
+SFX c4 éser èserions/n'q'l't' éser
+SFX c4 éter èterions/n'q'l't' éter
+SFX c4 étrer ètrerions/n'q'l't' étrer
+SFX c4 évrer èvrerions/n'q'l't' évrer
+SFX c4 éyer èyerions/n'q'l't' éyer
+SFX c4 ébrer èbreriez/n'q'l'm' ébrer
+SFX c4 écer èceriez/n'q'l'm' écer
+SFX c4 écher ècheriez/n'q'l'm' écher
+SFX c4 écrer ècreriez/n'q'l'm' écrer
+SFX c4 éder èderiez/n'q'l'm' éder
+SFX c4 éger ègeriez/n'q'l'm' éger
+SFX c4 égler ègleriez/n'q'l'm' égler
+SFX c4 égner ègneriez/n'q'l'm' égner
+SFX c4 égrer ègreriez/n'q'l'm' égrer
+SFX c4 éguer ègueriez/n'q'l'm' éguer
+SFX c4 éler èleriez/n'q'l'm' éler
+SFX c4 émer èmeriez/n'q'l'm' émer
+SFX c4 éner èneriez/n'q'l'm' éner
+SFX c4 éper èperiez/n'q'l'm' éper
+SFX c4 équer èqueriez/n'q'l'm' équer
+SFX c4 érer èreriez/n'q'l'm' érer
+SFX c4 éser èseriez/n'q'l'm' éser
+SFX c4 éter èteriez/n'q'l'm' éter
+SFX c4 étrer ètreriez/n'q'l'm' étrer
+SFX c4 évrer èvreriez/n'q'l'm' évrer
+SFX c4 éyer èyeriez/n'q'l'm' éyer
+SFX c4 ébrer èbreraient/n'q'l'm't's' ébrer
+SFX c4 écer èceraient/n'q'l'm't's' écer
+SFX c4 écher ècheraient/n'q'l'm't's' écher
+SFX c4 écrer ècreraient/n'q'l'm't's' écrer
+SFX c4 éder èderaient/n'q'l'm't's' éder
+SFX c4 éger ègeraient/n'q'l'm't's' éger
+SFX c4 égler ègleraient/n'q'l'm't's' égler
+SFX c4 égner ègneraient/n'q'l'm't's' égner
+SFX c4 égrer ègreraient/n'q'l'm't's' égrer
+SFX c4 éguer ègueraient/n'q'l'm't's' éguer
+SFX c4 éler èleraient/n'q'l'm't's' éler
+SFX c4 émer èmeraient/n'q'l'm't's' émer
+SFX c4 éner èneraient/n'q'l'm't's' éner
+SFX c4 éper èperaient/n'q'l'm't's' éper
+SFX c4 équer èqueraient/n'q'l'm't's' équer
+SFX c4 érer èreraient/n'q'l'm't's' érer
+SFX c4 éser èseraient/n'q'l'm't's' éser
+SFX c4 éter èteraient/n'q'l'm't's' éter
+SFX c4 étrer ètreraient/n'q'l'm't's' étrer
+SFX c4 évrer èvreraient/n'q'l'm't's' évrer
+SFX c4 éyer èyeraient/n'q'l'm't's' éyer
 SFX c4 er asse/n'q'j'l'm't' [^cg]er
 SFX c4 écer éçasse/n'q'j'l'm't' écer
 SFX c4 éger égeasse/n'q'j'l'm't' éger
@@ -3792,7 +4530,7 @@ SFX c4 écer éçons/n'l' écer
 SFX c4 éger égeons/n'l' éger
 SFX c4 er ez/n'l'm' er
 
-SFX c5 Y {{BUILD.NUMRULES}}
+SFX c5 Y 373
 SFX c5 er er/n'q'd'm't's' er
 SFX c5 er ant/n'q'm't's' [^cg]er
 SFX c5 écer éçant/m'q'm't's' écer
@@ -3818,6 +4556,7 @@ SFX c5 éter ète/n'q'j'm't's' éter
 SFX c5 étrer ètre/n'q'j'm't's' étrer
 SFX c5 évrer èvre/n'q'j'm't's' évrer
 SFX c5 éyer èye/n'q'j'm't's' éyer
+SFX c5 er è/n'm't' er
 SFX c5 ébrer èbres/n'm't' ébrer
 SFX c5 écer èces/n'm't' écer
 SFX c5 écher èches/n'm't' écher
@@ -3891,17 +4630,237 @@ SFX c5 er âtes/n'm' [^cg]er
 SFX c5 écer éçâtes/n'm' écer
 SFX c5 éger égeâtes/n'm' éger
 SFX c5 er èrent/n'q'm't's' er
-SFX c5 er erai/n'j'm't' er
-SFX c5 er eras/n'm't' er
-SFX c5 er era/n'q'm't's' er
-SFX c5 er erons/n't' er
-SFX c5 er erez/n'm' er
-SFX c5 er eront/n'q'm't's' er
-SFX c5 er erais/n'j'm't' er
-SFX c5 er erait/n'q'm't's' er
-SFX c5 er erions/n't' er
-SFX c5 er eriez/n'm' er
-SFX c5 er eraient/n'q'm't's' er
+SFX c5 ébrer èbrerai/n'j'm't' ébrer
+SFX c5 écer ècerai/n'j'm't' écer
+SFX c5 écher ècherai/n'j'm't' écher
+SFX c5 écrer ècrerai/n'j'm't' écrer
+SFX c5 éder èderai/n'j'm't' éder
+SFX c5 éger ègerai/n'j'm't' éger
+SFX c5 égler èglerai/n'j'm't' égler
+SFX c5 égner ègnerai/n'j'm't' égner
+SFX c5 égrer ègrerai/n'j'm't' égrer
+SFX c5 éguer èguerai/n'j'm't' éguer
+SFX c5 éler èlerai/n'j'm't' éler
+SFX c5 émer èmerai/n'j'm't' émer
+SFX c5 éner ènerai/n'j'm't' éner
+SFX c5 éper èperai/n'j'm't' éper
+SFX c5 équer èquerai/n'j'm't' équer
+SFX c5 érer èrerai/n'j'm't' érer
+SFX c5 éser èserai/n'j'm't' éser
+SFX c5 éter èterai/n'j'm't' éter
+SFX c5 étrer ètrerai/n'j'm't' étrer
+SFX c5 évrer èvrerai/n'j'm't' évrer
+SFX c5 éyer èyerai/n'j'm't' éyer
+SFX c5 ébrer èbreras/n'm't' ébrer
+SFX c5 écer èceras/n'm't' écer
+SFX c5 écher ècheras/n'm't' écher
+SFX c5 écrer ècreras/n'm't' écrer
+SFX c5 éder èderas/n'm't' éder
+SFX c5 éger ègeras/n'm't' éger
+SFX c5 égler ègleras/n'm't' égler
+SFX c5 égner ègneras/n'm't' égner
+SFX c5 égrer ègreras/n'm't' égrer
+SFX c5 éguer ègueras/n'm't' éguer
+SFX c5 éler èleras/n'm't' éler
+SFX c5 émer èmeras/n'm't' émer
+SFX c5 éner èneras/n'm't' éner
+SFX c5 éper èperas/n'm't' éper
+SFX c5 équer èqueras/n'm't' équer
+SFX c5 érer èreras/n'm't' érer
+SFX c5 éser èseras/n'm't' éser
+SFX c5 éter èteras/n'm't' éter
+SFX c5 étrer ètreras/n'm't' étrer
+SFX c5 évrer èvreras/n'm't' évrer
+SFX c5 éyer èyeras/n'm't' éyer
+SFX c5 ébrer èbrera/n'q'm't's' ébrer
+SFX c5 écer ècera/n'q'm't's' écer
+SFX c5 écher èchera/n'q'm't's' écher
+SFX c5 écrer ècrera/n'q'm't's' écrer
+SFX c5 éder èdera/n'q'm't's' éder
+SFX c5 éger ègera/n'q'm't's' éger
+SFX c5 égler èglera/n'q'm't's' égler
+SFX c5 égner ègnera/n'q'm't's' égner
+SFX c5 égrer ègrera/n'q'm't's' égrer
+SFX c5 éguer èguera/n'q'm't's' éguer
+SFX c5 éler èlera/n'q'm't's' éler
+SFX c5 émer èmera/n'q'm't's' émer
+SFX c5 éner ènera/n'q'm't's' éner
+SFX c5 éper èpera/n'q'm't's' éper
+SFX c5 équer èquera/n'q'm't's' équer
+SFX c5 érer èrera/n'q'm't's' érer
+SFX c5 éser èsera/n'q'm't's' éser
+SFX c5 éter ètera/n'q'm't's' éter
+SFX c5 étrer ètrera/n'q'm't's' étrer
+SFX c5 évrer èvrera/n'q'm't's' évrer
+SFX c5 éyer èyera/n'q'm't's' éyer
+SFX c5 ébrer èbrerons/n't' ébrer
+SFX c5 écer ècerons/n't' écer
+SFX c5 écher ècherons/n't' écher
+SFX c5 écrer ècrerons/n't' écrer
+SFX c5 éder èderons/n't' éder
+SFX c5 éger ègerons/n't' éger
+SFX c5 égler èglerons/n't' égler
+SFX c5 égner ègnerons/n't' égner
+SFX c5 égrer ègrerons/n't' égrer
+SFX c5 éguer èguerons/n't' éguer
+SFX c5 éler èlerons/n't' éler
+SFX c5 émer èmerons/n't' émer
+SFX c5 éner ènerons/n't' éner
+SFX c5 éper èperons/n't' éper
+SFX c5 équer èquerons/n't' équer
+SFX c5 érer èrerons/n't' érer
+SFX c5 éser èserons/n't' éser
+SFX c5 éter èterons/n't' éter
+SFX c5 étrer ètrerons/n't' étrer
+SFX c5 évrer èvrerons/n't' évrer
+SFX c5 éyer èyerons/n't' éyer
+SFX c5 ébrer èbrerez/n'm' ébrer
+SFX c5 écer ècerez/n'm' écer
+SFX c5 écher ècherez/n'm' écher
+SFX c5 écrer ècrerez/n'm' écrer
+SFX c5 éder èderez/n'm' éder
+SFX c5 éger ègerez/n'm' éger
+SFX c5 égler èglerez/n'm' égler
+SFX c5 égner ègnerez/n'm' égner
+SFX c5 égrer ègrerez/n'm' égrer
+SFX c5 éguer èguerez/n'm' éguer
+SFX c5 éler èlerez/n'm' éler
+SFX c5 émer èmerez/n'm' émer
+SFX c5 éner ènerez/n'm' éner
+SFX c5 éper èperez/n'm' éper
+SFX c5 équer èquerez/n'm' équer
+SFX c5 érer èrerez/n'm' érer
+SFX c5 éser èserez/n'm' éser
+SFX c5 éter èterez/n'm' éter
+SFX c5 étrer ètrerez/n'm' étrer
+SFX c5 évrer èvrerez/n'm' évrer
+SFX c5 éyer èyerez/n'm' éyer
+SFX c5 ébrer èbreront/n'q'm't's' ébrer
+SFX c5 écer èceront/n'q'm't's' écer
+SFX c5 écher ècheront/n'q'm't's' écher
+SFX c5 écrer ècreront/n'q'm't's' écrer
+SFX c5 éder èderont/n'q'm't's' éder
+SFX c5 éger ègeront/n'q'm't's' éger
+SFX c5 égler ègleront/n'q'm't's' égler
+SFX c5 égner ègneront/n'q'm't's' égner
+SFX c5 égrer ègreront/n'q'm't's' égrer
+SFX c5 éguer ègueront/n'q'm't's' éguer
+SFX c5 éler èleront/n'q'm't's' éler
+SFX c5 émer èmeront/n'q'm't's' émer
+SFX c5 éner èneront/n'q'm't's' éner
+SFX c5 éper èperont/n'q'm't's' éper
+SFX c5 équer èqueront/n'q'm't's' équer
+SFX c5 érer èreront/n'q'm't's' érer
+SFX c5 éser èseront/n'q'm't's' éser
+SFX c5 éter èteront/n'q'm't's' éter
+SFX c5 étrer ètreront/n'q'm't's' étrer
+SFX c5 évrer èvreront/n'q'm't's' évrer
+SFX c5 éyer èyeront/n'q'm't's' éyer
+SFX c5 ébrer èbrerais/n'j'm't' ébrer
+SFX c5 écer ècerais/n'j'm't' écer
+SFX c5 écher ècherais/n'j'm't' écher
+SFX c5 écrer ècrerais/n'j'm't' écrer
+SFX c5 éder èderais/n'j'm't' éder
+SFX c5 éger ègerais/n'j'm't' éger
+SFX c5 égler èglerais/n'j'm't' égler
+SFX c5 égner ègnerais/n'j'm't' égner
+SFX c5 égrer ègrerais/n'j'm't' égrer
+SFX c5 éguer èguerais/n'j'm't' éguer
+SFX c5 éler èlerais/n'j'm't' éler
+SFX c5 émer èmerais/n'j'm't' émer
+SFX c5 éner ènerais/n'j'm't' éner
+SFX c5 éper èperais/n'j'm't' éper
+SFX c5 équer èquerais/n'j'm't' équer
+SFX c5 érer èrerais/n'j'm't' érer
+SFX c5 éser èserais/n'j'm't' éser
+SFX c5 éter èterais/n'j'm't' éter
+SFX c5 étrer ètrerais/n'j'm't' étrer
+SFX c5 évrer èvrerais/n'j'm't' évrer
+SFX c5 éyer èyerais/n'j'm't' éyer
+SFX c5 ébrer èbrerait/n'q'm't's' ébrer
+SFX c5 écer ècerait/n'q'm't's' écer
+SFX c5 écher ècherait/n'q'm't's' écher
+SFX c5 écrer ècrerait/n'q'm't's' écrer
+SFX c5 éder èderait/n'q'm't's' éder
+SFX c5 éger ègerait/n'q'm't's' éger
+SFX c5 égler èglerait/n'q'm't's' égler
+SFX c5 égner ègnerait/n'q'm't's' égner
+SFX c5 égrer ègrerait/n'q'm't's' égrer
+SFX c5 éguer èguerait/n'q'm't's' éguer
+SFX c5 éler èlerait/n'q'm't's' éler
+SFX c5 émer èmerait/n'q'm't's' émer
+SFX c5 éner ènerait/n'q'm't's' éner
+SFX c5 éper èperait/n'q'm't's' éper
+SFX c5 équer èquerait/n'q'm't's' équer
+SFX c5 érer èrerait/n'q'm't's' érer
+SFX c5 éser èserait/n'q'm't's' éser
+SFX c5 éter èterait/n'q'm't's' éter
+SFX c5 étrer ètrerait/n'q'm't's' étrer
+SFX c5 évrer èvrerait/n'q'm't's' évrer
+SFX c5 éyer èyerait/n'q'm't's' éyer
+SFX c5 ébrer èbrerions/n't' ébrer
+SFX c5 écer ècerions/n't' écer
+SFX c5 écher ècherions/n't' écher
+SFX c5 écrer ècrerions/n't' écrer
+SFX c5 éder èderions/n't' éder
+SFX c5 éger ègerions/n't' éger
+SFX c5 égler èglerions/n't' égler
+SFX c5 égner ègnerions/n't' égner
+SFX c5 égrer ègrerions/n't' égrer
+SFX c5 éguer èguerions/n't' éguer
+SFX c5 éler èlerions/n't' éler
+SFX c5 émer èmerions/n't' émer
+SFX c5 éner ènerions/n't' éner
+SFX c5 éper èperions/n't' éper
+SFX c5 équer èquerions/n't' équer
+SFX c5 érer èrerions/n't' érer
+SFX c5 éser èserions/n't' éser
+SFX c5 éter èterions/n't' éter
+SFX c5 étrer ètrerions/n't' étrer
+SFX c5 évrer èvrerions/n't' évrer
+SFX c5 éyer èyerions/n't' éyer
+SFX c5 ébrer èbreriez/n'm' ébrer
+SFX c5 écer èceriez/n'm' écer
+SFX c5 écher ècheriez/n'm' écher
+SFX c5 écrer ècreriez/n'm' écrer
+SFX c5 éder èderiez/n'm' éder
+SFX c5 éger ègeriez/n'm' éger
+SFX c5 égler ègleriez/n'm' égler
+SFX c5 égner ègneriez/n'm' égner
+SFX c5 égrer ègreriez/n'm' égrer
+SFX c5 éguer ègueriez/n'm' éguer
+SFX c5 éler èleriez/n'm' éler
+SFX c5 émer èmeriez/n'm' émer
+SFX c5 éner èneriez/n'm' éner
+SFX c5 éper èperiez/n'm' éper
+SFX c5 équer èqueriez/n'm' équer
+SFX c5 érer èreriez/n'm' érer
+SFX c5 éser èseriez/n'm' éser
+SFX c5 éter èteriez/n'm' éter
+SFX c5 étrer ètreriez/n'm' étrer
+SFX c5 évrer èvreriez/n'm' évrer
+SFX c5 éyer èyeriez/n'm' éyer
+SFX c5 ébrer èbreraient/n'q'm't's' ébrer
+SFX c5 écer èceraient/n'q'm't's' écer
+SFX c5 écher ècheraient/n'q'm't's' écher
+SFX c5 écrer ècreraient/n'q'm't's' écrer
+SFX c5 éder èderaient/n'q'm't's' éder
+SFX c5 éger ègeraient/n'q'm't's' éger
+SFX c5 égler ègleraient/n'q'm't's' égler
+SFX c5 égner ègneraient/n'q'm't's' égner
+SFX c5 égrer ègreraient/n'q'm't's' égrer
+SFX c5 éguer ègueraient/n'q'm't's' éguer
+SFX c5 éler èleraient/n'q'm't's' éler
+SFX c5 émer èmeraient/n'q'm't's' émer
+SFX c5 éner èneraient/n'q'm't's' éner
+SFX c5 éper èperaient/n'q'm't's' éper
+SFX c5 équer èqueraient/n'q'm't's' équer
+SFX c5 érer èreraient/n'q'm't's' érer
+SFX c5 éser èseraient/n'q'm't's' éser
+SFX c5 éter èteraient/n'q'm't's' éter
+SFX c5 étrer ètreraient/n'q'm't's' étrer
+SFX c5 évrer èvreraient/n'q'm't's' évrer
+SFX c5 éyer èyeraient/n'q'm't's' éyer
 SFX c5 er asse/n'j'm't' [^cg]er
 SFX c5 écer éçasse/n'j'm't' écer
 SFX c5 éger égeasse/n'j'm't' éger
@@ -3946,22 +4905,23 @@ SFX c5 écer éçons/n' écer
 SFX c5 éger égeons/n' éger
 SFX c5 er ez/n' er
 
-SFX d0 N {{BUILD.NUMRULES}}
+SFX d0 N 83
 SFX d0 er ant er
 SFX d0 eter ette jeter
-SFX d0 eter ette [^j]eter
+SFX d0 eter ète [^j]eter
 SFX d0 eler elle ppeler
-SFX d0 eler elle [^p].eler
+SFX d0 eler èle [^p].eler
+SFX d0 er è er
 SFX d0 eter ettes jeter
-SFX d0 eter ettes [^j]eter
+SFX d0 eter ètes [^j]eter
 SFX d0 eler elles ppeler
-SFX d0 eler elles [^p].eler
+SFX d0 eler èles [^p].eler
 SFX d0 er ons er
 SFX d0 er ez er
 SFX d0 eter ettent jeter
-SFX d0 eter ettent [^j]eter
+SFX d0 eter ètent [^j]eter
 SFX d0 eler ellent ppeler
-SFX d0 eler ellent [^p].eler
+SFX d0 eler èlent [^p].eler
 SFX d0 er ais er
 SFX d0 er ait er
 SFX d0 er ions er
@@ -3974,49 +4934,49 @@ SFX d0 er âmes er
 SFX d0 er âtes er
 SFX d0 er èrent er
 SFX d0 eter etterai jeter
-SFX d0 eter etterai [^j]eter
+SFX d0 eter èterai [^j]eter
 SFX d0 eler ellerai ppeler
-SFX d0 eler ellerai [^p].eler
+SFX d0 eler èlerai [^p].eler
 SFX d0 eter etteras jeter
-SFX d0 eter etteras [^j]eter
+SFX d0 eter èteras [^j]eter
 SFX d0 eler elleras ppeler
-SFX d0 eler elleras [^p].eler
+SFX d0 eler èleras [^p].eler
 SFX d0 eter ettera jeter
-SFX d0 eter ettera [^j]eter
+SFX d0 eter ètera [^j]eter
 SFX d0 eler ellera ppeler
-SFX d0 eler ellera [^p].eler
+SFX d0 eler èlera [^p].eler
 SFX d0 eter etterons jeter
-SFX d0 eter etterons [^j]eter
+SFX d0 eter èterons [^j]eter
 SFX d0 eler ellerons ppeler
-SFX d0 eler ellerons [^p].eler
+SFX d0 eler èlerons [^p].eler
 SFX d0 eter etterez jeter
-SFX d0 eter etterez [^j]eter
+SFX d0 eter èterez [^j]eter
 SFX d0 eler ellerez ppeler
-SFX d0 eler ellerez [^p].eler
+SFX d0 eler èlerez [^p].eler
 SFX d0 eter etteront jeter
-SFX d0 eter etteront [^j]eter
+SFX d0 eter èteront [^j]eter
 SFX d0 eler elleront ppeler
-SFX d0 eler elleront [^p].eler
+SFX d0 eler èleront [^p].eler
 SFX d0 eter etterais jeter
-SFX d0 eter etterais [^j]eter
+SFX d0 eter èterais [^j]eter
 SFX d0 eler ellerais ppeler
-SFX d0 eler ellerais [^p].eler
+SFX d0 eler èlerais [^p].eler
 SFX d0 eter etterait jeter
-SFX d0 eter etterait [^j]eter
+SFX d0 eter èterait [^j]eter
 SFX d0 eler ellerait ppeler
-SFX d0 eler ellerait [^p].eler
+SFX d0 eler èlerait [^p].eler
 SFX d0 eter etterions jeter
-SFX d0 eter etterions [^j]eter
+SFX d0 eter èterions [^j]eter
 SFX d0 eler ellerions ppeler
-SFX d0 eler ellerions [^p].eler
+SFX d0 eler èlerions [^p].eler
 SFX d0 eter etteriez jeter
-SFX d0 eter etteriez [^j]eter
+SFX d0 eter èteriez [^j]eter
 SFX d0 eler elleriez ppeler
-SFX d0 eler elleriez [^p].eler
+SFX d0 eler èleriez [^p].eler
 SFX d0 eter etteraient jeter
-SFX d0 eter etteraient [^j]eter
+SFX d0 eter èteraient [^j]eter
 SFX d0 eler elleraient ppeler
-SFX d0 eler elleraient [^p].eler
+SFX d0 eler èleraient [^p].eler
 SFX d0 er asse er
 SFX d0 er asses er
 SFX d0 er ât er
@@ -4024,29 +4984,30 @@ SFX d0 er assions er
 SFX d0 er assiez er
 SFX d0 er assent er
 SFX d0 eter ette jeter
-SFX d0 eter ette [^j]eter
+SFX d0 eter ète [^j]eter
 SFX d0 eler elle ppeler
-SFX d0 eler elle [^p].eler
+SFX d0 eler èle [^p].eler
 SFX d0 er ons er
 SFX d0 er ez er
 
-SFX d1 Y {{BUILD.NUMRULES}}
+SFX d1 Y 84
 SFX d1 er er/n'q'd' er
 SFX d1 er ant/n'q' er
 SFX d1 eter ette/n'q'j' jeter
-SFX d1 eter ette/n'q'j' [^j]eter
+SFX d1 eter ète/n'q'j' [^j]eter
 SFX d1 eler elle/n'q'j' ppeler
-SFX d1 eler elle/n'q'j' [^p].eler
+SFX d1 eler èle/n'q'j' [^p].eler
+SFX d1 er è/n' er
 SFX d1 eter ettes/n' jeter
-SFX d1 eter ettes/n' [^j]eter
+SFX d1 eter ètes/n' [^j]eter
 SFX d1 eler elles/n' ppeler
-SFX d1 eler elles/n' [^p].eler
+SFX d1 eler èles/n' [^p].eler
 SFX d1 er ons/n' er
 SFX d1 er ez/n' er
 SFX d1 eter ettent/n'q' jeter
-SFX d1 eter ettent/n'q' [^j]eter
+SFX d1 eter ètent/n'q' [^j]eter
 SFX d1 eler ellent/n'q' ppeler
-SFX d1 eler ellent/n'q' [^p].eler
+SFX d1 eler èlent/n'q' [^p].eler
 SFX d1 er ais/n'j' er
 SFX d1 er ait/n'q' er
 SFX d1 er ions/n' er
@@ -4059,49 +5020,49 @@ SFX d1 er âmes/n' er
 SFX d1 er âtes/n' er
 SFX d1 er èrent/n'q' er
 SFX d1 eter etterai/n'j' jeter
-SFX d1 eter etterai/n'j' [^j]eter
+SFX d1 eter èterai/n'j' [^j]eter
 SFX d1 eler ellerai/n'j' ppeler
-SFX d1 eler ellerai/n'j' [^p].eler
+SFX d1 eler èlerai/n'j' [^p].eler
 SFX d1 eter etteras/n' jeter
-SFX d1 eter etteras/n' [^j]eter
+SFX d1 eter èteras/n' [^j]eter
 SFX d1 eler elleras/n' ppeler
-SFX d1 eler elleras/n' [^p].eler
+SFX d1 eler èleras/n' [^p].eler
 SFX d1 eter ettera/n'q' jeter
-SFX d1 eter ettera/n'q' [^j]eter
+SFX d1 eter ètera/n'q' [^j]eter
 SFX d1 eler ellera/n'q' ppeler
-SFX d1 eler ellera/n'q' [^p].eler
+SFX d1 eler èlera/n'q' [^p].eler
 SFX d1 eter etterons/n' jeter
-SFX d1 eter etterons/n' [^j]eter
+SFX d1 eter èterons/n' [^j]eter
 SFX d1 eler ellerons/n' ppeler
-SFX d1 eler ellerons/n' [^p].eler
+SFX d1 eler èlerons/n' [^p].eler
 SFX d1 eter etterez/n' jeter
-SFX d1 eter etterez/n' [^j]eter
+SFX d1 eter èterez/n' [^j]eter
 SFX d1 eler ellerez/n' ppeler
-SFX d1 eler ellerez/n' [^p].eler
+SFX d1 eler èlerez/n' [^p].eler
 SFX d1 eter etteront/n'q' jeter
-SFX d1 eter etteront/n'q' [^j]eter
+SFX d1 eter èteront/n'q' [^j]eter
 SFX d1 eler elleront/n'q' ppeler
-SFX d1 eler elleront/n'q' [^p].eler
+SFX d1 eler èleront/n'q' [^p].eler
 SFX d1 eter etterais/n'j' jeter
-SFX d1 eter etterais/n'j' [^j]eter
+SFX d1 eter èterais/n'j' [^j]eter
 SFX d1 eler ellerais/n'j' ppeler
-SFX d1 eler ellerais/n'j' [^p].eler
+SFX d1 eler èlerais/n'j' [^p].eler
 SFX d1 eter etterait/n'q' jeter
-SFX d1 eter etterait/n'q' [^j]eter
+SFX d1 eter èterait/n'q' [^j]eter
 SFX d1 eler ellerait/n'q' ppeler
-SFX d1 eler ellerait/n'q' [^p].eler
+SFX d1 eler èlerait/n'q' [^p].eler
 SFX d1 eter etterions/n' jeter
-SFX d1 eter etterions/n' [^j]eter
+SFX d1 eter èterions/n' [^j]eter
 SFX d1 eler ellerions/n' ppeler
-SFX d1 eler ellerions/n' [^p].eler
+SFX d1 eler èlerions/n' [^p].eler
 SFX d1 eter etteriez/n' jeter
-SFX d1 eter etteriez/n' [^j]eter
+SFX d1 eter èteriez/n' [^j]eter
 SFX d1 eler elleriez/n' ppeler
-SFX d1 eler elleriez/n' [^p].eler
+SFX d1 eler èleriez/n' [^p].eler
 SFX d1 eter etteraient/n'q' jeter
-SFX d1 eter etteraient/n'q' [^j]eter
+SFX d1 eter èteraient/n'q' [^j]eter
 SFX d1 eler elleraient/n'q' ppeler
-SFX d1 eler elleraient/n'q' [^p].eler
+SFX d1 eler èleraient/n'q' [^p].eler
 SFX d1 er asse/n'j' er
 SFX d1 er asses/n' er
 SFX d1 er ât/n'q' er
@@ -4109,29 +5070,30 @@ SFX d1 er assions/n' er
 SFX d1 er assiez/n' er
 SFX d1 er assent/n'q' er
 SFX d1 eter ette/n' jeter
-SFX d1 eter ette/n' [^j]eter
+SFX d1 eter ète/n' [^j]eter
 SFX d1 eler elle/n' ppeler
-SFX d1 eler elle/n' [^p].eler
+SFX d1 eler èle/n' [^p].eler
 SFX d1 er ons/n' er
 SFX d1 er ez/n' er
 
-SFX d2 Y {{BUILD.NUMRULES}}
+SFX d2 Y 84
 SFX d2 er er/n'q'd'l'm't's' er
 SFX d2 er ant/n'q'l'm't's' er
 SFX d2 eter ette/n'q'j'l'm't's' jeter
-SFX d2 eter ette/n'q'j'l'm't's' [^j]eter
+SFX d2 eter ète/n'q'j'l'm't's' [^j]eter
 SFX d2 eler elle/n'q'j'l'm't's' ppeler
-SFX d2 eler elle/n'q'j'l'm't's' [^p].eler
+SFX d2 eler èle/n'q'j'l'm't's' [^p].eler
+SFX d2 er è/n'q'l't' er
 SFX d2 eter ettes/n'q'l'm' jeter
-SFX d2 eter ettes/n'q'l'm' [^j]eter
+SFX d2 eter ètes/n'q'l'm' [^j]eter
 SFX d2 eler elles/n'q'l'm' ppeler
-SFX d2 eler elles/n'q'l'm' [^p].eler
+SFX d2 eler èles/n'q'l'm' [^p].eler
 SFX d2 er ons/n'q'l't' er
 SFX d2 er ez/n'q'l'm' er
 SFX d2 eter ettent/n'q'l'm't's' jeter
-SFX d2 eter ettent/n'q'l'm't's' [^j]eter
+SFX d2 eter ètent/n'q'l'm't's' [^j]eter
 SFX d2 eler ellent/n'q'l'm't's' ppeler
-SFX d2 eler ellent/n'q'l'm't's' [^p].eler
+SFX d2 eler èlent/n'q'l'm't's' [^p].eler
 SFX d2 er ais/n'q'j'l'm't' er
 SFX d2 er ait/n'q'l'm't's' er
 SFX d2 er ions/n'q'l't' er
@@ -4144,49 +5106,49 @@ SFX d2 er âmes/n'q'l't' er
 SFX d2 er âtes/n'q'l'm' er
 SFX d2 er èrent/n'q'l'm't's' er
 SFX d2 eter etterai/n'q'j'l't' jeter
-SFX d2 eter etterai/n'q'j'l't' [^j]eter
+SFX d2 eter èterai/n'q'j'l't' [^j]eter
 SFX d2 eler ellerai/n'q'j'l't' ppeler
-SFX d2 eler ellerai/n'q'j'l't' [^p].eler
+SFX d2 eler èlerai/n'q'j'l't' [^p].eler
 SFX d2 eter etteras/n'q'l'm' jeter
-SFX d2 eter etteras/n'q'l'm' [^j]eter
+SFX d2 eter èteras/n'q'l'm' [^j]eter
 SFX d2 eler elleras/n'q'l'm' ppeler
-SFX d2 eler elleras/n'q'l'm' [^p].eler
+SFX d2 eler èleras/n'q'l'm' [^p].eler
 SFX d2 eter ettera/n'q'l'm't's' jeter
-SFX d2 eter ettera/n'q'l'm't's' [^j]eter
+SFX d2 eter ètera/n'q'l'm't's' [^j]eter
 SFX d2 eler ellera/n'q'l'm't's' ppeler
-SFX d2 eler ellera/n'q'l'm't's' [^p].eler
+SFX d2 eler èlera/n'q'l'm't's' [^p].eler
 SFX d2 eter etterons/n'q'l't' jeter
-SFX d2 eter etterons/n'q'l't' [^j]eter
+SFX d2 eter èterons/n'q'l't' [^j]eter
 SFX d2 eler ellerons/n'q'l't' ppeler
-SFX d2 eler ellerons/n'q'l't' [^p].eler
+SFX d2 eler èlerons/n'q'l't' [^p].eler
 SFX d2 eter etterez/n'q'l'm' jeter
-SFX d2 eter etterez/n'q'l'm' [^j]eter
+SFX d2 eter èterez/n'q'l'm' [^j]eter
 SFX d2 eler ellerez/n'q'l'm' ppeler
-SFX d2 eler ellerez/n'q'l'm' [^p].eler
+SFX d2 eler èlerez/n'q'l'm' [^p].eler
 SFX d2 eter etteront/n'q'l'm't's' jeter
-SFX d2 eter etteront/n'q'l'm't's' [^j]eter
+SFX d2 eter èteront/n'q'l'm't's' [^j]eter
 SFX d2 eler elleront/n'q'l'm't's' ppeler
-SFX d2 eler elleront/n'q'l'm't's' [^p].eler
+SFX d2 eler èleront/n'q'l'm't's' [^p].eler
 SFX d2 eter etterais/n'q'j'l'm't' jeter
-SFX d2 eter etterais/n'q'j'l'm't' [^j]eter
+SFX d2 eter èterais/n'q'j'l'm't' [^j]eter
 SFX d2 eler ellerais/n'q'j'l'm't' ppeler
-SFX d2 eler ellerais/n'q'j'l'm't' [^p].eler
+SFX d2 eler èlerais/n'q'j'l'm't' [^p].eler
 SFX d2 eter etterait/n'q'l'm't's' jeter
-SFX d2 eter etterait/n'q'l'm't's' [^j]eter
+SFX d2 eter èterait/n'q'l'm't's' [^j]eter
 SFX d2 eler ellerait/n'q'l'm't's' ppeler
-SFX d2 eler ellerait/n'q'l'm't's' [^p].eler
+SFX d2 eler èlerait/n'q'l'm't's' [^p].eler
 SFX d2 eter etterions/n'q'l't' jeter
-SFX d2 eter etterions/n'q'l't' [^j]eter
+SFX d2 eter èterions/n'q'l't' [^j]eter
 SFX d2 eler ellerions/n'q'l't' ppeler
-SFX d2 eler ellerions/n'q'l't' [^p].eler
+SFX d2 eler èlerions/n'q'l't' [^p].eler
 SFX d2 eter etteriez/n'q'l'm' jeter
-SFX d2 eter etteriez/n'q'l'm' [^j]eter
+SFX d2 eter èteriez/n'q'l'm' [^j]eter
 SFX d2 eler elleriez/n'q'l'm' ppeler
-SFX d2 eler elleriez/n'q'l'm' [^p].eler
+SFX d2 eler èleriez/n'q'l'm' [^p].eler
 SFX d2 eter etteraient/n'q'l'm't's' jeter
-SFX d2 eter etteraient/n'q'l'm't's' [^j]eter
+SFX d2 eter èteraient/n'q'l'm't's' [^j]eter
 SFX d2 eler elleraient/n'q'l'm't's' ppeler
-SFX d2 eler elleraient/n'q'l'm't's' [^p].eler
+SFX d2 eler èleraient/n'q'l'm't's' [^p].eler
 SFX d2 er asse/n'q'j'l't' er
 SFX d2 er asses/n'q'l'm' er
 SFX d2 er ât/n'q'l'm't's' er
@@ -4194,29 +5156,30 @@ SFX d2 er assions/n'q'l't' er
 SFX d2 er assiez/n'q'l'm' er
 SFX d2 er assent/n'q'l'm't's' er
 SFX d2 eter ette/n'l'm' jeter
-SFX d2 eter ette/n'l'm' [^j]eter
+SFX d2 eter ète/n'l'm' [^j]eter
 SFX d2 eler elle/n'l'm' ppeler
-SFX d2 eler elle/n'l'm' [^p].eler
+SFX d2 eler èle/n'l'm' [^p].eler
 SFX d2 er ons/n'l' er
 SFX d2 er ez/n'l'm' er
 
-SFX d3 Y {{BUILD.NUMRULES}}
+SFX d3 Y 84
 SFX d3 er er/m't's' er
 SFX d3 er ant/m't's' er
 SFX d3 eter ette/m's' jeter
-SFX d3 eter ette/m's' [^j]eter
+SFX d3 eter ète/m's' [^j]eter
 SFX d3 eler elle/m's' ppeler
-SFX d3 eler elle/m's' [^p].eler
+SFX d3 eler èle/m's' [^p].eler
+SFX d3 er è/m' er
 SFX d3 eter ettes/t' jeter
-SFX d3 eter ettes/t' [^j]eter
+SFX d3 eter ètes/t' [^j]eter
 SFX d3 eler elles/t' ppeler
-SFX d3 eler elles/t' [^p].eler
+SFX d3 eler èles/t' [^p].eler
 SFX d3 er ons er
 SFX d3 er ez er
 SFX d3 eter ettent/s' jeter
-SFX d3 eter ettent/s' [^j]eter
+SFX d3 eter ètent/s' [^j]eter
 SFX d3 eler ellent/s' ppeler
-SFX d3 eler ellent/s' [^p].eler
+SFX d3 eler èlent/s' [^p].eler
 SFX d3 er ais/m't' er
 SFX d3 er ait/s' er
 SFX d3 er ions er
@@ -4229,49 +5192,49 @@ SFX d3 er âmes er
 SFX d3 er âtes er
 SFX d3 er èrent/s' er
 SFX d3 eter etterai/m' jeter
-SFX d3 eter etterai/m' [^j]eter
+SFX d3 eter èterai/m' [^j]eter
 SFX d3 eler ellerai/m' ppeler
-SFX d3 eler ellerai/m' [^p].eler
+SFX d3 eler èlerai/m' [^p].eler
 SFX d3 eter etteras/t' jeter
-SFX d3 eter etteras/t' [^j]eter
+SFX d3 eter èteras/t' [^j]eter
 SFX d3 eler elleras/t' ppeler
-SFX d3 eler elleras/t' [^p].eler
+SFX d3 eler èleras/t' [^p].eler
 SFX d3 eter ettera/s' jeter
-SFX d3 eter ettera/s' [^j]eter
+SFX d3 eter ètera/s' [^j]eter
 SFX d3 eler ellera/s' ppeler
-SFX d3 eler ellera/s' [^p].eler
+SFX d3 eler èlera/s' [^p].eler
 SFX d3 eter etterons jeter
-SFX d3 eter etterons [^j]eter
+SFX d3 eter èterons [^j]eter
 SFX d3 eler ellerons ppeler
-SFX d3 eler ellerons [^p].eler
+SFX d3 eler èlerons [^p].eler
 SFX d3 eter etterez jeter
-SFX d3 eter etterez [^j]eter
+SFX d3 eter èterez [^j]eter
 SFX d3 eler ellerez ppeler
-SFX d3 eler ellerez [^p].eler
+SFX d3 eler èlerez [^p].eler
 SFX d3 eter etteront/s' jeter
-SFX d3 eter etteront/s' [^j]eter
+SFX d3 eter èteront/s' [^j]eter
 SFX d3 eler elleront/s' ppeler
-SFX d3 eler elleront/s' [^p].eler
+SFX d3 eler èleront/s' [^p].eler
 SFX d3 eter etterais/m't' jeter
-SFX d3 eter etterais/m't' [^j]eter
+SFX d3 eter èterais/m't' [^j]eter
 SFX d3 eler ellerais/m't' ppeler
-SFX d3 eler ellerais/m't' [^p].eler
+SFX d3 eler èlerais/m't' [^p].eler
 SFX d3 eter etterait/s' jeter
-SFX d3 eter etterait/s' [^j]eter
+SFX d3 eter èterait/s' [^j]eter
 SFX d3 eler ellerait/s' ppeler
-SFX d3 eler ellerait/s' [^p].eler
+SFX d3 eler èlerait/s' [^p].eler
 SFX d3 eter etterions jeter
-SFX d3 eter etterions [^j]eter
+SFX d3 eter èterions [^j]eter
 SFX d3 eler ellerions ppeler
-SFX d3 eler ellerions [^p].eler
+SFX d3 eler èlerions [^p].eler
 SFX d3 eter etteriez jeter
-SFX d3 eter etteriez [^j]eter
+SFX d3 eter èteriez [^j]eter
 SFX d3 eler elleriez ppeler
-SFX d3 eler elleriez [^p].eler
+SFX d3 eler èleriez [^p].eler
 SFX d3 eter etteraient/s' jeter
-SFX d3 eter etteraient/s' [^j]eter
+SFX d3 eter èteraient/s' [^j]eter
 SFX d3 eler elleraient/s' ppeler
-SFX d3 eler elleraient/s' [^p].eler
+SFX d3 eler èleraient/s' [^p].eler
 SFX d3 er asse/m' er
 SFX d3 er asses/t' er
 SFX d3 er ât/s' er
@@ -4279,32 +5242,33 @@ SFX d3 er assions er
 SFX d3 er assiez er
 SFX d3 er assent/s' er
 SFX d3 eter ette/t' jeter
-SFX d3 eter ette/t' [^j]eter
+SFX d3 eter ète/t' [^j]eter
 SFX d3 eler elle/t' ppeler
-SFX d3 eler elle/t' [^p].eler
+SFX d3 eler èle/t' [^p].eler
 SFX d3 er ons er
 SFX d3 er ez er
 
-SFX d4 Y {{BUILD.NUMRULES}}
+SFX d4 Y 99
 SFX d4 er er/n'q'd'l'm't's' er
 SFX d4 er ant/n'q'l'm't's' er
 SFX d4 eter ette/n'q'j'l'm't's' jeter
-SFX d4 eter ette/n'q'j'l'm't's' [^j]eter
+SFX d4 eter ète/n'q'j'l'm't's' [^j]eter
 SFX d4 eler elle/n'q'j'l'm't's' ppeler
-SFX d4 eler elle/n'q'j'l'm't's' [^p].eler
-SFX d4 eler elle/n'q'j'l'm't's' épeler
+SFX d4 eler èle/n'q'j'l'm't's' [^p].eler
+SFX d4 eler èle/n'q'j'l'm't's' épeler
+SFX d4 er è/n'q'l'm't' er
 SFX d4 eter ettes/n'q'l'm't' jeter
-SFX d4 eter ettes/n'q'l'm't' [^j]eter
+SFX d4 eter ètes/n'q'l'm't' [^j]eter
 SFX d4 eler elles/n'q'l'm't' ppeler
-SFX d4 eler elles/n'q'l'm't' [^p].eler
-SFX d4 eler elles/n'q'l'm't' épeler
+SFX d4 eler èles/n'q'l'm't' [^p].eler
+SFX d4 eler èles/n'q'l'm't' épeler
 SFX d4 er ons/n'q'l't' er
 SFX d4 er ez/n'q'l'm' er
 SFX d4 eter ettent/n'q'l'm't's' jeter
-SFX d4 eter ettent/n'q'l'm't's' [^j]eter
+SFX d4 eter ètent/n'q'l'm't's' [^j]eter
 SFX d4 eler ellent/n'q'l'm't's' ppeler
-SFX d4 eler ellent/n'q'l'm't's' [^p].eler
-SFX d4 eler ellent/n'q'l'm't's' épeler
+SFX d4 eler èlent/n'q'l'm't's' [^p].eler
+SFX d4 eler èlent/n'q'l'm't's' épeler
 SFX d4 er ais/n'q'j'l'm't' er
 SFX d4 er ait/n'q'l'm't's' er
 SFX d4 er ions/n'q'l't' er
@@ -4317,60 +5281,60 @@ SFX d4 er âmes/n'q'l't' er
 SFX d4 er âtes/n'q'l'm' er
 SFX d4 er èrent/n'q'l'm't's' er
 SFX d4 eter etterai/n'q'j'l'm't' jeter
-SFX d4 eter etterai/n'q'j'l'm't' [^j]eter
+SFX d4 eter èterai/n'q'j'l'm't' [^j]eter
 SFX d4 eler ellerai/n'q'j'l'm't' ppeler
-SFX d4 eler ellerai/n'q'j'l'm't' [^p].eler
-SFX d4 eler ellerai/n'q'j'l'm't' épeler
+SFX d4 eler èlerai/n'q'j'l'm't' [^p].eler
+SFX d4 eler èlerai/n'q'j'l'm't' épeler
 SFX d4 eter etteras/n'q'l'm't' jeter
-SFX d4 eter etteras/n'q'l'm't' [^j]eter
+SFX d4 eter èteras/n'q'l'm't' [^j]eter
 SFX d4 eler elleras/n'q'l'm't' ppeler
-SFX d4 eler elleras/n'q'l'm't' [^p].eler
-SFX d4 eler elleras/n'q'l'm't' épeler
+SFX d4 eler èleras/n'q'l'm't' [^p].eler
+SFX d4 eler èleras/n'q'l'm't' épeler
 SFX d4 eter ettera/n'q'l'm't's' jeter
-SFX d4 eter ettera/n'q'l'm't's' [^j]eter
+SFX d4 eter ètera/n'q'l'm't's' [^j]eter
 SFX d4 eler ellera/n'q'l'm't's' ppeler
-SFX d4 eler ellera/n'q'l'm't's' [^p].eler
-SFX d4 eler ellera/n'q'l'm't's' épeler
+SFX d4 eler èlera/n'q'l'm't's' [^p].eler
+SFX d4 eler èlera/n'q'l'm't's' épeler
 SFX d4 eter etterons/n'q'l't' jeter
-SFX d4 eter etterons/n'q'l't' [^j]eter
+SFX d4 eter èterons/n'q'l't' [^j]eter
 SFX d4 eler ellerons/n'q'l't' ppeler
-SFX d4 eler ellerons/n'q'l't' [^p].eler
-SFX d4 eler ellerons/n'q'l't' épeler
+SFX d4 eler èlerons/n'q'l't' [^p].eler
+SFX d4 eler èlerons/n'q'l't' épeler
 SFX d4 eter etterez/n'q'l'm' jeter
-SFX d4 eter etterez/n'q'l'm' [^j]eter
+SFX d4 eter èterez/n'q'l'm' [^j]eter
 SFX d4 eler ellerez/n'q'l'm' ppeler
-SFX d4 eler ellerez/n'q'l'm' [^p].eler
-SFX d4 eler ellerez/n'q'l'm' épeler
+SFX d4 eler èlerez/n'q'l'm' [^p].eler
+SFX d4 eler èlerez/n'q'l'm' épeler
 SFX d4 eter etteront/n'q'l'm't's' jeter
-SFX d4 eter etteront/n'q'l'm't's' [^j]eter
+SFX d4 eter èteront/n'q'l'm't's' [^j]eter
 SFX d4 eler elleront/n'q'l'm't's' ppeler
-SFX d4 eler elleront/n'q'l'm't's' [^p].eler
-SFX d4 eler elleront/n'q'l'm't's' épeler
+SFX d4 eler èleront/n'q'l'm't's' [^p].eler
+SFX d4 eler èleront/n'q'l'm't's' épeler
 SFX d4 eter etterais/n'q'j'l'm't' jeter
-SFX d4 eter etterais/n'q'j'l'm't' [^j]eter
+SFX d4 eter èterais/n'q'j'l'm't' [^j]eter
 SFX d4 eler ellerais/n'q'j'l'm't' ppeler
-SFX d4 eler ellerais/n'q'j'l'm't' [^p].eler
-SFX d4 eler ellerais/n'q'j'l'm't' épeler
+SFX d4 eler èlerais/n'q'j'l'm't' [^p].eler
+SFX d4 eler èlerais/n'q'j'l'm't' épeler
 SFX d4 eter etterait/n'q'l'm't's' jeter
-SFX d4 eter etterait/n'q'l'm't's' [^j]eter
+SFX d4 eter èterait/n'q'l'm't's' [^j]eter
 SFX d4 eler ellerait/n'q'l'm't's' ppeler
-SFX d4 eler ellerait/n'q'l'm't's' [^p].eler
-SFX d4 eler ellerait/n'q'l'm't's' épeler
+SFX d4 eler èlerait/n'q'l'm't's' [^p].eler
+SFX d4 eler èlerait/n'q'l'm't's' épeler
 SFX d4 eter etterions/n'q'l't' jeter
-SFX d4 eter etterions/n'q'l't' [^j]eter
+SFX d4 eter èterions/n'q'l't' [^j]eter
 SFX d4 eler ellerions/n'q'l't' ppeler
-SFX d4 eler ellerions/n'q'l't' [^p].eler
-SFX d4 eler ellerions/n'q'l't' épeler
+SFX d4 eler èlerions/n'q'l't' [^p].eler
+SFX d4 eler èlerions/n'q'l't' épeler
 SFX d4 eter etteriez/n'q'l'm' jeter
-SFX d4 eter etteriez/n'q'l'm' [^j]eter
+SFX d4 eter èteriez/n'q'l'm' [^j]eter
 SFX d4 eler elleriez/n'q'l'm' ppeler
-SFX d4 eler elleriez/n'q'l'm' [^p].eler
-SFX d4 eler elleriez/n'q'l'm' épeler
+SFX d4 eler èleriez/n'q'l'm' [^p].eler
+SFX d4 eler èleriez/n'q'l'm' épeler
 SFX d4 eter etteraient/n'q'l'm't's' jeter
-SFX d4 eter etteraient/n'q'l'm't's' [^j]eter
+SFX d4 eter èteraient/n'q'l'm't's' [^j]eter
 SFX d4 eler elleraient/n'q'l'm't's' ppeler
-SFX d4 eler elleraient/n'q'l'm't's' [^p].eler
-SFX d4 eler elleraient/n'q'l'm't's' épeler
+SFX d4 eler èleraient/n'q'l'm't's' [^p].eler
+SFX d4 eler èleraient/n'q'l'm't's' épeler
 SFX d4 er asse/n'q'j'l'm't' er
 SFX d4 er asses/n'q'l'm't' er
 SFX d4 er ât/n'q'l'm't's' er
@@ -4378,30 +5342,31 @@ SFX d4 er assions/n'q'l't' er
 SFX d4 er assiez/n'q'l'm' er
 SFX d4 er assent/n'q'l'm't's' er
 SFX d4 eter ette/n'l'm't' jeter
-SFX d4 eter ette/n'l'm't' [^j]eter
+SFX d4 eter ète/n'l'm't' [^j]eter
 SFX d4 eler elle/n'l'm't' ppeler
-SFX d4 eler elle/n'l'm't' [^p].eler
-SFX d4 eler elle/n'l'm't' épeler
+SFX d4 eler èle/n'l'm't' [^p].eler
+SFX d4 eler èle/n'l'm't' épeler
 SFX d4 er ons/n'l' er
 SFX d4 er ez/n'l'm' er
 
-SFX d5 Y {{BUILD.NUMRULES}}
+SFX d5 Y 84
 SFX d5 er er/m'q'd'm't's' er
 SFX d5 er ant/m'q'd'm't's' er
 SFX d5 eter ette/n'q'j'm't's' jeter
-SFX d5 eter ette/n'q'j'm't's' [^j]eter
+SFX d5 eter ète/n'q'j'm't's' [^j]eter
 SFX d5 eler elle/n'q'j'm't's' ppeler
-SFX d5 eler elle/n'q'j'm't's' [^p].eler
+SFX d5 eler èle/n'q'j'm't's' [^p].eler
+SFX d5 er è/n'm't' er
 SFX d5 eter ettes/n'm't' jeter
-SFX d5 eter ettes/n'm't' [^j]eter
+SFX d5 eter ètes/n'm't' [^j]eter
 SFX d5 eler elles/n'm't' ppeler
-SFX d5 eler elles/n'm't' [^p].eler
+SFX d5 eler èles/n'm't' [^p].eler
 SFX d5 er ons/n't' er
 SFX d5 er ez/n'm' er
 SFX d5 eter ettent/n'q'm't's' jeter
-SFX d5 eter ettent/n'q'm't's' [^j]eter
+SFX d5 eter ètent/n'q'm't's' [^j]eter
 SFX d5 eler ellent/n'q'm't's' ppeler
-SFX d5 eler ellent/n'q'm't's' [^p].eler
+SFX d5 eler èlent/n'q'm't's' [^p].eler
 SFX d5 er ais/n'j'm't' er
 SFX d5 er ait/n'q'm't's' er
 SFX d5 er ions/n't' er
@@ -4414,49 +5379,49 @@ SFX d5 er âmes/n't' er
 SFX d5 er âtes/n'm' er
 SFX d5 er èrent/n'q'm't's' er
 SFX d5 eter etterai/n'j'm't' jeter
-SFX d5 eter etterai/n'j'm't' [^j]eter
+SFX d5 eter èterai/n'j'm't' [^j]eter
 SFX d5 eler ellerai/n'j'm't' ppeler
-SFX d5 eler ellerai/n'j'm't' [^p].eler
+SFX d5 eler èlerai/n'j'm't' [^p].eler
 SFX d5 eter etteras/n'm't' jeter
-SFX d5 eter etteras/n'm't' [^j]eter
+SFX d5 eter èteras/n'm't' [^j]eter
 SFX d5 eler elleras/n'm't' ppeler
-SFX d5 eler elleras/n'm't' [^p].eler
+SFX d5 eler èleras/n'm't' [^p].eler
 SFX d5 eter ettera/n'q'm't's' jeter
-SFX d5 eter ettera/n'q'm't's' [^j]eter
+SFX d5 eter ètera/n'q'm't's' [^j]eter
 SFX d5 eler ellera/n'q'm't's' ppeler
-SFX d5 eler ellera/n'q'm't's' [^p].eler
+SFX d5 eler èlera/n'q'm't's' [^p].eler
 SFX d5 eter etterons/n't' jeter
-SFX d5 eter etterons/n't' [^j]eter
+SFX d5 eter èterons/n't' [^j]eter
 SFX d5 eler ellerons/n't' ppeler
-SFX d5 eler ellerons/n't' [^p].eler
+SFX d5 eler èlerons/n't' [^p].eler
 SFX d5 eter etterez/n'm' jeter
-SFX d5 eter etterez/n'm' [^j]eter
+SFX d5 eter èterez/n'm' [^j]eter
 SFX d5 eler ellerez/n'm' ppeler
-SFX d5 eler ellerez/n'm' [^p].eler
+SFX d5 eler èlerez/n'm' [^p].eler
 SFX d5 eter etteront/n'q'm't's' jeter
-SFX d5 eter etteront/n'q'm't's' [^j]eter
+SFX d5 eter èteront/n'q'm't's' [^j]eter
 SFX d5 eler elleront/n'q'm't's' ppeler
-SFX d5 eler elleront/n'q'm't's' [^p].eler
+SFX d5 eler èleront/n'q'm't's' [^p].eler
 SFX d5 eter etterais/n'j'm't' jeter
-SFX d5 eter etterais/n'j'm't' [^j]eter
+SFX d5 eter èterais/n'j'm't' [^j]eter
 SFX d5 eler ellerais/n'j'm't' ppeler
-SFX d5 eler ellerais/n'j'm't' [^p].eler
+SFX d5 eler èlerais/n'j'm't' [^p].eler
 SFX d5 eter etterait/n'q'm't's' jeter
-SFX d5 eter etterait/n'q'm't's' [^j]eter
+SFX d5 eter èterait/n'q'm't's' [^j]eter
 SFX d5 eler ellerait/n'q'm't's' ppeler
-SFX d5 eler ellerait/n'q'm't's' [^p].eler
+SFX d5 eler èlerait/n'q'm't's' [^p].eler
 SFX d5 eter etterions/n't' jeter
-SFX d5 eter etterions/n't' [^j]eter
+SFX d5 eter èterions/n't' [^j]eter
 SFX d5 eler ellerions/n't' ppeler
-SFX d5 eler ellerions/n't' [^p].eler
+SFX d5 eler èlerions/n't' [^p].eler
 SFX d5 eter etteriez/n'm' jeter
-SFX d5 eter etteriez/n'm' [^j]eter
+SFX d5 eter èteriez/n'm' [^j]eter
 SFX d5 eler elleriez/n'm' ppeler
-SFX d5 eler elleriez/n'm' [^p].eler
+SFX d5 eler èleriez/n'm' [^p].eler
 SFX d5 eter etteraient/n'q'm't's' jeter
-SFX d5 eter etteraient/n'q'm't's' [^j]eter
+SFX d5 eter èteraient/n'q'm't's' [^j]eter
 SFX d5 eler elleraient/n'q'm't's' ppeler
-SFX d5 eler elleraient/n'q'm't's' [^p].eler
+SFX d5 eler èleraient/n'q'm't's' [^p].eler
 SFX d5 er asse/n'j'm't' er
 SFX d5 er asses/n'm't' er
 SFX d5 er ât/n'q'm't's' er
@@ -4464,22 +5429,19 @@ SFX d5 er assions/n't' er
 SFX d5 er assiez/n'm' er
 SFX d5 er assent/n'q'm't's' er
 SFX d5 eter ette/m' jeter
-SFX d5 eter ette/m' [^j]eter
+SFX d5 eter ète/m' [^j]eter
 SFX d5 eler elle/m' ppeler
-SFX d5 eler elle/m' [^p].eler
+SFX d5 eler èle/m' [^p].eler
 SFX d5 er ons er
 SFX d5 er ez er
 
-SFX aA Y {{BUILD.NUMRULES}}
+SFX aA Y 54
 SFX aA ller ller/n'q'd'm't' aller
 SFX aA ller llant/n'q'm't' aller
 SFX aA ller llé/q' aller
 SFX aA ller llés/q' aller
 SFX aA ller llée/q' aller
 SFX aA ller llées/q' aller
-SFX aA ller llé·e/q' aller
-SFX aA ller llé·e·s/q' aller
-SFX aA ller llé·es/q' aller
 SFX aA aller vais aller
 SFX aA aller vas aller
 SFX aA aller va aller
@@ -4529,16 +5491,13 @@ SFX aA ller llez/n' aller
 SFX aA ller llez-y aller
 SFX aA ller llez-vous-en aller
 
-SFX aD Y {{BUILD.NUMRULES}}
+SFX aD Y 44
 SFX aD voyer voyer/n'q'd'l'm't's' envoyer
 SFX aD voyer voyant/n'q'l'm't's' envoyer
 SFX aD voyer voyé/q' envoyer
 SFX aD voyer voyés/q' envoyer
 SFX aD voyer voyée/q' envoyer
 SFX aD voyer voyées/q' envoyer
-SFX aD voyer voyé·e/q' envoyer
-SFX aD voyer voyé·e·s/q' envoyer
-SFX aD voyer voyé·es/q' envoyer
 SFX aD voyer voie/n'q'j'l'm't's' envoyer
 SFX aD voyer voies/n'q'l'm't' envoyer
 SFX aD voyer voyons/n'q'l't' envoyer
@@ -4578,7 +5537,7 @@ SFX aD voyer voie/n'l'm't' envoyer
 SFX aD voyer voyons/n'l' envoyer
 SFX aD voyer voyez/n'l'm' envoyer
 
-SFX aE Y {{BUILD.NUMRULES}}
+SFX aE Y 6
 SFX aE direr direr/n'q'd'l'm't's' direr
 SFX aE direr dirant/n'q'l'm't's' direr
 SFX aE direr diré/q' direr
@@ -4586,7 +5545,7 @@ SFX aE direr dirés/q' direr
 SFX aE direr dirée/q' direr
 SFX aE direr dirées/q' direr
 
-SFX aF N {{BUILD.NUMRULES}}
+SFX aF N 17
 SFX aF cerner cernant er
 SFX aF cerner cerné er
 SFX aF cerner cernés er
@@ -4605,7 +5564,7 @@ SFX aF cerner cerneraient er
 SFX aF cerner cernât er
 SFX aF cerner cernassent er
 
-SFX aG Y {{BUILD.NUMRULES}}
+SFX aG Y 19
 SFX aG er er/n'q'd'm't' er
 SFX aG er ant/n'q'm't' er
 SFX aG mber mbé mber
@@ -4626,7 +5585,7 @@ SFX aG er eraient/n'q'm't' er
 SFX aG er ât/n'q'm't' er
 SFX aG er assent/n'q'm't' er
 
-SFX aH N {{BUILD.NUMRULES}}
+SFX aH N 38
 SFX aH er ant gger
 SFX aH er é gger
 SFX aH er e gger
@@ -4666,17 +5625,17 @@ SFX aH er e gger
 SFX aH er ons gger
 SFX aH er ez gger
 
-SFX aY N {{BUILD.NUMRULES}}
+SFX aY N 41
 SFX aY neler nelant neler
 SFX aY neler nelé neler
 SFX aY neler nelés neler
 SFX aY neler nelée neler
 SFX aY neler nelées neler
-SFX aY éneler énelle éneler
-SFX aY éneler énelles éneler
+SFX aY èneler énèle èneler
+SFX aY èneler énèles èneler
 SFX aY neler nelons neler
 SFX aY neler nelez neler
-SFX aY éneler énellent éneler
+SFX aY èneler énèlent èneler
 SFX aY neler nelais neler
 SFX aY neler nelait neler
 SFX aY neler nelions neler
@@ -4688,38 +5647,38 @@ SFX aY neler nela neler
 SFX aY neler nelâmes neler
 SFX aY neler nelâtes neler
 SFX aY neler nelèrent neler
-SFX aY éneler énellerai éneler
-SFX aY éneler énelleras éneler
-SFX aY éneler énellera éneler
-SFX aY éneler énellerons éneler
-SFX aY éneler énellerez éneler
-SFX aY éneler énelleront éneler
-SFX aY éneler énellerais éneler
-SFX aY éneler énellerait éneler
-SFX aY éneler énellerions éneler
-SFX aY éneler énelleriez éneler
-SFX aY éneler énelleraient éneler
+SFX aY èneler énèlerai èneler
+SFX aY èneler énèleras èneler
+SFX aY èneler énèlera èneler
+SFX aY èneler énèlerons èneler
+SFX aY èneler énèlerez èneler
+SFX aY èneler énèleront èneler
+SFX aY èneler énèlerais èneler
+SFX aY èneler énèlerait èneler
+SFX aY èneler énèlerions èneler
+SFX aY èneler énèleriez èneler
+SFX aY èneler énèleraient èneler
 SFX aY neler nelasse neler
 SFX aY neler nelasses neler
 SFX aY neler nelât neler
 SFX aY neler nelassions neler
 SFX aY neler nelassiez neler
 SFX aY neler nelassent neler
-SFX aY éneler énelle éneler
+SFX aY èneler énèle èneler
 SFX aY neler nelons neler
 SFX aY neler nelez neler
 
-SFX aZ N {{BUILD.NUMRULES}}
+SFX aZ N 41
 SFX aZ teler telant teler
 SFX aZ teler telé teler
 SFX aZ teler telés teler
 SFX aZ teler telée teler
 SFX aZ teler telées teler
-SFX aZ ételer ételle ételer
-SFX aZ ételer ételles ételer
+SFX aZ èteler étèle èteler
+SFX aZ èteler étèles èteler
 SFX aZ teler telons teler
 SFX aZ teler telez teler
-SFX aZ ételer étellent ételer
+SFX aZ èteler étèlent èteler
 SFX aZ teler telais teler
 SFX aZ teler telait teler
 SFX aZ teler telions teler
@@ -4731,28 +5690,28 @@ SFX aZ teler tela teler
 SFX aZ teler telâmes teler
 SFX aZ teler telâtes teler
 SFX aZ teler telèrent teler
-SFX aZ ételer étellerai ételer
-SFX aZ ételer ételleras ételer
-SFX aZ ételer étellera ételer
-SFX aZ ételer étellerons ételer
-SFX aZ ételer étellerez ételer
-SFX aZ ételer ételleront ételer
-SFX aZ ételer étellerais ételer
-SFX aZ ételer étellerait ételer
-SFX aZ ételer étellerions ételer
-SFX aZ ételer ételleriez ételer
-SFX aZ ételer ételleraient ételer
+SFX aZ èteler étèlerai èteler
+SFX aZ èteler étèleras èteler
+SFX aZ èteler étèlera èteler
+SFX aZ èteler étèlerons èteler
+SFX aZ èteler étèlerez èteler
+SFX aZ èteler étèleront èteler
+SFX aZ èteler étèlerais èteler
+SFX aZ èteler étèlerait èteler
+SFX aZ èteler étèlerions èteler
+SFX aZ èteler étèleriez èteler
+SFX aZ èteler étèleraient èteler
 SFX aZ teler telasse teler
 SFX aZ teler telasses teler
 SFX aZ teler telât teler
 SFX aZ teler telassions teler
 SFX aZ teler telassiez teler
 SFX aZ teler telassent teler
-SFX aZ ételer ételle ételer
+SFX aZ èteler étèle èteler
 SFX aZ teler telons teler
 SFX aZ teler telez teler
 
-SFX dA Y {{BUILD.NUMRULES}}
+SFX dA Y 42
 SFX dA peler peler/n'q'd'l'm't's' peler
 SFX dA peler pelant/n'q'l'm't's' peler
 SFX dA peler pelé/q' peler
@@ -4796,7 +5755,7 @@ SFX dA peler pelle/n'l'm' peler
 SFX dA peler pelons/n'l' peler
 SFX dA peler pelez/n'l'm' peler
 
-SFX f0 Y {{BUILD.NUMRULES}}
+SFX f0 Y 32
 SFX f0 ir issant ir
 SFX f0 ir is ir
 SFX f0 ir it ir
@@ -4830,7 +5789,7 @@ SFX f0 ir is ir
 SFX f0 ir issons ir
 SFX f0 ir issez ir
 
-SFX f1 Y {{BUILD.NUMRULES}}
+SFX f1 Y 33
 SFX f1 ir ir/n'q'd' ir
 SFX f1 ir issant/n'q' ir
 SFX f1 ir is/n'j' ir
@@ -4865,7 +5824,7 @@ SFX f1 ir is/n' ir
 SFX f1 ir issons/n' ir
 SFX f1 ir issez/n' ir
 
-SFX f2 Y {{BUILD.NUMRULES}}
+SFX f2 Y 33
 SFX f2 ir ir/n'q'd'l'm't's' ir
 SFX f2 ir issant/n'q'l'm't's' ir
 SFX f2 ir is/n'q'j'l't' ir
@@ -4900,7 +5859,7 @@ SFX f2 ir is/n'l'm' ir
 SFX f2 ir issons/n'l' ir
 SFX f2 ir issez/n'l'm' ir
 
-SFX f3 Y {{BUILD.NUMRULES}}
+SFX f3 Y 33
 SFX f3 ir ir/m't's' ir
 SFX f3 ir issant/m't's' ir
 SFX f3 ir is/m't' ir
@@ -4935,7 +5894,7 @@ SFX f3 ir is/t' ir
 SFX f3 ir issons ir
 SFX f3 ir issez ir
 
-SFX f4 Y {{BUILD.NUMRULES}}
+SFX f4 Y 33
 SFX f4 ir ir/n'q'd'l'm't's' ir
 SFX f4 ir issant/n'q'l'm't's' ir
 SFX f4 ir is/n'q'j'l'm't' ir
@@ -4970,7 +5929,7 @@ SFX f4 ir is/n'l'm't' ir
 SFX f4 ir issons/n'l' ir
 SFX f4 ir issez/n'l'm' ir
 
-SFX f5 Y {{BUILD.NUMRULES}}
+SFX f5 Y 33
 SFX f5 ir ir/n'q'd'm't's' ir
 SFX f5 ir issant/n'q'm't's' ir
 SFX f5 ir is/n'j'm't' ir
@@ -5005,7 +5964,7 @@ SFX f5 ir is/n'm' ir
 SFX f5 ir issons/n' ir
 SFX f5 ir issez/n'm' ir
 
-SFX fA N {{BUILD.NUMRULES}}
+SFX fA N 37
 SFX fA aïr aïssant aïr
 SFX fA aïr aï aïr
 SFX fA aïr aïs aïr
@@ -5044,7 +6003,7 @@ SFX fA aïr ais aïr
 SFX fA aïr aïssons aïr
 SFX fA aïr aïssez aïr
 
-SFX fB Y {{BUILD.NUMRULES}}
+SFX fB Y 29
 SFX fB haïr haïr/s' aïr
 SFX fB haïr haïssant/s' aïr
 SFX fB haïr haï aïr
@@ -5075,7 +6034,7 @@ SFX fB haïr haïsse/s' aïr
 SFX fB haïr haïssons-nous aïr
 SFX fB haïr haïssez-vous aïr
 
-SFX fC Y {{BUILD.NUMRULES}}
+SFX fC Y 11
 SFX fC partir partir/n'q'd'l'm't's' impartir
 SFX fC partir partissant/n'q'l'm't's' impartir
 SFX fC partir parti/q' impartir
@@ -5088,7 +6047,7 @@ SFX fC partir partissons/n'q'l't' impartir
 SFX fC partir partissez/n'q'l'm' impartir
 SFX fC partir partissent/n'q'l'm't's' impartir
 
-SFX fD N {{BUILD.NUMRULES}}
+SFX fD N 11
 SFX fD ortir ortissant sortir
 SFX fD ortir ortit sortir
 SFX fD ortir ortissent sortir
@@ -5101,7 +6060,7 @@ SFX fD ortir ortiraient sortir
 SFX fD ortir ortisse sortir
 SFX fD ortir ortît sortir
 
-SFX fY N {{BUILD.NUMRULES}}
+SFX fY N 37
 SFX fY uïr uïr/s' uïr
 SFX fY uïr uïssant/m't's' uïr
 SFX fY uïr uï uïr
@@ -5140,7 +6099,7 @@ SFX fY uïr uïs/t' uïr
 SFX fY uïr uïssons uïr
 SFX fY uïr uïssez uïr
 
-SFX fZ N {{BUILD.NUMRULES}}
+SFX fZ N 7
 SFX fZ gir gissant agir
 SFX fZ gir git agir
 SFX fZ gir gissait agir
@@ -5149,7 +6108,7 @@ SFX fZ gir girait agir
 SFX fZ gir gisse agir
 SFX fZ gir gît agir
 
-SFX p+ Y {{BUILD.NUMRULES}}
+SFX p+ Y 8
 SFX p+ er é/L'D'Q' er
 SFX p+ er és/D'Q' er
 SFX p+ er ée/L'D'Q' er
@@ -5158,18 +6117,12 @@ SFX p+ ir i/L'D'Q' ir
 SFX p+ ir is/D'Q' ir
 SFX p+ ir ie/L'D'Q' ir
 SFX p+ ir ies/D'Q' ir
-SFX p+ er é·e/L'D'Q' er
-SFX p+ er é·e·s/D'Q' er
-SFX p+ er é·es/D'Q' er
-SFX p+ ir i·e/L'D'Q' ir
-SFX p+ ir i·e·s/D'Q' ir
-SFX p+ ir i·es/D'Q' ir
 
-SFX p. Y {{BUILD.NUMRULES}}
+SFX p. Y 2
 SFX p. er é/q' er
 SFX p. ir i/q' ir
 
-SFX i0 Y {{BUILD.NUMRULES}}
+SFX i0 Y 39
 SFX i0 enir enir/n'q'd' enir
 SFX i0 enir enant/n'q' enir
 SFX i0 enir iens/n'j' enir
@@ -5210,7 +6163,7 @@ SFX i0 enir iens/n' enir
 SFX i0 enir enons/n' enir
 SFX i0 enir enez/n' enir
 
-SFX i1 Y {{BUILD.NUMRULES}}
+SFX i1 Y 39
 SFX i1 enir enir/n'q'd'l'm't's' enir
 SFX i1 enir enant/n'q'l'm't's' enir
 SFX i1 enir iens/n'q'j'l'm't' enir
@@ -5251,7 +6204,7 @@ SFX i1 enir iens/n'l'm't' enir
 SFX i1 enir enons/n'l' enir
 SFX i1 enir enez/n'l'm' enir
 
-SFX i2 Y {{BUILD.NUMRULES}}
+SFX i2 Y 39
 SFX i2 enir enir/m't's' enir
 SFX i2 enir enant/m't's' enir
 SFX i2 enir iens/m't' enir
@@ -5292,7 +6245,7 @@ SFX i2 enir iens/t' enir
 SFX i2 enir enons enir
 SFX i2 enir enez enir
 
-SFX i5 N {{BUILD.NUMRULES}}
+SFX i5 N 38
 SFX i5 tir tant tir
 SFX i5 tir s tir
 SFX i5 tir t tir
@@ -5332,7 +6285,7 @@ SFX i5 tir s tir
 SFX i5 tir tons tir
 SFX i5 tir tez tir
 
-SFX iA Y {{BUILD.NUMRULES}}
+SFX iA Y 19
 SFX iA dvenir dvenir/n'q'd'm't' venir
 SFX iA dvenir dvenant/n'q'm't' venir
 SFX iA dvenir dvenu/Q' venir
@@ -5353,7 +6306,7 @@ SFX iA dvenir dvienne/n'q'm't' venir
 SFX iA dvenir dvînt/n'q'm't' venir
 SFX iA dvenir dvinssent/n'q' venir
 
-SFX iB Y {{BUILD.NUMRULES}}
+SFX iB Y 40
 SFX iB partenir partenir/n'q'd'm't's' tenir
 SFX iB partenir partenant/n'q'm't's' tenir
 SFX iB partenir partenu/q' tenir
@@ -5395,7 +6348,7 @@ SFX iB partenir partiens/n'm't' tenir
 SFX iB partenir partenons/n' tenir
 SFX iB partenir partenez/n'm' tenir
 
-SFX iC Y {{BUILD.NUMRULES}}
+SFX iC Y 41
 SFX iC rir rir/n'q'd'l'm't's' [vf]rir
 SFX iC rir rant/n'q'l'm't's' [vf]rir
 SFX iC rir ert/L'D'Q' [vf]rir
@@ -5438,7 +6391,7 @@ SFX iC rir re/n'l'm't' [vf]rir
 SFX iC rir rons/n'l' [vf]rir
 SFX iC rir rez/n'l'm' [vf]rir
 
-SFX iD Y {{BUILD.NUMRULES}}
+SFX iD Y 43
 SFX iD courir courir/n'q'd' courir
 SFX iD courir courant/n'q' courir
 SFX iD courir couru courir
@@ -5483,7 +6436,7 @@ SFX iD courir cours/n' courir
 SFX iD courir courons/n' courir
 SFX iD courir courez/n' courir
 
-SFX iE Y {{BUILD.NUMRULES}}
+SFX iE Y 43
 SFX iE ourir ourir/n'q'd'l'm't's' courir
 SFX iE ourir ourant/n'q'm't's' courir
 SFX iE ourir ouru/L'D'Q' courir
@@ -5528,7 +6481,7 @@ SFX iE ourir ours/n'l' courir
 SFX iE ourir ourons/n'l' courir
 SFX iE ourir ourez/n'l' courir
 
-SFX iF N {{BUILD.NUMRULES}}
+SFX iF N 42
 SFX iF ervir ervant servir
 SFX iF ervir ervi servir
 SFX iF ervir ervis servir
@@ -5572,7 +6525,7 @@ SFX iF ervir ers servir
 SFX iF ervir ervons servir
 SFX iF ervir ervez servir
 
-SFX iG N {{BUILD.NUMRULES}}
+SFX iG N 42
 SFX iG êtir êtant vêtir
 SFX iG êtir êtu vêtir
 SFX iG êtir êtus vêtir
@@ -5616,7 +6569,7 @@ SFX iG êtir êts vêtir
 SFX iG êtir êtons vêtir
 SFX iG êtir êtez vêtir
 
-SFX iI N {{BUILD.NUMRULES}}
+SFX iI N 39
 SFX iI ormir ormant dormir
 SFX iI ormir ormi dormir
 SFX iI ormir ors dormir
@@ -5657,7 +6610,7 @@ SFX iI ormir ors dormir
 SFX iI ormir ormons dormir
 SFX iI ormir ormez dormir
 
-SFX iJ Y {{BUILD.NUMRULES}}
+SFX iJ Y 43
 SFX iJ dormir dormir/n'q'd'l'm't's' dormir
 SFX iJ dormir dormant/n'q'l'm't's' dormir
 SFX iJ dormir dormi/L'D'Q' dormir
@@ -5702,7 +6655,7 @@ SFX iJ dormir dors/n'l'm't' dormir
 SFX iJ dormir dormons/n'l' dormir
 SFX iJ dormir dormez/n'l'm' dormir
 
-SFX iK Y {{BUILD.NUMRULES}}
+SFX iK Y 42
 SFX iK quérir quérir/n'q'd'l'm't's' quérir
 SFX iK quérir quérant/n'q'l'm't's' quérir
 SFX iK quérir quis/L'D'Q' quérir
@@ -5746,7 +6699,7 @@ SFX iK quérir quiers/n'l'm't' quérir
 SFX iK quérir quérons/n'l' quérir
 SFX iK quérir quérez/n'l'm' quérir
 
-SFX iM Y {{BUILD.NUMRULES}}
+SFX iM Y 42
 SFX iM quérir quérir/m't's' quérir
 SFX iM quérir quérant/m't's' quérir
 SFX iM quérir quis/L'D'Q' quérir
@@ -5790,7 +6743,7 @@ SFX iM quérir quiers/t' quérir
 SFX iM quérir quérons quérir
 SFX iM quérir quérez quérir
 
-SFX iN N {{BUILD.NUMRULES}}
+SFX iN N 40
 SFX iN uir uyant fuir
 SFX iN uir ui fuir
 SFX iN uir uis fuir
@@ -5832,7 +6785,7 @@ SFX iN uir uis fuir
 SFX iN uir uyons fuir
 SFX iN uir uyez fuir
 
-SFX iO Y {{BUILD.NUMRULES}}
+SFX iO Y 41
 SFX iO fuir fuir/m't's' enfuir
 SFX iO fuir fuyant/m't's' enfuir
 SFX iO fuir fui/L'D'Q' enfuir
@@ -5875,7 +6828,7 @@ SFX iO fuir fuis/t' enfuir
 SFX iO fuir fuyons enfuir
 SFX iO fuir fuyez enfuir
 
-SFX iP N {{BUILD.NUMRULES}}
+SFX iP N 42
 SFX iP ourir ourant mourir
 SFX iP ourir ort mourir
 SFX iP ourir orts mourir
@@ -5919,7 +6872,7 @@ SFX iP ourir eurs mourir
 SFX iP ourir ourons mourir
 SFX iP ourir ourez mourir
 
-SFX iQ N {{BUILD.NUMRULES}}
+SFX iQ N 42
 SFX iQ ouillir ouillant bouillir
 SFX iQ ouillir ouilli bouillir
 SFX iQ ouillir ouillis bouillir
@@ -5963,7 +6916,7 @@ SFX iQ ouillir ous bouillir
 SFX iQ ouillir ouillons bouillir
 SFX iQ ouillir ouillez bouillir
 
-SFX iR Y {{BUILD.NUMRULES}}
+SFX iR Y 41
 SFX iR ueillir ueillir/n'q'd'l'm't's' cueillir
 SFX iR ueillir ueillant/n'q'l'm't's' cueillir
 SFX iR ueillir ueilli/L'D'Q' cueillir
@@ -6006,7 +6959,7 @@ SFX iR ueillir ueille/n'l'm' cueillir
 SFX iR ueillir ueillons/n'l' cueillir
 SFX iR ueillir ueillez/n'l'm' cueillir
 
-SFX iS N {{BUILD.NUMRULES}}
+SFX iS N 37
 SFX iS aillir aillant aillir
 SFX iS aillir ailli aillir
 SFX iS aillir aille aillir
@@ -6045,7 +6998,7 @@ SFX iS aillir aille aillir
 SFX iS aillir aillons aillir
 SFX iS aillir aillez aillir
 
-SFX iT Y {{BUILD.NUMRULES}}
+SFX iT Y 41
 SFX iT saillir saillir/n'q'd'l'm't's' aillir
 SFX iT saillir saillant/n'q'l'm't's' aillir
 SFX iT saillir sailli/L'D'Q' aillir
@@ -6088,7 +7041,7 @@ SFX iT saillir saille/n'l'm' aillir
 SFX iT saillir saillons/n'l' aillir
 SFX iT saillir saillez/n'l'm' aillir
 
-SFX iU N {{BUILD.NUMRULES}}
+SFX iU N 36
 SFX iU aillir aillant faillir
 SFX iU aillir ailli faillir
 SFX iU aillir aux faillir
@@ -6126,10 +7079,10 @@ SFX iU aillir aillissions faillir
 SFX iU aillir aillissiez faillir
 SFX iU aillir aillissent faillir
 
-SFX iV N {{BUILD.NUMRULES}}
+SFX iV N 11
 SFX iV ésir isant gésir
 SFX iV ésir is gésir
-SFX iV ésir ît gésir
+SFX iV ésir it gésir
 SFX iV ésir isons gésir
 SFX iV ésir isez gésir
 SFX iV ésir isent gésir
@@ -6139,7 +7092,7 @@ SFX iV ésir isions gésir
 SFX iV ésir isiez gésir
 SFX iV ésir isaient gésir
 
-SFX iW Y {{BUILD.NUMRULES}}
+SFX iW Y 54
 SFX iW uïr uïr/n'q'd'l'm't's' ouïr
 SFX iW uïr yant/n'q'l'm't's' ouïr
 SFX iW uïr uï/L'D'Q' ouïr
@@ -6195,20 +7148,20 @@ SFX iW uïr is/n'l'm' ouïr
 SFX iW uïr yons/n'l' ouïr
 SFX iW uïr yez/n'l'm' ouïr
 
-SFX iX N {{BUILD.NUMRULES}}
+SFX iX N 4
 SFX iX érir éru férir
 SFX iX érir érus férir
 SFX iX érir érue férir
 SFX iX érir érues férir
 
-SFX iY Y {{BUILD.NUMRULES}}
+SFX iY Y 5
 SFX iY ssir ssir/n'q'd' issir
 SFX iY ssir ssu/L'D'Q' issir
 SFX iY ssir ssus/D'Q' issir
 SFX iY ssir ssue/L'D'Q' issir
 SFX iY ssir ssues/D'Q' issir
 
-SFX pA N {{BUILD.NUMRULES}}
+SFX pA N 42
 SFX pA ouvoir ouvant pouvoir
 SFX pA ouvoir u pouvoir
 SFX pA ouvoir eux pouvoir
@@ -6239,20 +7192,20 @@ SFX pA ouvoir ourrions pouvoir
 SFX pA ouvoir ourriez pouvoir
 SFX pA ouvoir ourraient pouvoir
 SFX pA ouvoir uisse pouvoir
-SFX pA ouvoir uissé pouvoir
+SFX pA ouvoir uissè pouvoir
 SFX pA ouvoir uisses pouvoir
 SFX pA ouvoir uissions pouvoir
 SFX pA ouvoir uissiez pouvoir
 SFX pA ouvoir uissent pouvoir
 SFX pA ouvoir usse pouvoir
-SFX pA ouvoir ussé pouvoir
+SFX pA ouvoir ussè pouvoir
 SFX pA ouvoir usses pouvoir
 SFX pA ouvoir ût pouvoir
 SFX pA ouvoir ussions pouvoir
 SFX pA ouvoir ussiez pouvoir
 SFX pA ouvoir ussent pouvoir
 
-SFX pB N {{BUILD.NUMRULES}}
+SFX pB N 47
 SFX pB ouloir oulant vouloir
 SFX pB ouloir oulu vouloir
 SFX pB ouloir oulus vouloir
@@ -6285,7 +7238,7 @@ SFX pB ouloir oudrions vouloir
 SFX pB ouloir oudriez vouloir
 SFX pB ouloir oudraient vouloir
 SFX pB ouloir euille vouloir
-SFX pB ouloir euillé vouloir
+SFX pB ouloir euillè vouloir
 SFX pB ouloir euilles vouloir
 SFX pB ouloir euillent vouloir
 SFX pB ouloir oulusse vouloir
@@ -6301,9 +7254,9 @@ SFX pB ouloir oulons vouloir
 SFX pB ouloir euillez vouloir
 SFX pB ouloir oulez vouloir
 
-SFX pC N {{BUILD.NUMRULES}}
+SFX pC N 43
 SFX pC evoir evant devoir
-SFX pC evoir û redevoir
+SFX pC evoir u redevoir
 SFX pC evoir us devoir
 SFX pC evoir ue devoir
 SFX pC evoir ues devoir
@@ -6336,7 +7289,7 @@ SFX pC evoir evraient devoir
 SFX pC evoir oive devoir
 SFX pC evoir oives devoir
 SFX pC evoir usse devoir
-SFX pC evoir ussé devoir
+SFX pC evoir ussè devoir
 SFX pC evoir usses devoir
 SFX pC evoir ût devoir
 SFX pC evoir ussions devoir
@@ -6346,10 +7299,10 @@ SFX pC evoir ois devoir
 SFX pC evoir evons devoir
 SFX pC evoir evez devoir
 
-SFX pD N {{BUILD.NUMRULES}}
+SFX pD N 1
 SFX pD evoir û devoir
 
-SFX pE N {{BUILD.NUMRULES}}
+SFX pE N 45
 SFX pE avoir achant savoir
 SFX pE avoir u savoir
 SFX pE avoir us savoir
@@ -6396,7 +7349,7 @@ SFX pE avoir ache savoir
 SFX pE avoir achons savoir
 SFX pE avoir achez savoir
 
-SFX pF Y {{BUILD.NUMRULES}}
+SFX pF Y 54
 SFX pF oir oir/n'q'd'l'm't's' voir
 SFX pF oir oyant/n'q'l'm't's' voir
 SFX pF oir u/L'D'Q' voir
@@ -6452,7 +7405,7 @@ SFX pF oir ois/n'l'm' voir
 SFX pF oir oyons/n'l' voir
 SFX pF oir oyez/n'l'm' voir
 
-SFX pG Y {{BUILD.NUMRULES}}
+SFX pG Y 11
 SFX pG oir errai voir
 SFX pG oir erras voir
 SFX pG oir erra voir
@@ -6465,7 +7418,7 @@ SFX pG oir errions voir
 SFX pG oir erriez voir
 SFX pG oir erraient voir
 
-SFX pH Y {{BUILD.NUMRULES}}
+SFX pH Y 43
 SFX pH ouvoir ouvoir/n'q'd'l'm't's' mouvoir
 SFX pH ouvoir ouvant/n'q'l'm't's' mouvoir
 SFX pH ouvoir u/L'D'Q' .mouvoir
@@ -6510,10 +7463,10 @@ SFX pH ouvoir eus/n'l'm' mouvoir
 SFX pH ouvoir ouvons/n'l' mouvoir
 SFX pH ouvoir ouvez/n'l'm' mouvoir
 
-SFX pI N {{BUILD.NUMRULES}}
-SFX pI ouvoir û/q' mouvoir
+SFX pI N 1
+SFX pI ouvoir u/q' mouvoir
 
-SFX pJ N {{BUILD.NUMRULES}}
+SFX pJ N 42
 SFX pJ ourvoir ourvoyant pourvoir
 SFX pJ ourvoir ourvu pourvoir
 SFX pJ ourvoir ourvus pourvoir
@@ -6557,7 +7510,7 @@ SFX pJ ourvoir ourvois pourvoir
 SFX pJ ourvoir ourvoyons pourvoir
 SFX pJ ourvoir ourvoyez pourvoir
 
-SFX pK Y {{BUILD.NUMRULES}}
+SFX pK Y 43
 SFX pK cevoir cevoir/n'q'd'l'm't's' cevoir
 SFX pK cevoir cevant/n'q'l'm't's' cevoir
 SFX pK cevoir çu/L'D'Q' cevoir
@@ -6602,7 +7555,7 @@ SFX pK cevoir çois/n'l'm't' cevoir
 SFX pK cevoir cevons/n'l' cevoir
 SFX pK cevoir cevez/n'l'm' cevoir
 
-SFX pM N {{BUILD.NUMRULES}}
+SFX pM N 40
 SFX pM aloir alant valoir
 SFX pM aloir alu valoir
 SFX pM aloir aux valoir
@@ -6644,7 +7597,7 @@ SFX pM aloir aux valoir
 SFX pM aloir alons valoir
 SFX pM aloir alez valoir
 
-SFX pN Y {{BUILD.NUMRULES}}
+SFX pN Y 43
 SFX pN valoir valoir/n'q'd'm't's' valoir
 SFX pN valoir valant/n'q'm't's' valoir
 SFX pN valoir vaux/n'j'm't' valoir
@@ -6689,7 +7642,7 @@ SFX pN valoir vaux valoir
 SFX pN valoir valons valoir
 SFX pN valoir valez valoir
 
-SFX pO N {{BUILD.NUMRULES}}
+SFX pO N 16
 SFX pO valoir valant revaloir
 SFX pO valoir valu revaloir
 SFX pO valoir valus revaloir
@@ -6707,137 +7660,137 @@ SFX pO valoir vaudrions revaloir
 SFX pO valoir vaudriez revaloir
 SFX pO valoir vaudraient revaloir
 
-SFX pP N {{BUILD.NUMRULES}}
+SFX pP N 1
 SFX pP paroir parant comparoir
 
-SFX pQ N {{BUILD.NUMRULES}}
+SFX pQ N 1
 SFX pQ haloir haut chaloir
 
-SFX pR Y {{BUILD.NUMRULES}}
+SFX pR Y 2
 SFX pR pparoir pparoir/n'q'd' apparoir
 SFX pR pparoir ppert/n'q' apparoir
 
-SFX pS Y {{BUILD.NUMRULES}}
+SFX pS Y 69
 SFX pS oir oir/n'q'd'l'm't's' oir
-SFX pS sseoir sseyant/n'q'l'm't's' seoir
-SFX pS sseoir ssoyant/n'q'l'm't's' seoir
-SFX pS sseoir ssis/L'D'Q' seoir
-SFX pS sseoir ssise/L'D'Q' seoir
-SFX pS sseoir ssises/D'Q' seoir
-SFX pS sseoir ssieds/n'q'j'l'm't' seoir
-SFX pS sseoir ssied/n'q'l'm't's' seoir
-SFX pS sseoir sseyons/n'q'l't' seoir
-SFX pS sseoir sseyez/n'q'l'm' seoir
-SFX pS sseoir sseyent/n'q'l'm't's' seoir
-SFX pS sseoir ssois/n'q'j'l'm't' seoir
-SFX pS sseoir ssoit/n'q'l'm't's' seoir
-SFX pS sseoir ssoyons/n'q'l't' seoir
-SFX pS sseoir ssoyez/n'q'l'm' seoir
-SFX pS sseoir ssoient/n'q'l'm't's' seoir
-SFX pS sseoir sseyais/n'q'j'l'm't' seoir
-SFX pS sseoir sseyait/n'q'l'm't's' seoir
-SFX pS sseoir sseyions/n'q'l't' seoir
-SFX pS sseoir sseyiez/n'q'l'm' seoir
-SFX pS sseoir sseyaient/n'q'l'm't's' seoir
-SFX pS sseoir ssoyais/n'q'j'l'm't' seoir
-SFX pS sseoir ssoyait/n'q'l'm't's' seoir
-SFX pS sseoir ssoyions/n'q'l't' seoir
-SFX pS sseoir ssoyiez/n'q'l'm' seoir
-SFX pS sseoir ssoyaient/n'q'l'm't's' seoir
-SFX pS sseoir ssis/n'q'j'l'm't' seoir
-SFX pS sseoir ssit/n'q'l'm't's' seoir
-SFX pS sseoir ssîmes/n'q'l't' seoir
-SFX pS sseoir ssîtes/n'q'l'm' seoir
-SFX pS sseoir ssirent/n'q'l'm't's' seoir
-SFX pS sseoir ssiérai/n'q'j'l'm't' seoir
-SFX pS sseoir ssiéras/n'q'l'm't' seoir
-SFX pS sseoir ssiéra/n'q'l'm't's' seoir
-SFX pS sseoir ssiérons/n'q'l't' seoir
-SFX pS sseoir ssiérez/n'q'l'm' seoir
-SFX pS sseoir ssiéront/n'q'l'm't's' seoir
-SFX pS sseoir ssoirai/n'q'j'l'm't' seoir
-SFX pS sseoir ssoiras/n'q'l'm't' seoir
-SFX pS sseoir ssoira/n'q'l'm't's' seoir
-SFX pS sseoir ssoirons/n'q'l't' seoir
-SFX pS sseoir ssoirez/n'q'l'm' seoir
-SFX pS sseoir ssoiront/n'q'l'm't's' seoir
-SFX pS sseoir ssiérais/n'q'j'l'm't' seoir
-SFX pS sseoir ssiérait/n'q'l'm't's' seoir
-SFX pS sseoir ssiérions/n'q'l't' seoir
-SFX pS sseoir ssiériez/n'q'l'm' seoir
-SFX pS sseoir ssiéraient/n'q'l'm't's' seoir
-SFX pS sseoir ssoirais/n'q'j'l'm't' seoir
-SFX pS sseoir ssoirait/n'q'l'm't's' seoir
-SFX pS sseoir ssoirions/n'q'l't' seoir
-SFX pS sseoir ssoiriez/n'q'l'm' seoir
-SFX pS sseoir ssoiraient/n'q'l'm't's' seoir
-SFX pS sseoir sseye/n'q'j'l'm't's' seoir
-SFX pS sseoir sseyes/n'l'm't' seoir
-SFX pS sseoir ssoie/n'q'j'l'm't's' seoir
-SFX pS sseoir ssoies/n'l'm't' seoir
-SFX pS sseoir ssisse/n'q'j'l'm't' seoir
-SFX pS sseoir ssisses/n'q'l'm't' seoir
-SFX pS sseoir ssît/n'q'l'm't's' seoir
-SFX pS sseoir ssissions/n'q'l't' seoir
-SFX pS sseoir ssissiez/n'q'l'm' seoir
-SFX pS sseoir ssissent/n'q'l'm't's' seoir
-SFX pS sseoir ssieds/n'l'm't' seoir
-SFX pS sseoir sseyons/n'l' seoir
-SFX pS sseoir sseyez/n'l'm' seoir
-SFX pS sseoir ssois/n'l'm't' seoir
-SFX pS sseoir ssoyons/n'l' seoir
-SFX pS sseoir ssoyez/n'l'm' seoir
+SFX pS ssoir sseyant/n'q'l'm't's' soir
+SFX pS ssoir ssoyant/n'q'l'm't's' soir
+SFX pS ssoir ssis/L'D'Q' soir
+SFX pS ssoir ssise/L'D'Q' soir
+SFX pS ssoir ssises/D'Q' soir
+SFX pS ssoir ssieds/n'q'j'l'm't' soir
+SFX pS ssoir ssied/n'q'l'm't's' soir
+SFX pS ssoir sseyons/n'q'l't' soir
+SFX pS ssoir sseyez/n'q'l'm' soir
+SFX pS ssoir sseyent/n'q'l'm't's' soir
+SFX pS ssoir ssois/n'q'j'l'm't' soir
+SFX pS ssoir ssoit/n'q'l'm't's' soir
+SFX pS ssoir ssoyons/n'q'l't' soir
+SFX pS ssoir ssoyez/n'q'l'm' soir
+SFX pS ssoir ssoient/n'q'l'm't's' soir
+SFX pS ssoir sseyais/n'q'j'l'm't' soir
+SFX pS ssoir sseyait/n'q'l'm't's' soir
+SFX pS ssoir sseyions/n'q'l't' soir
+SFX pS ssoir sseyiez/n'q'l'm' soir
+SFX pS ssoir sseyaient/n'q'l'm't's' soir
+SFX pS ssoir ssoyais/n'q'j'l'm't' soir
+SFX pS ssoir ssoyait/n'q'l'm't's' soir
+SFX pS ssoir ssoyions/n'q'l't' soir
+SFX pS ssoir ssoyiez/n'q'l'm' soir
+SFX pS ssoir ssoyaient/n'q'l'm't's' soir
+SFX pS ssoir ssis/n'q'j'l'm't' soir
+SFX pS ssoir ssit/n'q'l'm't's' soir
+SFX pS ssoir ssîmes/n'q'l't' soir
+SFX pS ssoir ssîtes/n'q'l'm' soir
+SFX pS ssoir ssirent/n'q'l'm't's' soir
+SFX pS ssoir ssiérai/n'q'j'l'm't' soir
+SFX pS ssoir ssiéras/n'q'l'm't' soir
+SFX pS ssoir ssiéra/n'q'l'm't's' soir
+SFX pS ssoir ssiérons/n'q'l't' soir
+SFX pS ssoir ssiérez/n'q'l'm' soir
+SFX pS ssoir ssiéront/n'q'l'm't's' soir
+SFX pS ssoir ssoirai/n'q'j'l'm't' soir
+SFX pS ssoir ssoiras/n'q'l'm't' soir
+SFX pS ssoir ssoira/n'q'l'm't's' soir
+SFX pS ssoir ssoirons/n'q'l't' soir
+SFX pS ssoir ssoirez/n'q'l'm' soir
+SFX pS ssoir ssoiront/n'q'l'm't's' soir
+SFX pS ssoir ssiérais/n'q'j'l'm't' soir
+SFX pS ssoir ssiérait/n'q'l'm't's' soir
+SFX pS ssoir ssiérions/n'q'l't' soir
+SFX pS ssoir ssiériez/n'q'l'm' soir
+SFX pS ssoir ssiéraient/n'q'l'm't's' soir
+SFX pS ssoir ssoirais/n'q'j'l'm't' soir
+SFX pS ssoir ssoirait/n'q'l'm't's' soir
+SFX pS ssoir ssoirions/n'q'l't' soir
+SFX pS ssoir ssoiriez/n'q'l'm' soir
+SFX pS ssoir ssoiraient/n'q'l'm't's' soir
+SFX pS ssoir sseye/n'q'j'l'm't's' soir
+SFX pS ssoir sseyes/n'l'm't' soir
+SFX pS ssoir ssoie/n'q'j'l'm't's' soir
+SFX pS ssoir ssoies/n'l'm't' soir
+SFX pS ssoir ssisse/n'q'j'l'm't' soir
+SFX pS ssoir ssisses/n'q'l'm't' soir
+SFX pS ssoir ssît/n'q'l'm't's' soir
+SFX pS ssoir ssissions/n'q'l't' soir
+SFX pS ssoir ssissiez/n'q'l'm' soir
+SFX pS ssoir ssissent/n'q'l'm't's' soir
+SFX pS ssoir ssieds/n'l'm't' soir
+SFX pS ssoir sseyons/n'l' soir
+SFX pS ssoir sseyez/n'l'm' soir
+SFX pS ssoir ssois/n'l'm't' soir
+SFX pS ssoir ssoyons/n'l' soir
+SFX pS ssoir ssoyez/n'l'm' soir
 
-SFX pT N {{BUILD.NUMRULES}}
-SFX pT urseoir ursoyant seoir
-SFX pT urseoir ursis seoir
-SFX pT urseoir ursise seoir
-SFX pT urseoir ursises seoir
-SFX pT urseoir ursois seoir
-SFX pT urseoir ursoit seoir
-SFX pT urseoir ursoyons seoir
-SFX pT urseoir ursoyez seoir
-SFX pT urseoir ursoient seoir
-SFX pT urseoir ursoyais seoir
-SFX pT urseoir ursoyait seoir
-SFX pT urseoir ursoyions seoir
-SFX pT urseoir ursoyiez seoir
-SFX pT urseoir ursoyaient seoir
-SFX pT urseoir ursis seoir
-SFX pT urseoir ursit seoir
-SFX pT urseoir ursîmes seoir
-SFX pT urseoir ursîtes seoir
-SFX pT urseoir ursirent seoir
-SFX pT urseoir urseoirai seoir
-SFX pT urseoir urseoiras seoir
-SFX pT urseoir urseoira seoir
-SFX pT urseoir urseoirons seoir
-SFX pT urseoir urseoirez seoir
-SFX pT urseoir urseoiront seoir
-SFX pT urseoir urseoirais seoir
-SFX pT urseoir urseoirait seoir
-SFX pT urseoir urseoirions seoir
-SFX pT urseoir urseoiriez seoir
-SFX pT urseoir urseoiraient seoir
-SFX pT urseoir ursoie seoir
-SFX pT urseoir ursoies seoir
-SFX pT urseoir ursisse seoir
-SFX pT urseoir ursisses seoir
-SFX pT urseoir ursît seoir
-SFX pT urseoir ursissions seoir
-SFX pT urseoir ursissiez seoir
-SFX pT urseoir ursissent seoir
-SFX pT urseoir ursois seoir
-SFX pT urseoir ursoyons seoir
-SFX pT urseoir ursoyez seoir
+SFX pT N 41
+SFX pT ursoir ursoyant soir
+SFX pT ursoir ursis soir
+SFX pT ursoir ursise soir
+SFX pT ursoir ursises soir
+SFX pT ursoir ursois soir
+SFX pT ursoir ursoit soir
+SFX pT ursoir ursoyons soir
+SFX pT ursoir ursoyez soir
+SFX pT ursoir ursoient soir
+SFX pT ursoir ursoyais soir
+SFX pT ursoir ursoyait soir
+SFX pT ursoir ursoyions soir
+SFX pT ursoir ursoyiez soir
+SFX pT ursoir ursoyaient soir
+SFX pT ursoir ursis soir
+SFX pT ursoir ursit soir
+SFX pT ursoir ursîmes soir
+SFX pT ursoir ursîtes soir
+SFX pT ursoir ursirent soir
+SFX pT ursoir ursoirai soir
+SFX pT ursoir ursoiras soir
+SFX pT ursoir ursoira soir
+SFX pT ursoir ursoirons soir
+SFX pT ursoir ursoirez soir
+SFX pT ursoir ursoiront soir
+SFX pT ursoir ursoirais soir
+SFX pT ursoir ursoirait soir
+SFX pT ursoir ursoirions soir
+SFX pT ursoir ursoiriez soir
+SFX pT ursoir ursoiraient soir
+SFX pT ursoir ursoie soir
+SFX pT ursoir ursoies soir
+SFX pT ursoir ursisse soir
+SFX pT ursoir ursisses soir
+SFX pT ursoir ursît soir
+SFX pT ursoir ursissions soir
+SFX pT ursoir ursissiez soir
+SFX pT ursoir ursissent soir
+SFX pT ursoir ursois soir
+SFX pT ursoir ursoyons soir
+SFX pT ursoir ursoyez soir
 
-SFX pU N {{BUILD.NUMRULES}}
+SFX pU N 4
 SFX pU eoir éant seoir
 SFX pU eoir is seoir
 SFX pU eoir ise seoir
 SFX pU eoir ises seoir
 
-SFX pV N {{BUILD.NUMRULES}}
+SFX pV N 13
 SFX pV eoir éant seoir
 SFX pV eoir eyant seoir
 SFX pV eoir is seoir
@@ -6852,20 +7805,20 @@ SFX pV eoir iéraient seoir
 SFX pV eoir iée seoir
 SFX pV eoir iéent seoir
 
-SFX pW N {{BUILD.NUMRULES}}
-SFX pW sseoir sséant seoir
-SFX pW sseoir ssied seoir
-SFX pW sseoir ssiéent seoir
-SFX pW sseoir sseyait seoir
-SFX pW sseoir sseyaient seoir
-SFX pW sseoir ssiéra seoir
-SFX pW sseoir ssiéront seoir
-SFX pW sseoir ssiérait seoir
-SFX pW sseoir ssiéraient seoir
-SFX pW sseoir ssiée seoir
-SFX pW sseoir ssiéent seoir
+SFX pW N 11
+SFX pW ssoir sséant soir
+SFX pW ssoir ssied soir
+SFX pW ssoir ssiéent soir
+SFX pW ssoir sseyait soir
+SFX pW ssoir sseyaient soir
+SFX pW ssoir ssiéra soir
+SFX pW ssoir ssiéront soir
+SFX pW ssoir ssiérait soir
+SFX pW ssoir ssiéraient soir
+SFX pW ssoir ssiée soir
+SFX pW ssoir ssiéent soir
 
-SFX pX N {{BUILD.NUMRULES}}
+SFX pX N 52
 SFX pX hoir hu choir
 SFX pX hoir hus choir
 SFX pX hoir hue choir
@@ -6919,7 +7872,7 @@ SFX pX hoir hois déchoir
 SFX pX hoir hoyons déchoir
 SFX pX hoir hoyez déchoir
 
-SFX pY Y {{BUILD.NUMRULES}}
+SFX pY Y 26
 SFX pY choir choir/n'q'd' échoir
 SFX pY choir chéant/n'q' échoir
 SFX pY choir chu/L'D'Q' échoir
@@ -6947,7 +7900,7 @@ SFX pY choir choient/n'q' échoir
 SFX pY choir chût/n'q' échoir
 SFX pY choir chussent/n'q' échoir
 
-SFX pZ N {{BUILD.NUMRULES}}
+SFX pZ N 18
 SFX pZ euvoir euvant pleuvoir
 SFX pZ euvoir u pleuvoir
 SFX pZ euvoir eut pleuvoir
@@ -6967,7 +7920,7 @@ SFX pZ euvoir eus pleuvoir
 SFX pZ euvoir euvons pleuvoir
 SFX pZ euvoir euvez pleuvoir
 
-SFX qA N {{BUILD.NUMRULES}}
+SFX qA N 8
 SFX qA alloir allu falloir
 SFX qA alloir aut falloir
 SFX qA alloir allait falloir
@@ -6977,7 +7930,7 @@ SFX qA alloir audrait falloir
 SFX qA alloir aille falloir
 SFX qA alloir allût falloir
 
-SFX rA Y {{BUILD.NUMRULES}}
+SFX rA Y 28
 SFX rA lore lore/n'q'd'l'm't's' clore
 SFX rA lore losant/n'q'l'm't's' clore
 SFX rA lore los/L'D'Q' clore
@@ -7007,10 +7960,10 @@ SFX rA lore los/n'l'm' clore
 SFX rA lore losons/n'l' clore
 SFX rA lore losez/n'l'm' clore
 
-SFX rB Y {{BUILD.NUMRULES}}
+SFX rB Y 1
 SFX rB lore lôt clore
 
-SFX rC Y {{BUILD.NUMRULES}}
+SFX rC Y 28
 SFX rC clore clore/n'q'd' clore
 SFX rC clore closant/n'q' clore
 SFX rC clore clos/L'D'Q' clore
@@ -7040,12 +7993,12 @@ SFX rC clore clos/n' clore
 SFX rC clore closons/n' clore
 SFX rC clore closez/n' clore
 
-SFX rD N {{BUILD.NUMRULES}}
+SFX rD N 3
 SFX rD clore clos clore
 SFX rD clore close clore
 SFX rD clore closes clore
 
-SFX tA Y {{BUILD.NUMRULES}}
+SFX tA Y 44
 SFX tA re re/n'q'd'l'm't's' [dp]re
 SFX tA re ant/n'q'l'm't's' [dp]re
 SFX tA re u/L'D'Q' [dp]re
@@ -7091,7 +8044,7 @@ SFX tA re s/n'l'm't' [dp]re
 SFX tA re ons/n'l' [dp]re
 SFX tA re ez/n'l'm' [dp]re
 
-SFX tD Y {{BUILD.NUMRULES}}
+SFX tD Y 43
 SFX tD perdre perdre/m't's' perdre
 SFX tD perdre perdant/m't's' perdre
 SFX tD perdre perdu perdre
@@ -7136,7 +8089,7 @@ SFX tD perdre perds/t' perdre
 SFX tD perdre perdons perdre
 SFX tD perdre perdez perdre
 
-SFX tE N {{BUILD.NUMRULES}}
+SFX tE N 38
 SFX tE dre dant dre
 SFX tE dre ds dre
 SFX tE dre d dre
@@ -7176,7 +8129,7 @@ SFX tE dre ds dre
 SFX tE dre dons dre
 SFX tE dre dez dre
 
-SFX tF Y {{BUILD.NUMRULES}}
+SFX tF Y 42
 SFX tF rendre rendre/n'q'd'l'm't's' prendre
 SFX tF rendre renant/n'q'l'm't's' prendre
 SFX tF rendre ris/L'D'Q' prendre
@@ -7220,7 +8173,7 @@ SFX tF rendre rends/n'l'm' prendre
 SFX tF rendre renons/n'l' prendre
 SFX tF rendre renez/n'l'm' prendre
 
-SFX tG Y {{BUILD.NUMRULES}}
+SFX tG Y 42
 SFX tG prendre prendre/m't's' prendre
 SFX tG prendre prenant/m't's' prendre
 SFX tG prendre pris/L'D'Q' prendre
@@ -7264,7 +8217,7 @@ SFX tG prendre prends/t' prendre
 SFX tG prendre prenons prendre
 SFX tG prendre prenez prendre
 
-SFX tM N {{BUILD.NUMRULES}}
+SFX tM N 31
 SFX tM outre outant foutre
 SFX tM outre outu foutre
 SFX tM outre outus foutre
@@ -7297,13 +8250,13 @@ SFX tM outre ous foutre
 SFX tM outre outons foutre
 SFX tM outre outez foutre
 
-SFX tU N {{BUILD.NUMRULES}}
+SFX tU N 4
 SFX tU istre issu tistre
 SFX tU istre issus tistre
 SFX tU istre issue tistre
 SFX tU istre issues tistre
 
-SFX uA Y {{BUILD.NUMRULES}}
+SFX uA Y 44
 SFX uA tre tre/n'q'd'l'm't's' tre
 SFX uA tre tant/n'q'l'm't's' tre
 SFX uA tre tu/L'D'Q' tre
@@ -7312,8 +8265,6 @@ SFX uA tre tue/L'D'Q' tre
 SFX uA tre tues/D'Q' tre
 SFX uA ttre ts/n'q'j'l'm't' ttre
 SFX uA ttre t/n'q'l'm't's' ttre
-SFX uA tre ts/n'q'j'l'm't' embatre
-SFX uA tre t/n'q'l'm't's' embatre
 SFX uA tre tons/n'q'l't' tre
 SFX uA tre tez/n'q'l'm' tre
 SFX uA tre tent/n'q'l'm't's' tre
@@ -7347,10 +8298,11 @@ SFX uA tre tissions/n'q'l't' tre
 SFX uA tre tissiez/n'q'l'm' tre
 SFX uA tre tissent/n'q'l'm't's' tre
 SFX uA tre s/n'l'm't' tre
+SFX uA tre ts/n'l'm' embatre
 SFX uA tre tons/n'l' tre
 SFX uA tre tez/n'l'm' tre
 
-SFX uC Y {{BUILD.NUMRULES}}
+SFX uC Y 43
 SFX uC battre battre/m't's' battre
 SFX uC battre battant/m't's' battre
 SFX uC battre battu battre
@@ -7395,7 +8347,7 @@ SFX uC battre bats/t' battre
 SFX uC battre battons battre
 SFX uC battre battez battre
 
-SFX uD Y {{BUILD.NUMRULES}}
+SFX uD Y 33
 SFX uD battre battre/s' battre
 SFX uD battre battant/s' battre
 SFX uD battre battu battre
@@ -7430,7 +8382,7 @@ SFX uD battre battissent/s' battre
 SFX uD battre battons-nous battre
 SFX uD battre battez-vous battre
 
-SFX vA Y {{BUILD.NUMRULES}}
+SFX vA Y 42
 SFX vA ettre ettre/n'q'd'l'm't's' mettre
 SFX vA ettre ettant/n'q'l'm't's' mettre
 SFX vA ettre is/L'D'Q' mettre
@@ -7474,7 +8426,7 @@ SFX vA ettre ets/n'l'm't' mettre
 SFX vA ettre ettons/n'l' mettre
 SFX vA ettre ettez/n'l'm' mettre
 
-SFX vC Y {{BUILD.NUMRULES}}
+SFX vC Y 42
 SFX vC mettre mettre/m't's' mettre
 SFX vC mettre mettant/m't's' mettre
 SFX vC mettre mis mettre
@@ -7518,7 +8470,7 @@ SFX vC mettre mets mettre
 SFX vC mettre mettons mettre
 SFX vC mettre mettez mettre
 
-SFX wA N {{BUILD.NUMRULES}}
+SFX wA N 42
 SFX wA eindre eignant eindre
 SFX wA eindre eint eindre
 SFX wA eindre eints eindre
@@ -7562,7 +8514,7 @@ SFX wA eindre eins eindre
 SFX wA eindre eignons eindre
 SFX wA eindre eignez eindre
 
-SFX wB Y {{BUILD.NUMRULES}}
+SFX wB Y 43
 SFX wB indre indre/n'q'd'l'm't's' indre
 SFX wB indre ignant/n'q'l'm't's' indre
 SFX wB indre int/L'D'Q' indre
@@ -7607,7 +8559,7 @@ SFX wB indre ins/n'l'm't' indre
 SFX wB indre ignons/n'l' indre
 SFX wB indre ignez/n'l'm' indre
 
-SFX wD N {{BUILD.NUMRULES}}
+SFX wD N 45
 SFX wD aire aisant faire
 SFX wD aire ait faire
 SFX wD aire aits faire
@@ -7654,7 +8606,7 @@ SFX wD aire ais faire
 SFX wD aire aisons faire
 SFX wD aire aites faire
 
-SFX wF N {{BUILD.NUMRULES}}
+SFX wF N 13
 SFX wF faire faisant faire
 SFX wF faire fait faire
 SFX wF faire faits faire
@@ -7669,14 +8621,14 @@ SFX wF faire fais faire
 SFX wF faire faisons faire
 SFX wF faire faites faire
 
-SFX wG N {{BUILD.NUMRULES}}
+SFX wG N 5
 SFX wG aire aisant faire
 SFX wG aire ait faire
 SFX wG aire aits faire
 SFX wG aire aite faire
 SFX wG aire aites faire
 
-SFX wL Y {{BUILD.NUMRULES}}
+SFX wL Y 32
 SFX wL raire raire/n'q'd'l'm't's' traire
 SFX wL raire rayant/n'q'l'm't's' traire
 SFX wL raire rait/L'D'Q' traire
@@ -7710,7 +8662,7 @@ SFX wL raire rais/n'l'm't' traire
 SFX wL raire rayons/n'l' traire
 SFX wL raire rayez/n'l'm' traire
 
-SFX wM N {{BUILD.NUMRULES}}
+SFX wM N 28
 SFX wM aire ayant raire
 SFX wM aire ait raire
 SFX wM aire ais raire
@@ -7740,11 +8692,11 @@ SFX wM aire ais raire
 SFX wM aire ayons raire
 SFX wM aire ayez raire
 
-SFX wN N {{BUILD.NUMRULES}}
+SFX wN N 39
 SFX wN aire aisant aire
 SFX wN aire ais aire
 SFX wN aire ait taire
-SFX wN aire aît plaire
+SFX wN aire ait plaire
 SFX wN aire aisons aire
 SFX wN aire aisez aire
 SFX wN aire aisent aire
@@ -7781,7 +8733,7 @@ SFX wN aire ais aire
 SFX wN aire aisons aire
 SFX wN aire aisez aire
 
-SFX wO N {{BUILD.NUMRULES}}
+SFX wO N 42
 SFX wO aindre aignant aindre
 SFX wO aindre aint aindre
 SFX wO aindre aints aindre
@@ -7825,7 +8777,7 @@ SFX wO aindre ains aindre
 SFX wO aindre aignons aindre
 SFX wO aindre aignez aindre
 
-SFX wP N {{BUILD.NUMRULES}}
+SFX wP N 42
 SFX wP aincre ainquant vaincre
 SFX wP aincre aincu vaincre
 SFX wP aincre aincus vaincre
@@ -7869,24 +8821,24 @@ SFX wP aincre aincs vaincre
 SFX wP aincre ainquons vaincre
 SFX wP aincre ainquez vaincre
 
-SFX wQ Y {{BUILD.NUMRULES}}
+SFX wQ Y 42
 SFX wQ tre tre/n'q'd'm't's' tre
-SFX wQ aître aissant/n'q'd'm't's' aître
-SFX wQ aître ais/n'q'j'm't' aître
-SFX wQ aître aît/n'q'm't's' aître
-SFX wQ aître aissons/n'q't' aître
-SFX wQ aître aissez/n'q'm' aître
-SFX wQ aître aissent/n'q'm't's' aître
-SFX wQ aître aissais/n'q'j'm't' aître
-SFX wQ aître aissait/n'q'm't's' aître
-SFX wQ aître aissions/n'q't' aître
-SFX wQ aître aissiez/n'q'm' aître
-SFX wQ aître aissaient/n'q'm't's' aître
-SFX wQ aître us/n'q'j'm't' aître
-SFX wQ aître ut/n'q'm't's' aître
-SFX wQ aître ûmes/n'q't' aître
-SFX wQ aître ûtes/n'q'm' aître
-SFX wQ aître urent/n'q'm't's' aître
+SFX wQ aitre aissant/n'q'd'm't's' aitre
+SFX wQ aitre ais/n'q'j'm't' aitre
+SFX wQ aitre ait/n'q'm't's' aitre
+SFX wQ aitre aissons/n'q't' aitre
+SFX wQ aitre aissez/n'q'm' aitre
+SFX wQ aitre aissent/n'q'm't's' aitre
+SFX wQ aitre aissais/n'q'j'm't' aitre
+SFX wQ aitre aissait/n'q'm't's' aitre
+SFX wQ aitre aissions/n'q't' aitre
+SFX wQ aitre aissiez/n'q'm' aitre
+SFX wQ aitre aissaient/n'q'm't's' aitre
+SFX wQ aitre us/n'q'j'm't' aitre
+SFX wQ aitre ut/n'q'm't's' aitre
+SFX wQ aitre ûmes/n'q't' aitre
+SFX wQ aitre ûtes/n'q'm' aitre
+SFX wQ aitre urent/n'q'm't's' aitre
 SFX wQ tre trai/n'q'j'm't' tre
 SFX wQ tre tras/n'q'm't' tre
 SFX wQ tre tra/n'q'm't's' tre
@@ -7898,42 +8850,42 @@ SFX wQ tre trait/n'q'm't's' tre
 SFX wQ tre trions/n'q't' tre
 SFX wQ tre triez/n'q'm' tre
 SFX wQ tre traient/n'q'm't's' tre
-SFX wQ aître aisse/n'q'j'm't's' aître
-SFX wQ aître aisses/n'q'm't' aître
-SFX wQ aître usse/n'q'j'm't' aître
-SFX wQ aître usses/n'q'm't' aître
-SFX wQ aître ût/n'q'm't's' aître
-SFX wQ aître ussions/n'q't' aître
-SFX wQ aître ussiez/n'q'm' aître
-SFX wQ aître ussent/n'q'm't's' aître
-SFX wQ aître ais/n'm' paraître
-SFX wQ aître ais connaître
-SFX wQ aître aissons/n' paraître
-SFX wQ aître aissons connaître
-SFX wQ aître aissez/n'm' paraître
-SFX wQ aître aissez connaître
+SFX wQ aitre aisse/n'q'j'm't's' aitre
+SFX wQ aitre aisses/n'q'm't' aitre
+SFX wQ aitre usse/n'q'j'm't' aitre
+SFX wQ aitre usses/n'q'm't' aitre
+SFX wQ aitre ût/n'q'm't's' aitre
+SFX wQ aitre ussions/n'q't' aitre
+SFX wQ aitre ussiez/n'q'm' aitre
+SFX wQ aitre ussent/n'q'm't's' aitre
+SFX wQ aitre ais/n'm' paraitre
+SFX wQ aitre ais connaitre
+SFX wQ aitre aissons/n' paraitre
+SFX wQ aitre aissons connaitre
+SFX wQ aitre aissez/n'm' paraitre
+SFX wQ aitre aissez connaitre
 
-SFX wR N {{BUILD.NUMRULES}}
-SFX wR aître aissant naître
-SFX wR aître é naître
-SFX wR aître és naître
-SFX wR aître ée naître
-SFX wR aître ées naître
-SFX wR aître ais naître
-SFX wR aître aît naître
-SFX wR aître aissons naître
-SFX wR aître aissez naître
-SFX wR aître aissent naître
-SFX wR aître aissais naître
-SFX wR aître aissait naître
-SFX wR aître aissions naître
-SFX wR aître aissiez naître
-SFX wR aître aissaient naître
-SFX wR aître aquis naître
-SFX wR aître aquit naître
-SFX wR aître aquîmes naître
-SFX wR aître aquîtes naître
-SFX wR aître aquirent naître
+SFX wR N 42
+SFX wR aitre aissant naitre
+SFX wR aitre é naitre
+SFX wR aitre és naitre
+SFX wR aitre ée naitre
+SFX wR aitre ées naitre
+SFX wR aitre ais naitre
+SFX wR aitre ait naitre
+SFX wR aitre aissons naitre
+SFX wR aitre aissez naitre
+SFX wR aitre aissent naitre
+SFX wR aitre aissais naitre
+SFX wR aitre aissait naitre
+SFX wR aitre aissions naitre
+SFX wR aitre aissiez naitre
+SFX wR aitre aissaient naitre
+SFX wR aitre aquis naitre
+SFX wR aitre aquit naitre
+SFX wR aitre aquîmes naitre
+SFX wR aitre aquîtes naitre
+SFX wR aitre aquirent naitre
 SFX wR tre trai tre
 SFX wR tre tras tre
 SFX wR tre tra tre
@@ -7945,39 +8897,39 @@ SFX wR tre trait tre
 SFX wR tre trions tre
 SFX wR tre triez tre
 SFX wR tre traient tre
-SFX wR aître aisse naître
-SFX wR aître aisses naître
-SFX wR aître aquisse naître
-SFX wR aître aquisses naître
-SFX wR aître aquît naître
-SFX wR aître aquissions naître
-SFX wR aître aquissiez naître
-SFX wR aître aquissent naître
-SFX wR aître ais naître
-SFX wR aître aissons naître
-SFX wR aître aissez naître
+SFX wR aitre aisse naitre
+SFX wR aitre aisses naitre
+SFX wR aitre aquisse naitre
+SFX wR aitre aquisses naitre
+SFX wR aitre aquît naitre
+SFX wR aitre aquissions naitre
+SFX wR aitre aquissiez naitre
+SFX wR aitre aquissent naitre
+SFX wR aitre ais naitre
+SFX wR aitre aissons naitre
+SFX wR aitre aissez naitre
 
-SFX wS N {{BUILD.NUMRULES}}
-SFX wS aître aissant paître
-SFX wS aître u repaître
-SFX wS aître us repaître
-SFX wS aître ue repaître
-SFX wS aître ues repaître
-SFX wS aître ais paître
-SFX wS aître aît paître
-SFX wS aître aissons paître
-SFX wS aître aissez paître
-SFX wS aître aissent paître
-SFX wS aître aissais paître
-SFX wS aître aissait paître
-SFX wS aître aissions paître
-SFX wS aître aissiez paître
-SFX wS aître aissaient paître
-SFX wS aître us repaître
-SFX wS aître ut repaître
-SFX wS aître ûmes repaître
-SFX wS aître ûtes repaître
-SFX wS aître urent repaître
+SFX wS N 42
+SFX wS aitre aissant paitre
+SFX wS aitre u repaitre
+SFX wS aitre us repaitre
+SFX wS aitre ue repaitre
+SFX wS aitre ues repaitre
+SFX wS aitre ais paitre
+SFX wS aitre ait paitre
+SFX wS aitre aissons paitre
+SFX wS aitre aissez paitre
+SFX wS aitre aissent paitre
+SFX wS aitre aissais paitre
+SFX wS aitre aissait paitre
+SFX wS aitre aissions paitre
+SFX wS aitre aissiez paitre
+SFX wS aitre aissaient paitre
+SFX wS aitre us repaitre
+SFX wS aitre ut repaitre
+SFX wS aitre ûmes repaitre
+SFX wS aitre ûtes repaitre
+SFX wS aitre urent repaitre
 SFX wS tre trai tre
 SFX wS tre tras tre
 SFX wS tre tra tre
@@ -7989,43 +8941,39 @@ SFX wS tre trait tre
 SFX wS tre trions tre
 SFX wS tre triez tre
 SFX wS tre traient tre
-SFX wS aître aisse paître
-SFX wS aître aisses paître
-SFX wS aître usse repaître
-SFX wS aître usses repaître
-SFX wS aître ût repaître
-SFX wS aître ussions repaître
-SFX wS aître ussiez repaître
-SFX wS aître ussent repaître
-SFX wS aître ais paître
-SFX wS aître aissons paître
-SFX wS aître aissez paître
+SFX wS aitre aisse paitre
+SFX wS aitre aisses paitre
+SFX wS aitre usse repaitre
+SFX wS aitre usses repaitre
+SFX wS aitre ût repaitre
+SFX wS aitre ussions repaitre
+SFX wS aitre ussiez repaitre
+SFX wS aitre ussent repaitre
+SFX wS aitre ais paitre
+SFX wS aitre aissons paitre
+SFX wS aitre aissez paitre
 
-SFX wT N {{BUILD.NUMRULES}}
-SFX wT roître roissant croître
-SFX wT roître rû recroître
-SFX wT roître rûs recroître
-SFX wT roître rûe recroître
-SFX wT roître rûes recroître
-SFX wT roître ru décroître
-SFX wT roître rus décroître
-SFX wT roître rue décroître
-SFX wT roître rues décroître
-SFX wT roître rois .croître
-SFX wT roître roît .croître
-SFX wT roître roissons croître
-SFX wT roître roissez croître
-SFX wT roître roissent croître
-SFX wT roître roissais croître
-SFX wT roître roissait croître
-SFX wT roître roissions croître
-SFX wT roître roissiez croître
-SFX wT roître roissaient croître
-SFX wT roître rus .croître
-SFX wT roître rut .croître
-SFX wT roître rûmes croître
-SFX wT roître rûtes croître
-SFX wT roître rurent .croître
+SFX wT N 42
+SFX wT roitre roissant croitre
+SFX wT roitre ru .croitre
+SFX wT roitre rus .croitre
+SFX wT roitre rue .croitre
+SFX wT roitre rues .croitre
+SFX wT roitre rois .croitre
+SFX wT roitre roit .croitre
+SFX wT roitre roissons croitre
+SFX wT roitre roissez croitre
+SFX wT roitre roissent croitre
+SFX wT roitre roissais croitre
+SFX wT roitre roissait croitre
+SFX wT roitre roissions croitre
+SFX wT roitre roissiez croitre
+SFX wT roitre roissaient croitre
+SFX wT roitre rus .croitre
+SFX wT roitre rut .croitre
+SFX wT roitre rûmes croitre
+SFX wT roitre rûtes croitre
+SFX wT roitre rurent .croitre
 SFX wT tre trai tre
 SFX wT tre tras tre
 SFX wT tre tra tre
@@ -8037,57 +8985,57 @@ SFX wT tre trait tre
 SFX wT tre trions tre
 SFX wT tre triez tre
 SFX wT tre traient tre
-SFX wT roître roisse croître
-SFX wT roître roisses croître
-SFX wT roître russe .croître
-SFX wT roître russes .croître
-SFX wT roître rût croître
-SFX wT roître russions .croître
-SFX wT roître russiez .croître
-SFX wT roître russent .croître
-SFX wT roître rois .croître
-SFX wT roître roissons croître
-SFX wT roître roissez croître
+SFX wT roitre roisse croitre
+SFX wT roitre roisses croitre
+SFX wT roitre russe .croitre
+SFX wT roitre russes .croitre
+SFX wT roitre rût croitre
+SFX wT roitre russions .croitre
+SFX wT roitre russiez .croitre
+SFX wT roitre russent .croitre
+SFX wT roitre rois .croitre
+SFX wT roitre roissons croitre
+SFX wT roitre roissez croitre
 
-SFX wU N {{BUILD.NUMRULES}}
-SFX wU roître rû croître
-SFX wU roître rûs croître
-SFX wU roître rûe croître
-SFX wU roître rûes croître
-SFX wU roître roîs croître
-SFX wU roître roît croître
-SFX wU roître rûs croître
-SFX wU roître rût croître
-SFX wU roître rûrent croître
-SFX wU roître rûsse croître
-SFX wU roître rûsses croître
-SFX wU roître rûssions croître
-SFX wU roître rûssiez croître
-SFX wU roître rûssent croître
-SFX wU roître roîs croître
+SFX wU N 15
+SFX wU roitre rû croitre
+SFX wU roitre rûs croitre
+SFX wU roitre rûe croitre
+SFX wU roitre rûes croitre
+SFX wU roitre roîs croitre
+SFX wU roitre roît croitre
+SFX wU roitre rûs croitre
+SFX wU roitre rût croitre
+SFX wU roitre rûrent croitre
+SFX wU roitre rûsse croitre
+SFX wU roitre rûsses croitre
+SFX wU roitre rûssions croitre
+SFX wU roitre rûssiez croitre
+SFX wU roitre rûssent croitre
+SFX wU roitre roîs croitre
 
-SFX wV Y {{BUILD.NUMRULES}}
+SFX wV Y 43
 SFX wV tre tre/n'q'd'l'm't's' tre
-SFX wV croître croissant/n'q'd'l'm't's' croître
-SFX wV croître cru/L'D'Q' croître
-SFX wV croître crus/D'Q' croître
-SFX wV croître crue/L'D'Q' croître
-SFX wV croître crues/D'Q' croître
-SFX wV croître crois/n'q'j'l'm't' croître
-SFX wV croître croît/n'q'l's' croître
-SFX wV croître croissons/n'q'l' croître
-SFX wV croître croissez/n'q'l' croître
-SFX wV croître croissent/n'q'l's' croître
-SFX wV croître croissais/n'q'j'l'm't' croître
-SFX wV croître croissait/n'q'l's' croître
-SFX wV croître croissions/n'q'l' croître
-SFX wV croître croissiez/n'q'l' croître
-SFX wV croître croissaient/n'q'l's' croître
-SFX wV croître crus/n'q'j'l'm't' croître
-SFX wV croître crut/n'q'l's' croître
-SFX wV croître crûmes/n'q'l' croître
-SFX wV croître crûtes/n'q'l' croître
-SFX wV croître crurent/n'q'l's' croître
+SFX wV croitre croissant/n'q'd'l'm't's' croitre
+SFX wV croitre cru/L'D'Q' croitre
+SFX wV croitre crus/D'Q' croitre
+SFX wV croitre crue/L'D'Q' croitre
+SFX wV croitre crues/D'Q' croitre
+SFX wV croitre crois/n'q'j'l'm't' croitre
+SFX wV croitre croit/n'q'l's' croitre
+SFX wV croitre croissons/n'q'l' croitre
+SFX wV croitre croissez/n'q'l' croitre
+SFX wV croitre croissent/n'q'l's' croitre
+SFX wV croitre croissais/n'q'j'l'm't' croitre
+SFX wV croitre croissait/n'q'l's' croitre
+SFX wV croitre croissions/n'q'l' croitre
+SFX wV croitre croissiez/n'q'l' croitre
+SFX wV croitre croissaient/n'q'l's' croitre
+SFX wV croitre crus/n'q'j'l'm't' croitre
+SFX wV croitre crut/n'q'l's' croitre
+SFX wV croitre crûmes/n'q'l' croitre
+SFX wV croitre crûtes/n'q'l' croitre
+SFX wV croitre crurent/n'q'l's' croitre
 SFX wV tre trai/n'q'j'l'm' tre
 SFX wV tre tras/n'q'l't' tre
 SFX wV tre tra/n'q'l's' tre
@@ -8099,19 +9047,19 @@ SFX wV tre trait/n'q'l's' tre
 SFX wV tre trions/n'q'l' tre
 SFX wV tre triez/n'q'l' tre
 SFX wV tre traient/n'q'l's' tre
-SFX wV croître croisse/n'q'j'l'm's' croître
-SFX wV croître croisses/n'q'l't' croître
-SFX wV croître crusse/n'q'j'l'm' croître
-SFX wV croître crusses/n'q'l't' croître
-SFX wV croître crût/n'q'l's' croître
-SFX wV croître crussions/n'q'l' croître
-SFX wV croître crussiez/n'q'l' croître
-SFX wV croître crussent/n'q'l's' croître
-SFX wV croître crois/n'l'm' croître
-SFX wV croître croissons/n'l' croître
-SFX wV croître croissez/n'l'm' croître
+SFX wV croitre croisse/n'q'j'l'm's' croitre
+SFX wV croitre croisses/n'q'l't' croitre
+SFX wV croitre crusse/n'q'j'l'm' croitre
+SFX wV croitre crusses/n'q'l't' croitre
+SFX wV croitre crût/n'q'l's' croitre
+SFX wV croitre crussions/n'q'l' croitre
+SFX wV croitre crussiez/n'q'l' croitre
+SFX wV croitre crussent/n'q'l's' croitre
+SFX wV croitre crois/n'l'm' croitre
+SFX wV croitre croissons/n'l' croitre
+SFX wV croitre croissez/n'l'm' croitre
 
-SFX xA N {{BUILD.NUMRULES}}
+SFX xA N 42
 SFX xA roire royant croire
 SFX xA roire ru croire
 SFX xA roire rus croire
@@ -8155,7 +9103,7 @@ SFX xA roire rois croire
 SFX xA roire royons croire
 SFX xA roire royez croire
 
-SFX xC N {{BUILD.NUMRULES}}
+SFX xC N 42
 SFX xC oire uvant boire
 SFX xC oire u boire
 SFX xC oire us boire
@@ -8199,7 +9147,7 @@ SFX xC oire ois boire
 SFX xC oire uvons boire
 SFX xC oire uvez boire
 
-SFX xD Y {{BUILD.NUMRULES}}
+SFX xD Y 43
 SFX xD boire boire/m't's' boire
 SFX xD boire buvant/m't's' boire
 SFX xD boire bu boire
@@ -8244,12 +9192,12 @@ SFX xD boire bois/t' boire
 SFX xD boire buvons boire
 SFX xD boire buvez boire
 
-SFX xJ N {{BUILD.NUMRULES}}
+SFX xJ N 3
 SFX xJ clure clus clure
 SFX xJ clure cluse clure
 SFX xJ clure cluses clure
 
-SFX xK Y {{BUILD.NUMRULES}}
+SFX xK Y 40
 SFX xK clure clure/n'q'd'l'm't's' clure
 SFX xK clure cluant/n'q'l'm't's' clure
 SFX xK clure clus/L'D'Q' clure
@@ -8291,7 +9239,7 @@ SFX xK clure clus/n'l' clure
 SFX xK clure cluons/n'l' clure
 SFX xK clure cluez/n'l' clure
 
-SFX xL Y {{BUILD.NUMRULES}}
+SFX xL Y 44
 SFX xL clure clure/n'q'd'l'm't's' clure
 SFX xL clure cluant/n'q'l'm't's' clure
 SFX xL clure clus/L'D'Q' inclure
@@ -8337,7 +9285,7 @@ SFX xL clure clus/n'l'm't' clure
 SFX xL clure cluons/n'l' clure
 SFX xL clure cluez/n'l'm' clure
 
-SFX xM N {{BUILD.NUMRULES}}
+SFX xM N 14
 SFX xM ourdre ourdant sourdre
 SFX xM ourdre ourd sourdre
 SFX xM ourdre ourdent sourdre
@@ -8353,14 +9301,15 @@ SFX xM ourdre ourde sourdre
 SFX xM ourdre ourdît sourdre
 SFX xM ourdre ourdissent sourdre
 
-SFX xN Y {{BUILD.NUMRULES}}
+SFX xN Y 47
 SFX xN soudre soudre/n'q'd'l'm't's' soudre
 SFX xN soudre solvant/n'q'l'm't's' soudre
 SFX xN soudre solu résoudre
 SFX xN soudre solus résoudre
 SFX xN soudre solue résoudre
 SFX xN soudre solues résoudre
-SFX xN soudre sous/L'D'Q' soudre
+SFX xN soudre sout/L'D'Q' soudre
+SFX xN soudre souts/D'Q' soudre
 SFX xN soudre soute/L'D'Q' soudre
 SFX xN soudre soutes/D'Q' soudre
 SFX xN soudre sous/n'q'j'l'm't' soudre
@@ -8401,7 +9350,7 @@ SFX xN soudre sous/n'l'm' soudre
 SFX xN soudre solvons/n'l' soudre
 SFX xN soudre solvez/n'l'm' soudre
 
-SFX xO N {{BUILD.NUMRULES}}
+SFX xO N 42
 SFX xO oudre ousant coudre
 SFX xO oudre ousu coudre
 SFX xO oudre ousus coudre
@@ -8445,7 +9394,7 @@ SFX xO oudre ouds coudre
 SFX xO oudre ousons coudre
 SFX xO oudre ousez coudre
 
-SFX xP Y {{BUILD.NUMRULES}}
+SFX xP Y 43
 SFX xP oudre oudre/n'q'd'l' moudre
 SFX xP oudre oulant/n'q'l' moudre
 SFX xP oudre oulu/L'D'Q' moudre
@@ -8490,7 +9439,7 @@ SFX xP oudre ouds/n'l'm' moudre
 SFX xP oudre oulons/n'l' moudre
 SFX xP oudre oulez/n'l'm' moudre
 
-SFX xQ N {{BUILD.NUMRULES}}
+SFX xQ N 42
 SFX xQ uivre uivant suivre
 SFX xQ uivre uivi suivre
 SFX xQ uivre uivis suivre
@@ -8534,7 +9483,7 @@ SFX xQ uivre uis suivre
 SFX xQ uivre uivons suivre
 SFX xQ uivre uivez suivre
 
-SFX xR Y {{BUILD.NUMRULES}}
+SFX xR Y 16
 SFX xR suivre suivre/s' suivre
 SFX xR suivre suivant/s' suivre
 SFX xR suivre suivi suivre
@@ -8552,7 +9501,7 @@ SFX xR suivre suive/s' suivre
 SFX xR suivre suivît/s' suivre
 SFX xR suivre suivissent/s' suivre
 
-SFX xS N {{BUILD.NUMRULES}}
+SFX xS N 38
 SFX xS ivre ivant vivre
 SFX xS ivre is vivre
 SFX xS ivre it vivre
@@ -8592,7 +9541,7 @@ SFX xS ivre is vivre
 SFX xS ivre ivons vivre
 SFX xS ivre ivez vivre
 
-SFX y1 Y {{BUILD.NUMRULES}}
+SFX y1 Y 43
 SFX y1 crire crire/n'q'd'l'm't's' crire
 SFX y1 crire crivant/n'q'l'm't's' crire
 SFX y1 crire crit/L'D'Q' crire
@@ -8637,7 +9586,7 @@ SFX y1 crire cris/n'l'm't' crire
 SFX y1 crire crivons/n'l' crire
 SFX y1 crire crivez/n'l'm' crire
 
-SFX yA N {{BUILD.NUMRULES}}
+SFX yA N 42
 SFX yA ire isant lire
 SFX yA ire u lire
 SFX yA ire us lire
@@ -8681,7 +9630,7 @@ SFX yA ire is lire
 SFX yA ire isons lire
 SFX yA ire isez lire
 
-SFX yB Y {{BUILD.NUMRULES}}
+SFX yB Y 43
 SFX yB lire lire/n'q'd'l'm't's' lire
 SFX yB lire lisant/n'q'l'm't's' lire
 SFX yB lire lu/L'D'Q' lire
@@ -8726,7 +9675,7 @@ SFX yB lire lis/n'l'm' lire
 SFX yB lire lisons/n'l' lire
 SFX yB lire lisez/n'l'm' lire
 
-SFX yC N {{BUILD.NUMRULES}}
+SFX yC N 40
 SFX yC ire isant dire
 SFX yC ire it dire
 SFX yC ire its dire
@@ -8768,7 +9717,7 @@ SFX yC ire is dire
 SFX yC ire isons dire
 SFX yC ire ites dire
 
-SFX yD Y {{BUILD.NUMRULES}}
+SFX yD Y 41
 SFX yD dire dire/n'q'd'l'm't's' dire
 SFX yD dire disant/n'q'l'm't's' dire
 SFX yD dire dit/L'D'Q' dire
@@ -8811,7 +9760,7 @@ SFX yD dire dis/n'l'm't' dire
 SFX yD dire disons/n'l' dire
 SFX yD dire disez/n'l'm' dire
 
-SFX yE N {{BUILD.NUMRULES}}
+SFX yE N 37
 SFX yE édire édisant édire
 SFX yE édire édit édire
 SFX yE édire édis édire
@@ -8850,7 +9799,7 @@ SFX yE édire édis édire
 SFX yE édire édisons édire
 SFX yE édire édisez édire
 
-SFX yF N {{BUILD.NUMRULES}}
+SFX yF N 36
 SFX yF audire audissant udire
 SFX yF audire audit udire
 SFX yF audire audits udire
@@ -8888,7 +9837,7 @@ SFX yF audire audis udire
 SFX yF audire audissons udire
 SFX yF audire audissez udire
 
-SFX yG Y {{BUILD.NUMRULES}}
+SFX yG Y 38
 SFX yG dire dire/m't's' dire
 SFX yG dire disant/m't's' dire
 SFX yG dire dit dire
@@ -8928,7 +9877,7 @@ SFX yG dire dis/t' dire
 SFX yG dire disons dire
 SFX yG dire disez dire
 
-SFX yJ N {{BUILD.NUMRULES}}
+SFX yJ N 7
 SFX yJ ruire ruissant uire
 SFX yJ ruire rui uire
 SFX yJ ruire ruit uire
@@ -8937,25 +9886,19 @@ SFX yJ ruire ruissait uire
 SFX yJ ruire ruissaient uire
 SFX yJ ruire ruisse uire
 
-SFX yK N {{BUILD.NUMRULES}}
+SFX yK N 4
 SFX yK bduire bduit uire
 SFX yK bduire bduits uire
 SFX yK bduire bduite uire
 SFX yK bduire bduites uire
-SFX yK bduire bduit·e uire
-SFX yK bduire bduit·e·s uire
-SFX yK bduire bduit·es uire
 
-SFX yL Y {{BUILD.NUMRULES}}
+SFX yL Y 43
 SFX yL uire uire/n'q'd'l'm't's' uire
 SFX yL uire uisant/n'q'l'm't's' uire
 SFX yL uire uit/L'D'Q' uire
 SFX yL uire uits/D'Q' uire
 SFX yL uire uite/L'D'Q' uire
 SFX yL uire uites/D'Q' uire
-SFX yL uire uit·e/L'D'Q' uire
-SFX yL uire uit·e·s/D'Q' uire
-SFX yL uire uit·es/D'Q' uire
 SFX yL uire uis/n'q'j'l'm't' uire
 SFX yL uire uit/n'q'l'm't's' uire
 SFX yL uire uisons/n'q'l't' uire
@@ -8994,16 +9937,13 @@ SFX yL uire uis/n'l'm' uire
 SFX yL uire uisons/n'l' uire
 SFX yL uire uisez/n'l'm' uire
 
-SFX yM Y {{BUILD.NUMRULES}}
+SFX yM Y 43
 SFX yM uire uire/n'q'd'l'm't's' uire
 SFX yM uire uisant/n'q'l'm't's' uire
 SFX yM uire uit/L'D'Q' uire
 SFX yM uire uits/D'Q' uire
 SFX yM uire uite/L'D'Q' uire
 SFX yM uire uites/D'Q' uire
-SFX yM uire uit·e/L'D'Q' uire
-SFX yM uire uit·e·s/D'Q' uire
-SFX yM uire uit·es/D'Q' uire
 SFX yM uire uis/n'q'j'l'm't' uire
 SFX yM uire uit/n'q'l'm't's' uire
 SFX yM uire uisons/n'q'l't' uire
@@ -9042,16 +9982,13 @@ SFX yM uire uis/n'l'm't' uire
 SFX yM uire uisons/n'l' uire
 SFX yM uire uisez/n'l'm' uire
 
-SFX yN Y {{BUILD.NUMRULES}}
+SFX yN Y 33
 SFX yN truire truire/s' uire
 SFX yN truire truisant/s' uire
 SFX yN truire truit uire
 SFX yN truire truits uire
 SFX yN truire truite uire
 SFX yN truire truites uire
-SFX yN truire truit·e uire
-SFX yN truire truit·e·s uire
-SFX yN truire truit·es uire
 SFX yN truire truit/s' uire
 SFX yN truire truisons uire
 SFX yN truire truisez uire
@@ -9080,16 +10017,13 @@ SFX yN truire truisissent/s' uire
 SFX yN truire truisons-nous uire
 SFX yN truire truisez-vous uire
 
-SFX yO Y {{BUILD.NUMRULES}}
+SFX yO Y 43
 SFX yO détruire détruire/m't's' détruire
 SFX yO détruire détruisant/m't's' détruire
 SFX yO détruire détruit détruire
 SFX yO détruire détruits détruire
 SFX yO détruire détruite détruire
 SFX yO détruire détruites détruire
-SFX yO détruire détruit·e détruire
-SFX yO détruire détruit·e·s détruire
-SFX yO détruire détruit·es détruire
 SFX yO détruire détruis/m't' détruire
 SFX yO détruire détruit/s' détruire
 SFX yO détruire détruisons détruire
@@ -9128,7 +10062,7 @@ SFX yO détruire détruis/t' détruire
 SFX yO détruire détruisons détruire
 SFX yO détruire détruisez détruire
 
-SFX yU N {{BUILD.NUMRULES}}
+SFX yU N 39
 SFX yU uire uisant uire
 SFX yU uire ui uire
 SFX yU uire uis uire
@@ -9169,7 +10103,7 @@ SFX yU uire uis uire
 SFX yU uire uisons uire
 SFX yU uire uisez uire
 
-SFX yV N {{BUILD.NUMRULES}}
+SFX yV N 44
 SFX yV ire isant ire
 SFX yV ire it nfire
 SFX yV ire its nfire
@@ -9215,7 +10149,7 @@ SFX yV ire is ire
 SFX yV ire isons ire
 SFX yV ire isez ire
 
-SFX yW N {{BUILD.NUMRULES}}
+SFX yW N 37
 SFX yW ire iant rire
 SFX yW ire i rire
 SFX yW ire is rire
@@ -9254,7 +10188,7 @@ SFX yW ire is rire
 SFX yW ire ions rire
 SFX yW ire iez rire
 
-SFX yX Y {{BUILD.NUMRULES}}
+SFX yX Y 30
 SFX yX nuire nuire/s' nuire
 SFX yX nuire nuisant/s' nuire
 SFX yX nuire nui nuire
@@ -9286,23 +10220,18 @@ SFX yX nuire nuisissent/s' nuire
 SFX yX nuire nuisons-nous nuire
 SFX yX nuire nuisez-vous nuire
 
-SFX yY Y {{BUILD.NUMRULES}}
+SFX yY Y 4
 SFX yY ccire ccire/n'q'd'l'm't's' occire
 SFX yY ccire ccis/L'D'Q' occire
 SFX yY ccire ccise/L'D'Q' occire
 SFX yY ccire ccises/D'Q' occire
-SFX yY ccire ccis·e/L'D'Q' occire
-SFX yY ccire ccis·es/D'Q' occire
 
-SFX yZ N {{BUILD.NUMRULES}}
+SFX yZ N 13
 SFX yZ rire risant rire
 SFX yZ rire rit rire
 SFX yZ rire rits rire
 SFX yZ rire rite rire
 SFX yZ rire rites rire
-SFX yZ rire rit·e rire
-SFX yZ rire rit·e·s rire
-SFX yZ rire rit·es rire
 SFX yZ rire ris rire
 SFX yZ rire rit rire
 SFX yZ rire rirai rire
@@ -9312,65 +10241,41 @@ SFX yZ rire rirais rire
 SFX yZ rire rirait rire
 SFX yZ rire ris rire
 
-SFX q+ Y {{BUILD.NUMRULES}}
+SFX q+ Y 32
 SFX q+ enir enu/L'D'Q' enir
 SFX q+ enir enus/D'Q' enir
 SFX q+ enir enue/L'D'Q' enir
 SFX q+ enir enues/D'Q' enir
-SFX q+ enir enu·e/L'D'Q' enir
-SFX q+ enir enu·e·s/D'Q' enir
-SFX q+ enir enu·es/D'Q' enir
 SFX q+ tir ti/L'D'Q' tir
 SFX q+ tir tis/D'Q' tir
 SFX q+ tir tie/L'D'Q' tir
 SFX q+ tir ties/D'Q' tir
-SFX q+ tir ti·e/L'D'Q' tir
-SFX q+ tir ti·e·s/D'Q' tir
-SFX q+ tir ti·es/D'Q' tir
 SFX q+ courir couru/L'D'Q' courir
 SFX q+ courir courus/D'Q' courir
 SFX q+ courir courue/L'D'Q' courir
 SFX q+ courir courues/D'Q' courir
-SFX q+ courir couru·e/L'D'Q' courir
-SFX q+ courir couru·e·s/D'Q' courir
-SFX q+ courir couru·es/D'Q' courir
 SFX q+ ivre écu vivre
 SFX q+ ivre écus vivre
 SFX q+ ivre écue vivre
 SFX q+ ivre écues vivre
-SFX q+ ivre écu·e vivre
-SFX q+ ivre écu·e·s vivre
-SFX q+ ivre écu·es vivre
 SFX q+ aire u aire
 SFX q+ aire us aire
 SFX q+ aire ue aire
 SFX q+ aire ues aire
-SFX q+ aire u·e aire
-SFX q+ aire u·e·s aire
-SFX q+ aire u·es aire
 SFX q+ dre du dre
 SFX q+ dre dus dre
 SFX q+ dre due dre
 SFX q+ dre dues dre
-SFX q+ dre du·e dre
-SFX q+ dre du·e·s dre
-SFX q+ dre du·es dre
 SFX q+ valoir valu .valoir
 SFX q+ valoir valus .valoir
 SFX q+ valoir value .valoir
 SFX q+ valoir values .valoir
-SFX q+ valoir valu·e .valoir
-SFX q+ valoir valu·e·s .valoir
-SFX q+ valoir valu·es .valoir
-SFX q+ aître u/L'D'Q' aître
-SFX q+ aître us/D'Q' aître
-SFX q+ aître ue/L'D'Q' aître
-SFX q+ aître ues/D'Q' aître
-SFX q+ aître u·e/L'D'Q' aître
-SFX q+ aître u·e·s/D'Q' aître
-SFX q+ aître u·es/D'Q' aître
+SFX q+ aitre u/L'D'Q' aitre
+SFX q+ aitre us/D'Q' aitre
+SFX q+ aitre ue/L'D'Q' aitre
+SFX q+ aitre ues/D'Q' aitre
 
-SFX q. Y {{BUILD.NUMRULES}}
+SFX q. Y 8
 SFX q. enir enu/q' enir
 SFX q. tir ti/q' tir
 SFX q. courir couru/q' courir
@@ -9378,4 +10283,4 @@ SFX q. ivre écu vivre
 SFX q. aire u aire
 SFX q. dre du dre
 SFX q. valoir valu/q' .valoir
-SFX q. aître u/q' aître
+SFX q. aitre u/q' aitre

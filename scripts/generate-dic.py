@@ -44,9 +44,7 @@ newlines = [
 	"maon",
 	"taon",
 	"saon",
-	"adjudante-cheffe/L'D'Q'",
 	"adjudant·e-chef·fe/L'D'Q'",
-	"adjudantes-cheffes/D'Q'",
 	"adjudant·e·s-chef·fe·s/D'Q'",
 	"adjudant·es-chef·fes/D'Q'"
 ]

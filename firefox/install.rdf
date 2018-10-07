@@ -12,7 +12,7 @@
     -->
     <em:name>Dictionnaire français - Écriture inclusive</em:name>
     <em:description>Dictionnaire orthographique de la langue française, compatible avec l'écriture inclusive</em:description>
-    <em:creator>Discord La Commune</em:creator>
+    <em:creator>Radicalisé·e·s sur Internet</em:creator>
     <em:contributor>Olivier R.</em:contributor>
     <em:contributor>Sylvain P.</em:contributor>
     <em:contributor>Jean-Luc T.</em:contributor>
@@ -22,7 +22,8 @@
     <em:contributor>Pierre-Yves</em:contributor>
     <em:contributor>Renouvo</em:contributor>
     <em:contributor>Discord La Commune</em:contributor>
-    <em:homepageURL>https://github.com/DiscordLaCommune/hunspell-inclusif</em:homepageURL>
+    <em:contributor>Radicalisé·e·s sur Internet</em:contributor>
+    <em:homepageURL>https://github.com/RadicaliseesSurInternet/hunspell-inclusif</em:homepageURL>
 
     <!-- Firefox -->
     <em:targetApplication>

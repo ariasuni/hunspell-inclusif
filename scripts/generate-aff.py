@@ -765,7 +765,7 @@ if len(rules) != 0 and not (
 		filename.endswith("fr-reforme1990.aff") and
 		# This rule doesn’t appear in the reforme1990
 		list(rules) == ["SFX q+ aître ues/D'Q' aître po:ppas po:adj is:fem is:pl"]):
-	print("Those rules couldn’t be found:", file=sys.stderr)
+	print("Those aff rules couldn’t be found:", file=sys.stderr)
 	for line in rules:
 		print(line, file=sys.stderr)
 	exit(1)

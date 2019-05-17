@@ -53,11 +53,18 @@ with open(filename, 'r') as f:
 	for line in f:
 		line = line.replace("\n", "")
 		if line in rules:
-			tmpOutput = tmpOutput + rules[line]
+			tmpOutput += rules[line]
+			del rules[line]
 		else:
 			tmpOutput.append(line)
 
-tmpOutput = tmpOutput + newlines
+if len(rules) != 0:
+	print("Those dic rules couldn’t be found:", file=sys.stderr)
+	for line in rules:
+		print(line, file=sys.stderr)
+	exit(1)
+
+tmpOutput += newlines
 
 print(str(len(tmpOutput)-1))
 for line in tmpOutput[1:]:

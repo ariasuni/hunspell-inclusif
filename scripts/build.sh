@@ -11,19 +11,19 @@ mkdir -p "$TMP"
 
 #Dictionaries
 mkdir -p "$RELEASE"/dictionaries
-python3 ./scripts/generate-aff.py ./dicollecte/fr-moderne.aff > "$RELEASE"/dictionaries/fr-moderne-inclusif.aff
-python3 ./scripts/generate-dic.py ./dicollecte/fr-moderne.dic > "$RELEASE"/dictionaries/fr-moderne-inclusif.dic
-python3 ./scripts/generate-aff.py ./dicollecte/fr-classique.aff > "$RELEASE"/dictionaries/fr-classique-inclusif.aff
-python3 ./scripts/generate-dic.py ./dicollecte/fr-classique.dic > "$RELEASE"/dictionaries/fr-classique-inclusif.dic
-python3 ./scripts/generate-aff.py ./dicollecte/fr-reforme1990.aff > "$RELEASE"/dictionaries/fr-reforme1990-inclusif.aff
-python3 ./scripts/generate-dic.py ./dicollecte/fr-reforme1990.dic > "$RELEASE"/dictionaries/fr-reforme1990-inclusif.dic
-python3 ./scripts/generate-aff.py ./dicollecte/fr-toutesvariantes.aff > "$RELEASE"/dictionaries/fr-toutesvariantes-inclusif.aff
-python3 ./scripts/generate-dic.py ./dicollecte/fr-toutesvariantes.dic > "$RELEASE"/dictionaries/fr-toutesvariantes-inclusif.dic
+python3 ./scripts/generate-aff.py ./grammalecte/fr-moderne.aff > "$RELEASE"/dictionaries/fr-moderne-inclusif.aff
+python3 ./scripts/generate-dic.py ./grammalecte/fr-moderne.dic > "$RELEASE"/dictionaries/fr-moderne-inclusif.dic
+python3 ./scripts/generate-aff.py ./grammalecte/fr-classique.aff > "$RELEASE"/dictionaries/fr-classique-inclusif.aff
+python3 ./scripts/generate-dic.py ./grammalecte/fr-classique.dic > "$RELEASE"/dictionaries/fr-classique-inclusif.dic
+python3 ./scripts/generate-aff.py ./grammalecte/fr-reforme1990.aff > "$RELEASE"/dictionaries/fr-reforme1990-inclusif.aff
+python3 ./scripts/generate-dic.py ./grammalecte/fr-reforme1990.dic > "$RELEASE"/dictionaries/fr-reforme1990-inclusif.dic
+python3 ./scripts/generate-aff.py ./grammalecte/fr-toutesvariantes.aff > "$RELEASE"/dictionaries/fr-toutesvariantes-inclusif.aff
+python3 ./scripts/generate-dic.py ./grammalecte/fr-toutesvariantes.dic > "$RELEASE"/dictionaries/fr-toutesvariantes-inclusif.dic
 
 cp ./README.md "$RELEASE"/dictionaries/README_fr_inclusif.md
 
 cd "$RELEASE"/dictionaries
-ERRORS=$(hunspell -d fr-classique-inclusif -l < $SRC/test/words.txt)
+ERRORS=$(hunspell -d fr-toutesvariantes-inclusif -l < $SRC/test/words.txt)
 if [ "$ERRORS" == "" ]
 then
 	echo "Success !"

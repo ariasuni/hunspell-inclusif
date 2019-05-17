@@ -2,23 +2,16 @@ import sys
 import re
 
 rules = {
-	"autrice/S*":
-	[
-		"autrice/F*"
+	"chef/S.() po:nom is:epi": [],
+	"cheffe/S.() po:nom is:fem": [
+		"cheffe/F.() po:nom is:fem"
 	],
-	"chef/S.": [],
-	"cheffe/S.":
-	[
-		"cheffe/F."
+	"docteur/S.() po:nom po:titr is:epi": [],
+	"docteure/S.() po:nom po:titr is:fem": [
+		"docteure/F.() po:nom po:titr is:fem"
 	],
-	"docteur/S.": [],
-	"docteure/S.":
-	[
-		"docteure/F."
-	],
-	"sous-chef/S.":
-	[
-		"sous-cheffe/F."
+	"sous-chef/S.() po:nom is:mas": [
+		"sous-cheffe/F.() po:nom is:fem"
 	]
 }
 

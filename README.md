@@ -1,6 +1,6 @@
 # Dictionnaire Français Hunspell compatible avec l'écriture inclusive
 
-Basé sur le [dictionnaire Dicollecte](https://www.dicollecte.org).
+Basé sur le [dictionnaire Grammalecte](https://grammalecte.net/download.php?prj=fr).
 
 ## Modifications
 

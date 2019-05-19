@@ -2,23 +2,16 @@ import sys
 import re
 
 rules = {
-	"autrice/S*":
-	[
-		"autrice/F*"
+	"chef/S.() po:nom is:epi": [],
+	"cheffe/S.() po:nom is:fem": [
+		"cheffe/F.() po:nom is:fem"
 	],
-	"chef/S.": [],
-	"cheffe/S.":
-	[
-		"cheffe/F."
+	"docteur/S.() po:nom po:titr is:epi": [],
+	"docteure/S.() po:nom po:titr is:fem": [
+		"docteure/F.() po:nom po:titr is:fem"
 	],
-	"docteur/S.": [],
-	"docteure/S.":
-	[
-		"docteure/F."
-	],
-	"sous-chef/S.":
-	[
-		"sous-cheffe/F."
+	"sous-chef/S.() po:nom is:mas": [
+		"sous-cheffe/F.() po:nom is:fem"
 	]
 }
 
@@ -44,9 +37,7 @@ newlines = [
 	"maon",
 	"taon",
 	"saon",
-	"adjudante-cheffe/L'D'Q'",
 	"adjudant·e-chef·fe/L'D'Q'",
-	"adjudantes-cheffes/D'Q'",
 	"adjudant·e·s-chef·fe·s/D'Q'",
 	"adjudant·es-chef·fes/D'Q'"
 ]
@@ -62,11 +53,18 @@ with open(filename, 'r') as f:
 	for line in f:
 		line = line.replace("\n", "")
 		if line in rules:
-			tmpOutput = tmpOutput + rules[line]
+			tmpOutput += rules[line]
+			del rules[line]
 		else:
 			tmpOutput.append(line)
 
-tmpOutput = tmpOutput + newlines
+if len(rules) != 0:
+	print("Those dic rules couldn’t be found:", file=sys.stderr)
+	for line in rules:
+		print(line, file=sys.stderr)
+	exit(1)
+
+tmpOutput += newlines
 
 print(str(len(tmpOutput)-1))
 for line in tmpOutput[1:]:

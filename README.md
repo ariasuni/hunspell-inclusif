@@ -1,35 +1,32 @@
 # Dictionnaire Français Hunspell compatible avec l'écriture inclusive
 
-Basé sur le dictionnaire Dicollecte (https://www.dicollecte.org).
+Basé sur le [dictionnaire Grammalecte](https://grammalecte.net/download.php?prj=fr).
 
 ## Modifications
 
-Formes inclusives avec points médians selon deux quatres modèles :
-- Caractères féminins encadrés : « militant·e·s », « nouveau·lle », « auteur·rice·s », « joueur·se·s »...
-- Union des caractères masculins et féminins : « militant·es », « nouveau·lle », « auteur·rices », « joueur·ses »...
-- Morphème féminin encadré : « militant·e·s », « nouveau·elle », « auteur·rice·s », « joueur·euse·s »...
-- Union des morphèmes masculins et féminins : « militant·es », « nouveau·elle », « auteur·rices », « joueur·euses »...
-- Certaines forme libres pour simplifier la lecture
+Formes inclusives avec points médians selon quatres modèles&nbsp;:
+- Caractères féminins encadrés&nbsp; «&nbsp;militant·e·s&nbsp;», «&nbsp;nouveau·lle&nbsp;», «&nbsp;auteur·rice·s&nbsp;», «&nbsp;joueur·se·s&nbsp;»…
+- Union des caractères masculins et féminins&nbsp; «&nbsp;militant·es&nbsp;», «&nbsp;nouveau·lle&nbsp;», «&nbsp;auteur·rices&nbsp;», «&nbsp;joueur·ses&nbsp;»…
+- Morphème féminin encadré&nbsp; «&nbsp;militant·e·s&nbsp;», «&nbsp;nouveau·elle&nbsp;», «&nbsp;auteur·rice·s&nbsp;», «&nbsp;joueur·euse·s&nbsp;»…
+- Union des morphèmes masculins et féminins&nbsp; «&nbsp;militant·es&nbsp;», «&nbsp;nouveau·elle&nbsp;», «&nbsp;auteur·rices&nbsp;», «&nbsp;joueur·euses&nbsp;»…
+- Certaines formes libres pour simplifier la lecture
 
-Formes inclusives neutres :
-- « -eur/-rice » devient « -eurice » : « auteurice »
-- « -eur/-eresse » devient « -euresse » : « vengeuresse »
-- « -eur/-euse » devient « -eureuse » : « bosseureuse »
-- « -eau/-elle » devient « -eaulle » : « nouveaulle »
-- « -eau/-elle » devient « -elleau » : « nouvelleau »
+Formes inclusives neutres&nbsp;:
+- «&nbsp;-eur/-rice&nbsp;» devient «&nbsp;-eurice&nbsp;»&nbsp; «&nbsp;auteurice&nbsp;»
+- «&nbsp;-eur/-eresse&nbsp;» devient «&nbsp;-euresse&nbsp;»&nbsp; «&nbsp;vengeuresse&nbsp;»
+- «&nbsp;-eur/-euse&nbsp;» devient «&nbsp;-eureuse&nbsp;»&nbsp; «&nbsp;bosseureuse&nbsp;»
+- «&nbsp;-eau/-elle&nbsp;» devient «&nbsp;-eaulle&nbsp;»&nbsp; «&nbsp;nouveaulle&nbsp;»
+- «&nbsp;-eau/-elle&nbsp;» devient «&nbsp;-elleau&nbsp;»&nbsp; «&nbsp;nouvelleau&nbsp;»
 
-Mots inclusifs neutres :
-- « iel », « iels », « ielle », « ielles »
-- « ellui », « elleux », « cellui », « celleux »
-- « toustes »
-- « lae », « maon », « taon », « saon »
-
-Féminisation de certains termes :
-- « adjudante-cheffe »
+Mots inclusifs neutres&nbsp;:
+- «&nbsp;iel&nbsp;», «&nbsp;iels&nbsp;», «&nbsp;ielle&nbsp;», «&nbsp;ielles&nbsp;»
+- «&nbsp;ellui&nbsp;», «&nbsp;elleux&nbsp;», «&nbsp;cellui&nbsp;», «&nbsp;celleux&nbsp;»
+- «&nbsp;toustes&nbsp;»
+- «&nbsp;lae&nbsp;», «&nbsp;maon&nbsp;», «&nbsp;taon&nbsp;», «&nbsp;saon&nbsp;»
 
 ## Installation
 
-Sous linux, installez ``hunspell``, ``python3`` et ``zip``.
+Sous Linux, installez ``hunspell``, ``python3`` et ``zip``.
 
 ## Utilisation
 
